@@ -1,6 +1,7 @@
-# Overview
+# BSc Thesis Gelt Steiger: title
 
-The projects listed here are the result of thesis work done by students.
+This is a placeholder for the work done by Gelt Steiger.
 
-- Bachelor students:
-  - - ToDo: convert work Gelt
+## Introduction
+
+text on the introduction
