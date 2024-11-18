@@ -3,7 +3,7 @@ root: intro.md
 
 parts:
   - caption: Thesis Projects
-    maxdepth: 0
+    :maxdepth: 0
     chapters: 
     - file: thesis_projects/BSc/overview_BSc_thesis_projects.md
       sections:
