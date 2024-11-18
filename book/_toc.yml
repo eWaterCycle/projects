@@ -7,7 +7,7 @@ parts:
     chapters: 
     - file: thesis_projects/overview_thesis_projects.md
       sections:
-      - glob: thesis_projects/BSc/2023_Q4_GeltSteiger_CEG/*_BSc_GeltSteiger.*
+      - file: thesis_projects/BSc/2023_Q4_GeltSteiger_CEG/BSc_GeltSteiger.md
   - caption: Tutorials
     maxdepth: 1
     chapters:
