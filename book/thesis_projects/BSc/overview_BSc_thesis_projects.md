@@ -1,4 +1,4 @@
-# Overview
+# BSc Thesis projects
 
 The projects listed here are the result of thesis work done by students.
 

@@ -1,7 +1,3 @@
-# BSc Thesis Gelt Steiger: title
-
-This is a placeholder for the work done by Gelt Steiger.
-
-## Introduction
+# Impact van klimaatverandering op de scheepvaart op de Rijn - Introduction
 
 text on the introduction

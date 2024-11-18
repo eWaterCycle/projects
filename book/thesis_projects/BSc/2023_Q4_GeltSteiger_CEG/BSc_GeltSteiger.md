@@ -1,7 +1,4 @@
-# a title
-some text
+# Impact van klimaatverandering op de scheepvaart op de Rijn - Gelt Steiger
+The abstract from Gelt his work need to go here
 
-```{include} 2_BSc_GeltSteiger.ipynb
-```
 
-# another title
