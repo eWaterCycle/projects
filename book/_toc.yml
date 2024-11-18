@@ -11,10 +11,11 @@ parts:
       - file: thesis_projects/BSc/2023_Q4_GeltSteiger_CEG/methods_BSc_GeltSteiger.ipynb
   - caption: Tutorials
     maxdepth: 1
-    - file: tutorials_examples/intro_tutorials_examples.md
+      - file: tutorials_examples/intro_tutorials_examples.md
       sections:
       - file: tutorials_examples/1_HBV_Caravan_ERA5/example_model_run_HBV.ipynb
       - file: tutorials_examples/2_HBV_PCRGlobWB_ERA5/example_model_run_pcrglobwb.ipynb
+  - caption: References and credits
     - file: references.md
     - file: changelog.md
     - file: credits.md
