@@ -3,7 +3,7 @@ root: intro.md
 
 parts:
   - caption: Thesis Projects
-    maxdepth: 2  # The displayed Table of Contents will only have two levels
+    maxdepth: 0  # The displayed Table of Contents will only have two levels
     chapters: 
     - file: thesis_projects/BSc/overview_BSc_thesis_projects.md
       sections:
