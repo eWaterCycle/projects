@@ -1,9 +1,10 @@
 format: jb-book
 root: intro.md
-
+options:
+  maxdepth: 1
+  
 parts:
   - caption: Thesis Projects
-    maxdepth: 1  # The displayed Table of Contents will only have two levels
     chapters: 
     - file: thesis_projects/BSc/overview_BSc_thesis_projects.md
       sections:
@@ -15,7 +16,6 @@ parts:
           title: methods
     - file: thesis_projects/overview_MSc_thesis_projects.md
   - caption: Tutorials
-    maxdepth: 1  # The displayed Table of Contents will only have two levels
     chapters:
     - file: tutorials_examples/intro_tutorials_examples.md
       sections:
