@@ -19,7 +19,7 @@ sphinx:
       use_thebe_lite: true
       exclude_patterns: ["**/_*.yml", "**/*.md", "**/*.ipynb"]
     html_theme_options:
-      repository_url: "https://github.com/user/repo" #add your own repo URL here
+      repository_url: "https://github.com/eWaterCycle/projects" #add your own repo URL here
       use_repository_button: true
       use_issues_button : true
       launch_buttons:
