@@ -1,0 +1,10 @@
+start_time: '1981-08-01T00:00:00Z'
+end_time: '2010-08-31T00:00:00Z'
+shape: lamah_208082.shp
+filenames:
+  tas: lamah_208082_1981-08-01_2010-08-31_tas.nc
+  tasmax: lamah_208082_1981-08-01_2010-08-31_tasmax.nc
+  pr: lamah_208082_1981-08-01_2010-08-31_pr.nc
+  Q: lamah_208082_1981-08-01_2010-08-31_Q.nc
+  tasmin: lamah_208082_1981-08-01_2010-08-31_tasmin.nc
+  evspsblpot: lamah_208082_1981-08-01_2010-08-31_evspsblpot.nc
