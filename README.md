@@ -1,3 +1,3 @@
-# This repo collect projects that showcase how eWatercycle works, including student projects.
+# eWaterCycle Projects
 
-TODO: better readme.
+This repository collect projects that showcase how eWaterCycle works, including student projects.
