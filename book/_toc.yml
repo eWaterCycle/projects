@@ -27,7 +27,7 @@ parts:
             title: results CMIP6
 
 
-    - file: thesis_projects/overview_MSc_thesis_projects.md
+    - file: thesis_projects/MSc/overview_MSc_thesis_projects.md
   - caption: Tutorials
     chapters:
     - file: tutorials_examples/intro_tutorials_examples.md
