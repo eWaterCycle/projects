@@ -1,3 +1,5 @@
+![eWaterCycle Banner](figures/ewc_banner.png)
+
 # eWaterCycle Projects
 
 Welcome to the eWaterCycle projects repository. This repository collects projects that showcase how [eWaterCycle](https://ewatercycle.readthedocs.io/en/latest/index.html) works, including student projects.
