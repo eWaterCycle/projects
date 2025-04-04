@@ -17,7 +17,7 @@ We have projects from different levels of education, including:
 - [References](https://www.ewatercycle.org/projects/main/references.html)
 
 Projects counter:
-- BSc projects: 3
+- BSc projects: 4
 - MSc projects: 0
 - PhD/PostDoc/Research projects: 1
 
