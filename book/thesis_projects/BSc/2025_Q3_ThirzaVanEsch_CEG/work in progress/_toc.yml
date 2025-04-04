@@ -1,0 +1,16 @@
+format: jb-book
+root: intro.md
+
+parts:
+  - caption: Contents
+    chapters:
+    - file: thesis_projects/overview.md
+      sections:
+      - file: thesis_projects/BSc/2023_Q4_GeltSteiger_CET.ipynb
+    - file: tutorials_examples/intro_tutorials_examples.md
+      sections:
+      - file: tutorials_examples/1_HBV_Caravan_ERA5/example_model_run_HBV.ipynb
+      - file: tutorials_examples/2_HBV_PCRGlobWB_ERA5/example_model_run_pcrglobwb.ipynb
+    - file: references.md
+    - file: changelog.md
+    - file: credits.md

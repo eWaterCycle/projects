@@ -5,29 +5,53 @@ options:
   
 parts:
   - caption: Thesis Projects
-    chapters: 
-    - file: thesis_projects/BSc/overview_BSc_thesis_projects.md
-      sections:
-      - file: thesis_projects/BSc/2023_Q4_GeltSteiger_CEG/BSc_GeltSteiger.md
+    chapters:
+      - file: thesis_projects/BSc/overview_BSc_thesis_projects.md
         sections:
-        - file: thesis_projects/BSc/2023_Q4_GeltSteiger_CEG/1_BSc_GeltSteiger.md
-          title: introduction
-        - file: thesis_projects/BSc/2023_Q4_GeltSteiger_CEG/2_BSc_GeltSteiger.ipynb
-          title: methods
+          - file: thesis_projects/BSc/2023_Q4_GeltSteiger_CEG/BSc_GeltSteiger.md
+            sections:
+              - file: thesis_projects/BSc/2023_Q4_GeltSteiger_CEG/1_BSc_GeltSteiger.md
+                title: Introduction
+              - file: thesis_projects/BSc/2023_Q4_GeltSteiger_CEG/2_BSc_GeltSteiger.ipynb
+                title: Methods
 
       - file: thesis_projects/BSc/2024_Q2_ElineMol_CEG/BSc_ElineMol.md
         sections:
           - file: thesis_projects/BSc/2024_Q2_ElineMol_CEG/Report/1_introduction_emol.ipynb
-            title: introduction
+            title: Introduction
           - file: thesis_projects/BSc/2024_Q2_ElineMol_CEG/Report/2_methodology_emol.ipynb
-            title: methods
+            title: Methods
           - file: thesis_projects/BSc/2024_Q2_ElineMol_CEG/Report/results/sd_results_ERA5.ipynb
-            title: results ERA5
+            title: Results ERA5
           - file: thesis_projects/BSc/2024_Q2_ElineMol_CEG/Report/results/sd_results_CMIP6.ipynb
-            title: results CMIP6
+            title: Results CMIP6
 
+      - file: thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/BSc_ThirzaVanEsch.md
+        sections:
+          - file: thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/Report/Preface.ipynb
+            title: Preface
+          - file: thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/Report/INTRODUCTION.ipynb
+            title: Introduction
+          - file: thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/Report/CHAPTER1.ipynb
+            title: Chapter 1
+          - file: thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/Report/CHAPTER2.ipynb
+            title: Chapter 2
+          - file: thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/Report/CHAPTER3OVER.ipynb
+            title: Chapter 3
+          - file: thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/Report/CHAPTER4.ipynb
+            title: Chapter 4
+          - file: thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/Report/Discussion.ipynb
+            title: Discussion
+          - file: thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/Report/Conclusion.ipynb
+            title: Conclusion
+          - file: thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/Report/REFERENCES.ipynb
+            title: References
+          - file: thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/Report/APPENDIX1.ipynb
+            title: Appendix 1
+          - file: thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/Report/APPENDIX2.ipynb
+            title: Appendix 2
 
-    - file: thesis_projects/MSc/overview_MSc_thesis_projects.md
+      - file: thesis_projects/MSc/overview_MSc_thesis_projects.md
 
   - caption: Research Projects
     chapters:
