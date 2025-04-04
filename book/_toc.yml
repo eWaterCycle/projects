@@ -28,6 +28,27 @@ parts:
 
       - file: thesis_projects/BSc/2025_Q3_IschaHollemans_CEG/BSc_IschaHollemans.md
         sections:
+          - file: thesis_projects/BSc/2025_Q3_IschaHollemans_CEG/Report/0_preface.md
+            title: Preface
+          - file: thesis_projects/BSc/2025_Q3_IschaHollemans_CEG/Report/00_acknowledgements.md
+            title: Acknowledgements
+          - file: thesis_projects/BSc/2025_Q3_IschaHollemans_CEG/Report/1_introduction.md
+            title: Introduction
+          - file: thesis_projects/BSc/2025_Q3_IschaHollemans_CEG/Report/2_literature_study.md
+            title: Literature Study
+          - file: thesis_projects/BSc/2025_Q3_IschaHollemans_CEG/Report/3_historical_droughts.md
+            title: Historical Droughts
+          - file: thesis_projects/BSc/2025_Q3_IschaHollemans_CEG/Report/4_future_droughts.md
+            title: Future Droughts
+          - file: thesis_projects/BSc/2025_Q3_IschaHollemans_CEG/Report/5_analysing_results.md
+            title: Analysing Results
+          - file: thesis_projects/BSc/2025_Q3_IschaHollemans_CEG/Report/6_discussion.md
+            title: Discussion
+          - file: thesis_projects/BSc/2025_Q3_IschaHollemans_CEG/Report/7_conclusion.md
+            title: Conclusion
+          - file: thesis_projects/BSc/2025_Q3_IschaHollemans_CEG/Report/8_bibliography.md
+            title: Bibliography
+
 
       - file: thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/BSc_ThirzaVanEsch.md
         sections:
