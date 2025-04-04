@@ -38,8 +38,14 @@ parts:
             title: Literature Study
           - file: thesis_projects/BSc/2025_Q3_IschaHollemans_CEG/Report/3_historical_droughts.md
             title: Historical Droughts
+          - file: thesis_projects/BSc/2025_Q3_IschaHollemans_CEG/ischa/Drought_analyser.ipynb
+            title: Drought Analyser
+          - file: thesis_projects/BSc/2025_Q3_IschaHollemans_CEG/ischa/HBV_calibration.ipynb
+            title: Calibration
           - file: thesis_projects/BSc/2025_Q3_IschaHollemans_CEG/Report/4_future_droughts.md
             title: Future Droughts
+          - file: thesis_projects/BSc/2025_Q3_IschaHollemans_CEG/ischa/CMIP_Future_prediction.ipynb
+            title: CMIP Future Prediction
           - file: thesis_projects/BSc/2025_Q3_IschaHollemans_CEG/Report/5_analysing_results.md
             title: Analysing Results
           - file: thesis_projects/BSc/2025_Q3_IschaHollemans_CEG/Report/6_discussion.md
