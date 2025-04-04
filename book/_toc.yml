@@ -1,7 +1,7 @@
 format: jb-book
 root: intro.md
 options:
-maxdepth: 1
+ maxdepth: 1
   
 parts:
   - caption: Thesis Projects
