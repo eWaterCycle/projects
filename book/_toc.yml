@@ -26,6 +26,9 @@ parts:
           - file: thesis_projects/BSc/2024_Q2_ElineMol_CEG/Report/results/sd_results_CMIP6.ipynb
             title: Results CMIP6
 
+      - file: thesis_projects/BSc/2025_Q3_IschaHollemans_CEG/BSc_IschaHollemans.md
+        sections:
+
       - file: thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/BSc_ThirzaVanEsch.md
         sections:
           - file: thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/Report/Preface.ipynb
