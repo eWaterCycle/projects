@@ -1,7 +1,0 @@
-{
-    "precipitation_file": "/home/thirza/BEPproject/book/work in progress/esmvaltool_output/ewcreppr6o7izt_20250320_150510/work/diagnostic/script/CMIP6_EC-Earth3_day_historical_r6i1p1f1_pr_gr_1981-2014.nc",
-    "potential_evaporation_file": "/home/thirza/BEPproject/book/work in progress/esmvaltool_output/ewcreppr6o7izt_20250320_150510/work/diagnostic/script/Derived_Makkink_evspsblpot.nc",
-    "mean_temperature_file": "/home/thirza/BEPproject/book/work in progress/esmvaltool_output/ewcreppr6o7izt_20250320_150510/work/diagnostic/script/CMIP6_EC-Earth3_day_historical_r6i1p1f1_tas_gr_1981-2014.nc",
-    "parameters": "7.7057478e-07,1.32351315,100.047603,3.89427105,0.666366529,0.0430576783,1.0050856,1.94023052,0.458706486",
-    "initial_storage": "0,100,0,5,0"
-}
