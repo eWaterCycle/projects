@@ -110,8 +110,7 @@ parts:
       sections:
       - file: tutorials_examples/1_HBV_Caravan_ERA5/example_model_run_HBV.ipynb
       - file: tutorials_examples/2_HBV_PCRGlobWB_ERA5/example_model_run_pcrglobwb.ipynb
-  - caption: References and credits
+  - caption: Credits
     chapters:
-    - file: references.md
     - file: changelog.md
     - file: credits.md
