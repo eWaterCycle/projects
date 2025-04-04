@@ -37,7 +37,7 @@ upstream of Blois. Within this distance there are no major tributaries flowing i
 catchment area is significantly different as visible in figure 3. Consequently, the critical discharge from
 Gien needs to be recalculated for Blois.
 
-![figure3](figures/figure3.png)
+![figure3](figures/figure3.PNG)
 *Figure 3: Overview of the measurement stations used in this research and the associated catchment areas.*
 
 In the report of the Préfet d'Indre-et-Loire, there is a distinction made between multiple management
