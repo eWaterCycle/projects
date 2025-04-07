@@ -27,5 +27,4 @@ A cool origin story.
 ### Acknowledgements
 
 eScienceCenter team
-
 All the students that have used the eWaterCycle platform for their thesis projects.

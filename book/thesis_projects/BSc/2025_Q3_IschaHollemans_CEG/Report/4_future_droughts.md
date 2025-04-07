@@ -45,8 +45,10 @@ duration and deficit.
 These cumulative distributions are then used for quantifying the difference between historical and future
 droughts in terms of return period. This is achieved by using the drought return period function used by
 Zhao, et al. (2017):
-$$T_D = \frac{N}{n\left( 1-F_D(d) \right)}$$
-$$T_S = \frac{N}{n\left( 1-F_S(s) \right)}$$
+
+$$ T_D = \frac{N}{n\left( 1-F_D(d) \right)} $$
+
+$$ T_S = \frac{N}{n\left( 1-F_S(s) \right)} $$
 
 The return period for duration is defined by $T_D$, and for severity (deficit) $T_S$. The length of the dataset is
 expressed by $N$, which is equal to 72 years. The number of drought observations is denoted by $n$. The
@@ -55,7 +57,7 @@ duration and $F_S(s)$ for drought severity (deficit).
 To make sure that the modelled return periods are precise, the historical CMIP6 droughts are validated
 using the observed past droughts. The validation is displayed in figure 10:
 
-!figure10](figures/figure10.png)
+![figure10](figures/figure10.png)
 *Figure 10: Validation of the return periods for 1942-2014. The graphs show a significant discrepancy for
 both drought duration and deficit.*
 

@@ -27,18 +27,19 @@ date where the discharge falls below the critical water flow of 66.5 m³/s. This
 and thus the beginning of a deficit. For each day onward, the algorithm calculates the difference
 between current discharge and the critical flow:
 
-$$D(t) = (Q(t) - Q_{crit})$$
+$$ D(t) = (Q(t) - Q_{crit}) $$
 
 If the value is negative, it stands for deficit. If the value is positive, it means that the hydrological system
 gets replenished. The severity of the deficit is quantified by taking the maximum cumulative water deficit
 which uses the following formula:
-$$D_{cum}(t) = \sum_{i=0}^{t} D(i)$$
+$$ D_{cum}(t) = \sum_{i=0}^{t} D(i) $$
 
 By using this for every timestep, the following list is created equation 3. The maximum cumulative deficit
 is eventually calculated using equation 4.
 
-$$D_{cum,list} = \left[ D_{cum}(1),D_{cum}(2), ..., D_{cum}(n) \right]$$
-$$D_{max} = \text{max} \left( |D_{cum,list(t)}| \right) \text{,   } t \in [1,n]$$
+$$ D_{cum,list} = \left[ D_{cum}(1),D_{cum}(2), ..., D_{cum}(n) \right] $$
+
+$$ D_{max} = \text{max} \left( |D_{cum,list(t)}| \right) \text{,   } t \in [1,n] $$
 
 The drought period is defined by the amount of time it takes for the system to replenish the amount of
 lost water. In figure 3, a visualisation of the length of a drought $T_{drought}$, and $D_{max}$ is displayed:
