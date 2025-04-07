@@ -4,7 +4,7 @@ In this chapter the results of the historical and future return periods are anal
 for each scenario are compared to the historical return periods, to conduct the impact of each climate
 scenario on droughts. 
 
-![figure12](figures/figure12.png)
+![figure12](figures/figure12.PNG)
 *Figure 12: Return period for duration and deficit for all scenarios using the return period equations denoted
 in formula 5 and 6. For drought deficit, $CF = 2.2$ is applied.*
 
@@ -29,7 +29,7 @@ the return periods are summarized in the table below:
 *Table 4: Overview of return periods for duration and deficit for each scenario. The increase is calculated
 based on the historical droughts.*
 
-![table4](figures/table4.png)
+![table4](figures/table4.PNG)
 
 The results indicate that droughts with a 10-year return period are projected to become significantly
 more severe. For ‘SSP585’ this can go up to an increase of 236% in drought duration days. For 50 and

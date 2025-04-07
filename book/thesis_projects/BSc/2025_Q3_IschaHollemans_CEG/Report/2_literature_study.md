@@ -10,7 +10,7 @@ of the river, the mean discharge in January is around 1,800 m³/s, while in Augu
 difference in mean monthly flow between January and August. The average monthly flow in January is
 approximately 560 m³/s, whereas in August, it drops to around 115 m³/s.
 
-![figure2](figures/figure2.png)
+![figure2](figures/figure2.PNG)
 *Figure 2: Monthly mean discharge for January and August to show the difference in river flow during low
 precipitation month (August), and high precipitation month (January).*
 

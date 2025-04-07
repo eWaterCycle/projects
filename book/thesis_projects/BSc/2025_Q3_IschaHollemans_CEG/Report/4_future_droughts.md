@@ -34,7 +34,7 @@ duration and deficit. Yet, these methods did not clarify the results, so another
 appendix B for these results). For this purpose, the cumulative distribution is used as it better displays
 the differences between the chosen forcings. The results are visible in figure 9.
 
-![figure9](figures/figure9.png)
+![figure9](figures/figure9.PNG)
 *Figure 9: Cumulative distributions for Duration and Deficit. The graphs display the impact of the different
 scenarios. The distribution will go faster and further to the right, the more extreme droughts occur. This is
 especially the case for ‘SSP245’ and SSP585’.*
@@ -57,7 +57,7 @@ duration and $F_S(s)$ for drought severity (deficit).
 To make sure that the modelled return periods are precise, the historical CMIP6 droughts are validated
 using the observed past droughts. The validation is displayed in figure 10:
 
-![figure10](figures/figure10.png)
+![figure10](figures/figure10.PNG)
 *Figure 10: Validation of the return periods for 1942-2014. The graphs show a significant discrepancy for
 both drought duration and deficit.*
 
@@ -73,7 +73,7 @@ A better alternative is to define a correction factor based on the calibration p
 more recent droughts are represented correctly and the more extreme droughts before 1990 are
 adjusted on more recent data, making them more applicable. 
 
-![figure11](figures/figure11.png)
+![figure11](figures/figure11.PNG)
 *Figure 11: Correction of return period based on 1990-2014. For drought duration there was no correction
 factor needed. For drought deficit, a correction factor of 2.2 is applied.*
 
