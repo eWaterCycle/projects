@@ -1,8 +1,5 @@
 # Changelog
 
-[//]: # ( ## `<date>` [`<release name>`](<`link to release on GitHub>`)
-[//]: # (- `<Added/modified/deleted>` [](`<relative link to changed file>`) 
-
 ### March 2025
 - updated the projects page, making it ready for new projects
 - added eWaterCycle paper
