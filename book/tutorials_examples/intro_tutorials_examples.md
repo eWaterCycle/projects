@@ -8,9 +8,9 @@ This chapter lists a number of example analyses designed by the eWaterCycle comm
 
 The examples are:
 
-## straightforward model runs
+## Straightforward model runs
 - Running the HBV model on a region from the Caravan dataset using input data from ERA5.
 - Running the PCRGlobWB model on a region from the Caravan dataset using input data from ERA5.
 
-## model calibration
+## Model calibration
 - calibrating the HBV model on a region from the Caravan dataset using input data from ERA5 and observations from the Caravan dataset.
