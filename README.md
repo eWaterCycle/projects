@@ -12,6 +12,7 @@ We have projects from different levels of education, including:
 ## EGU Tutorial Users
 
 For the tutorial, first go to the [teachbook](https://www.ewatercycle.org/projects/main/intro.html), then use the GitHub Logo on the top right ![launch](book/figures/jupyterHub_launch.PNG) and click on JupyterHub.
+Go into folder: projects/book/tutorials
 This will take you to a server on the Surf Research Cloud, where we have eWaterCycle installed and all the required data on hand.
 
 
