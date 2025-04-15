@@ -14,12 +14,26 @@ on:
     - .github/workflows/call-deploy-book.yml
   workflow_dispatch:
 
-jobs: 
+jobs:
+  check-image-copyright:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Install dependencies
+        run: |
+          python3 -m pip install https://github.com/eWaterCycle/copyright-checker/archive/refs/heads/main.zip
+      - name: Check copyright
+        run: check-copyright book/
+
   call-workflow:
+    needs: check-image-copyright
     uses: TeachBooks/deploy-book-workflow/.github/workflows/deploy-book.yml@main
     secrets: inherit
     permissions:
       contents: read
       pages: write
       id-token: write
-
