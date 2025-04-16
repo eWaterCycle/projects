@@ -12,5 +12,13 @@ The examples are:
 - Running the HBV model on a region from the Caravan dataset using input data from ERA5.
 - Running the PCRGlobWB model on a region from the Caravan dataset using input data from ERA5.
 
-## Model calibration
-- calibrating the HBV model on a region from the Caravan dataset using input data from ERA5 and observations from the Caravan dataset.
+## EGU
+
+We also had a bachelor student who did research into the Wien river!
+This can be found at ../thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG
+
+
+
+
+
+
