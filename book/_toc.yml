@@ -30,14 +30,20 @@ parts:
 
           - file: thesis_projects/BSc/2024_Q2_ElineMol_CEG/BSc_ElineMol.md
             sections:
-              - file: thesis_projects/BSc/2024_Q2_ElineMol_CEG/Report/1_introduction_emol.ipynb
+              - file: thesis_projects/BSc/2024_Q2_ElineMol_CEG/Report/0_preface.md
+                title: Preface
+              - file: thesis_projects/BSc/2024_Q2_ElineMol_CEG/Report/1_introduction.md
                 title: Introduction
-              - file: thesis_projects/BSc/2024_Q2_ElineMol_CEG/Report/2_methodology_emol.ipynb
+              - file: thesis_projects/BSc/2024_Q2_ElineMol_CEG/Report/2_methodology.md
                 title: Methods
-              - file: thesis_projects/BSc/2024_Q2_ElineMol_CEG/Report/results/sd_results_ERA5.ipynb
-                title: Results ERA5
-              - file: thesis_projects/BSc/2024_Q2_ElineMol_CEG/Report/results/sd_results_CMIP6.ipynb
-                title: Results CMIP6
+              - file: thesis_projects/BSc/2024_Q2_ElineMol_CEG/Report/results/3_results.md
+                title: Results
+              - file: thesis_projects/BSc/2024_Q2_ElineMol_CEG/Report/results/4_discussion.md
+                title: Discussion
+              - file: thesis_projects/BSc/2024_Q2_ElineMol_CEG/Report/5_conclusion.md
+                title: Conclusion
+              - file: thesis_projects/BSc/2024_Q2_ElineMol_CEG/Report/6_references.md
+                title: References
 
           - file: thesis_projects/BSc/2025_Q3_IschaHollemans_CEG/BSc_IschaHollemans.md
             sections:
