@@ -117,7 +117,7 @@ parts:
               title: technical design
             - file: thesis_projects/Research/eWaterCyclePaper/4_Use_cases.md
               title: use cases
-            - file: thesis_projects/Research/eWaterCyclePaper/5_Conclusion.md
+            - file: thesis_projects/Research/eWaterCyclePaper/5_Conclusions.md
               title: conclusion
             - file: thesis_projects/Research/eWaterCyclePaper/6_References.md
               title: references
