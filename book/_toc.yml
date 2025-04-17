@@ -36,9 +36,9 @@ parts:
                 title: Introduction
               - file: thesis_projects/BSc/2024_Q2_ElineMol_CEG/Report/2_methodology.md
                 title: Methods
-              - file: thesis_projects/BSc/2024_Q2_ElineMol_CEG/Report/results/3_results.md
+              - file: thesis_projects/BSc/2024_Q2_ElineMol_CEG/Report/3_results.md
                 title: Results
-              - file: thesis_projects/BSc/2024_Q2_ElineMol_CEG/Report/results/4_discussion.md
+              - file: thesis_projects/BSc/2024_Q2_ElineMol_CEG/Report/4_discussion.md
                 title: Discussion
               - file: thesis_projects/BSc/2024_Q2_ElineMol_CEG/Report/5_conclusion.md
                 title: Conclusion
