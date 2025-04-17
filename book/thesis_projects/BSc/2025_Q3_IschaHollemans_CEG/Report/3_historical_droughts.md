@@ -67,13 +67,13 @@ worst droughts:
 *Table 1: Most extreme droughts in 1975-2022 detected by algorithm based on deficit to validate the
 algorithm.*
 
-| Drought start date | Duration (days) | Max Cumulative Deficit (m³/s) |
-|--------------------|----------------|------------------------------|
-| **1976-06-22**    | 96             | 1324.1                       |
-| **2022-07-18**    | 141            | 1286.5                       |
-| **2006-07-15**    | 74             | 1108.4                       |
-| **2019-07-03**    | 118            | 577.8                        |
-| **2011-09-22**    | 49             | 414.6                        |
+|  Drought start date | Duration [days] | Max Cumulative Deficit [$m^3/s$] |
+|--------------------:|:---------------:|:--------------------------------:|
+|      **1976-06-22** |      $96$       |            $1324.1 $             |
+|      **2022-07-18** |     $141 $      |            $1286.5 $             |
+|      **2006-07-15** |      $74 $      |            $1108.4 $             |
+|      **2019-07-03** |      $118$      |             $577.8 $             |
+|      **2011-09-22** |      $49 $      |             $414.6 $             |
 
 The algorithm has detected the most extreme droughts successfully, yet based on deficit, the drought
 of 2006 is worse than 2019. Based on duration, 2019 is more extreme. So, in conclusion the

@@ -18,9 +18,9 @@ by table 3, showing the number of droughts for each scenario:
 
 *Table 3: Number of droughts for each scenario over a period of 72 years.*
 
-| | **Historical** | **SSP126** | **SSP245** | **SSP585** |
-|------------------------|--------------|----------|----------|----------|
-| **Number of droughts**  | 28           | 56       | 68       | 70       |
+|                         | **Historical** | **SSP126** | **SSP245** | **SSP585** |
+|------------------------:|:--------------:|:----------:|:----------:|:----------:|
+|  **Number of droughts** |      $28$      |    $56$    |    $68$    |   $70 $    |
 
 The duration and deficit are compared using a 10-year, 50-year and 100-year return period. A lower
 return period of 1-5 years is excluded, as these droughts have less impact on the basin. The results of
@@ -29,7 +29,133 @@ the return periods are summarized in the table below:
 *Table 4: Overview of return periods for duration and deficit for each scenario. The increase is calculated
 based on the historical droughts.*
 
-![table4](figures/table4.PNG)
+<style>
+    table {
+        width: 100%;
+        text-align: center;
+        vertical-align: middle;
+        border: 1px solid black;
+    }
+
+    th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 8px;
+    }
+
+    /*tr:nth-child(even) {*/
+    /*    background-color: #DEE4E7; !* Light blue for alternating rows *!*/
+    /*}*/
+
+    td:nth-child(1){
+        font-weight: bold;
+        text-align: right;
+    }
+
+    tr:nth-child(1),
+    tr:nth-child(2) {
+        background-color: #7D7D7D; 
+        font-weight: bold;
+    }
+
+    tr:nth-child(6),
+    tr:nth-child(7) {
+        background-color: #7D7D7D; 
+        font-weight: bold;
+    }
+</style>
+
+<table style='text-align:center; vertical-align:middle';>
+    <tr>
+        <td rowspan="2">Return period duration</td>
+        <td>Historical</td>
+        <td colspan="2">SSP126 </td>
+        <td colspan="2">SSP245 </td>
+        <td colspan="2">SSP585 </td>
+    </tr>
+    <tr>
+        <td>days</td>
+        <td>days</td>
+        <td>increase</td>
+        <td>days</td>
+        <td>increase</td>
+        <td>days</td>
+        <td>increase</td>
+    </tr>
+    <tr>
+        <td>10 years</td>
+        <td>42</td>
+        <td>108</td>
+        <td>157%</td>
+        <td>142</td>
+        <td>238%</td>
+        <td>141</td>
+        <td>236%</td>
+    </tr>
+    <tr>
+        <td>50 years</td>
+        <td>95</td>
+        <td>144</td>
+        <td>52%</td>
+        <td>164</td>
+        <td>72%</td>
+        <td>167</td>
+        <td>76%</td>
+    </tr>
+    <tr>
+        <td>100 years</td>
+        <td>114</td>
+        <td>150</td>
+        <td>32%</td>
+        <td>168</td>
+        <td>47%</td>
+        <td>180</td>
+        <td>58%</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Return period deficit</td>
+        <td colspan="7"></td>
+    </tr>
+    <tr>
+        <td>m³/s</td>
+        <td>m³/s</td>
+        <td>increase</td>
+        <td>m³/s</td>
+        <td>increase</td>
+        <td>m³/s</td>
+        <td>increase</td>
+    </tr>
+    <tr>
+        <td>10 years</td>
+        <td>191</td>
+        <td>1187</td>
+        <td>521%</td>
+        <td>2289</td>
+        <td>1098%</td>
+        <td>2238</td>
+        <td>1071%</td>
+    </tr>
+    <tr>
+        <td>50 years</td>
+        <td>694</td>
+        <td>1729</td>
+        <td>149%</td>
+        <td>2824</td>
+        <td>307%</td>
+        <td>3594</td>
+        <td>418%</td>
+    </tr>
+    <tr>
+        <td>100 years</td>
+        <td>720</td>
+        <td>1861</td>
+        <td>158%</td>
+        <td>2936</td>
+        <td>307%</td>
+        <td>3664</td>
+        <td>408%</td>
+    </tr>
+</table>
 
 The results indicate that droughts with a 10-year return period are projected to become significantly
 more severe. For ‘SSP585’ this can go up to an increase of 236% in drought duration days. For 50 and
