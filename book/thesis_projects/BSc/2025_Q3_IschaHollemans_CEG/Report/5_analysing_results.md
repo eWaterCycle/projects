@@ -31,7 +31,6 @@ based on the historical droughts.*
 
 <style>
     table {
-        border-collapse: collapse;
         width: 100%;
         text-align: center;
         vertical-align: middle;
@@ -40,6 +39,7 @@ based on the historical droughts.*
 
     th, td {
         border: 1px solid black;
+        border-collapse: collapse;
         padding: 8px;
     }
 
