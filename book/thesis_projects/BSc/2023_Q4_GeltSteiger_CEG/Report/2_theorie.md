@@ -40,8 +40,8 @@ Afwisselende extreme afvoer gevolgd door droogte zal voor een fluctuerende water
 zorgen in rivieren. Zowel de verhoging in extreme afvoer als de verhoging in droogte zal
 toenemen volgens SRES A2 en B2 emissie scenario’s (van Vliet et al., 2013; Nakicenovic &
 Swart, 2000). Deze scenario’s zijn van toepassing op de meest extreme gevallen van
-opwarming, waarin SRES A2 regionaal voor 2,0ºC – 5,4ºC opwarming zorgt en SRES B2
-lokaal voor 1,4ºC– 3,8ºC opwarming zorgt. Dit betekent dat er in het stroomgebied van de Rijn
+opwarming, waarin SRES A2 regionaal voor $2,0 ºC$–$5,4 ºC$ opwarming zorgt en SRES B2
+lokaal voor $1,4ºC$–$3,8ºC$ opwarming zorgt. Dit betekent dat er in het stroomgebied van de Rijn
 in de zomer langere periodes van droogte zullen zijn en in de winter extremere afvoeren zullen
 volgen.
 

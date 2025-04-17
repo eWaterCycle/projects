@@ -12,13 +12,13 @@ These latter two sections focus on the future climate scenarios.
 To generate a forcing dataset with historical data, an ERA5-dataset spanning the period 1990 to 
 2020 is used in a generate forcing notebook. The parameter set defines a specific catchment area 
 by defining several coordinates on the ERA5-grid. The outcomes obtained from this forcing 
-dataset and the parameter set in notebooks, the results are simulated (https://github.com/eWaterCycle/projects/tree/draft_eline/book/thesis_projects/BSc/2024_Q2_ElineMol_CEG/Report/results). 
+dataset and the parameter set in notebooks, the results are simulated (https://github.com/eWaterCycle/projects/tree/main/book/thesis_projects/BSc/2024_Q2_ElineMol_CEG/Report/results). 
 This serves as a baseline for evaluating results simulated with 
 CMIP6. Both the groundwater recharge and the approximated groundwater recharge have been 
 analysed and plotted for the 1990-2020 period, as illustrated in Figure 7.  
 
 The groundwater recharge depicted in Figure 7 demonstrates relatively low values, with 
-outliers ranging from 0.024 to 0.002 mm/day. Comparing the groundwater recharge values to the 
+outliers ranging from $0.024$ to $0.002$ $mm/\text{day}$. Comparing the groundwater recharge values to the 
 calculated groundwater recharge from Section 2.5, these values are significantly lower, and do not 
 align with the realistic magnitude of the benchmark established earlier. In contrast, the values of 
 the approximated groundwater recharge are more closely aligned with the magnitude of the 
@@ -44,12 +44,12 @@ groundwater recharge per year. Specifically, the summation of the approximated g
 recharge, calculated as -123.05 mm, serves as a benchmark for evaluating future climate 
 simulation results in Sections 3.2 and 3.3. 
 
-| | Groundwater recharge [$mm/\text{day}$] | Approximated groundwater recharge [$mm/\text{day}$] |
-|--------------------|:--------------------------------------:|:---------------------------------------------------:|
-| Minimum |                 -0.001                 |                       -3.009                        |
-| Mean |                 4.961                  |                       -0.337                        |
-|Maximum |                 0.024                  |                       52.786                        |
-| Summation |                 0.544                  |                      -123.046                       |
+|                     | Groundwater recharge [$mm/\text{day}$] | Approximated groundwater recharge [$mm/\text{day}$] |
+|--------------------:|:--------------------------------------:|:---------------------------------------------------:|
+|             Minimum |                $-0.001$                |                     $ -3.009  $                     |
+|                Mean |               $ 4.961 $                |                    $ -0.337   $                     |
+|             Maximum |              $ 0.024   $               |                   $   52.786   $                    |
+|           Summation |               $ 0.544 $                |                  $  -123.046     $                  |
 
 ## Simulated Groundwater Recharge
 The three future climate scenarios are simulated by re-using the established parameter set, and 
@@ -125,12 +125,12 @@ significantly.
 
 *Table 3: change in approximated groundwater recharge per period*
 
-| Period     | SSP1-2.6 | SSP2-4.5 | SSP5-8.5 |
-|------------|----------|----------|----------|
-| 2025-2045  | 9.4%     | -5.1%    | -13.2%   |
-| 2045-2065  | -1.9%    | -12.7%   | 0.7%     |
-| 2065-2085  | -13.7%   | -7.3%    | -1.3%    |
-| 2085-2100  | -6.2%    | 2.4%     | -9.5%    |
+| Period     | SSP1-2.6     | SSP2-4.5   | SSP5-8.5   |
+|------------|--------------|------------|------------|
+| 2025-2045  | $9.4 \% $    | $-5.1 \%$  | -$13.2 \%$ |
+| 2045-2065  | $-1.9 \%$    | $-12.7 \%$ | $0.7 \%$   |
+| 2065-2085  | $-13.7 \%  $ | $-7.3 \%$  | $-1.3 \%$  |
+| 2085-2100  | $-6.2 \% $   | $2.4 \%$   | $-9.5 \%$  |
 
 ![figure14](../figures/figure14.PNG)
 *Figure 14: Relative change in approximated groundwater recharge for 2025-2045, 2045-2065, 2065-2085 and 2085-2100, relatively shown.*

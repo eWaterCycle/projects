@@ -65,13 +65,13 @@ de klimaatscenario’s uit tabel 3.1 gekeken.
 *Figuur 3.2: Relatie tussen de afvoer van de Rijn en waterhoogte bij Kaub.
 Noot. Gedeeltelijk overgenomen uit “Forecasting the impacts of climate change on inland waterways”, door A.
 Christodoulou, 2019, Transportation Research Part D: Transport & Environment, Volume 82, p. 3
-(https://doi.org/10.1016/j.trd.2019.10.012)*
+(https://doi.org/10.1016/j.trd.2019.10.012).*
 
 Christodoulou et al. (2020) heeft de relatie tussen waterstand en afvoer onderzocht en
 weergegeven in een grafiek (figuur 3.1) voor de plaats Kaub. In paragraaf 2.3 is vastgesteld
 dat er een minimale waterdiepte van 190 cm benodigd (CCNR 2020) is bij Kaub. Uit de grafiek
 in figuur 3.1 valt af te lezen dat de waterdiepte onder de 190 cm valt als de afvoer lager is dan
-1200 $m^3/s$ bij Kaub. Op deze locatie zal het model gemodelleerd worden zodat er een beeld
+$1200$ $m^3/s$ bij Kaub. Op deze locatie zal het model gemodelleerd worden zodat er een beeld
 ontstaat van het aantal momenten dat de waterstand onder dit niveau zal dalen.
 
 Naast de minimale waterdiepte, is er een maximale waterdiepte voor scheepvaart om bruggen
@@ -80,8 +80,7 @@ de bruggen op 910 cm boven het equivalente waterpeil gebouwd. Gezien Maxau de
 maatgevende locatie is voor hoogwaterstanden, zal hiervoor een maximale afvoer bij gelden.
 Met historische data van de waterstand en de afvoer in Maxau, is in Python een relatie geplot
 met behulp van spline-interpolatie en een lineair regressie model. Hieruit komt voort dat bij
-een waterstand van 750 cm, de afvoer in de rivier ongeveer 2800 m3
-/s bedraagt (Bijlage D).
+een waterstand van 750 cm, de afvoer in de rivier ongeveer $2800$ $m^3/s$ bedraagt (Bijlage D).
 Deze afvoer zal worden gebruikt als maximale waarde die de afvoer mag bedragen voor de
 plaats Maxau.
 

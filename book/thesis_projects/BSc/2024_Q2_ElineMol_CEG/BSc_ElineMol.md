@@ -36,4 +36,4 @@ initiated by institutions in Arizona, California and Mexico through implementati
 regulations. However, additional measures are needed to further reduce the negative effects. For
 instance, sustainable water management and restoration of natural water flow are critical.
 Current policies aim at replenishment of aquifers are a promising start, and should be sustained
-and expanded to enhance long-term water security and environmental sustainability
+and expanded to enhance long-term water security and environmental sustainability.

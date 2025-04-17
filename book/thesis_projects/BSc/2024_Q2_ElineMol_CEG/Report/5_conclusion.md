@@ -6,11 +6,11 @@ Sonoran Desert. The PCR-GlobWB model was used to simulate both historical and fu
 diagrams stating the change of approximated groundwater recharge.  
 
 The findings indicate the optimistic climate scenario, SSP1-2.5, projects the smallest 
-change in approximated groundwater recharge, -2.9 %. This represents a slight reduction in the 
+change in approximated groundwater recharge, $-2.9 \%$. This represents a slight reduction in the 
 amount recharge compared to the ERA5 baseline. The intermediate scenario, SSP2-4.5, 
 demonstrates the largest change in approximated recharge, -6.2%. This indicates a significant 
 reduction in groundwater recharge. The worst case scenario, SSP5-8.5, simulates a comparable 
-decrease at -5.6%, reflecting a substantial reduction in groundwater recharge. 
+decrease at $-5.6 \%$, reflecting a substantial reduction in groundwater recharge. 
 
 Efforts to mitigate the decline in groundwater recharge have already been initiated by 
 institutions in Arizona, California and Mexico through implementation of strict water regulations. 

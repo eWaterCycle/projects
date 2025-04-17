@@ -57,7 +57,7 @@ De simulatie van de afvoerdata geeft een gedetailleerd beeld van het toekomstige
 de Rijn onder de verschillende klimaatscenario’s. Figuren 4.1 en 4.2 geven de gesimuleerde
 resultaten van Kaub in de jaren 2025, 2050, 2075 en 2100 weer. De blauwe lijnen geeft het
 SSP1-2.6 scenario weer, oranje SSP2-4.5 en groen SSP5-8.5. De rode stippellijn geeft de
-kritische afvoer van 1200 $m^3/s$ weer.\
+kritische afvoer van $1200$ $m^3/s$ weer.\
 Er valt duidelijk af te lezen dat de in de zomer langere periodes van droogte zullen zijn en in
 de winter meer hogere afvoerpieken. Deze fluctuaties zullen een aanzienlijke invloed hebben
 op de scheepvaart door de ondiepe waterstanden.
@@ -65,13 +65,13 @@ op de scheepvaart door de ondiepe waterstanden.
 *Tabel 4.1: Aantal keren dat de afvoer onder de kritieke waarde van 1200 $m^3/s$ komt in Kaub.*\
 **Gemiddeld aantal dagen per jaar onder het minimum in Kaub**
 
-| SSPs       | 2025 - 2050 | 2050 - 2075 | 2075 - 2100 |
-|------------|-------------|-------------|-------------|
-| *SSP1-2.6* | 145         | 150         | 153         |
-| *SSP2-4.5* | 162         | 174         | 158         |
-| *SSP5-8.5* | 161         | 181         | 198         |
+|        SSPs | 2025 - 2050 | 2050 - 2075 | 2075 - 2100 |
+|------------:|:-----------:|:-----------:|:-----------:|
+|  *SSP1-2.6* |   $145  $   |   $ 150 $   |    $153$    |
+|  *SSP2-4.5* |   $ 162$    |   $174 $    |   $ 158$    |
+|  *SSP5-8.5* |   $161 $    |   $ 181 $   |   $198 $    |
 
-Tabel 4.1 toont het aantal dagen per jaar dat de afvoer zich bij Kaub onder 1200 $m^3/s$valt voor
+Tabel 4.1 toont het aantal dagen per jaar dat de afvoer zich bij Kaub onder $1200$ $m^3/s$ valt voor
 de drie tijdspannen. Voor zowel scenario SSP1-2.6 als SSP5-8.5 geldt dat er een stijging te
 zien is in dit aantal dagen. Wat opvalt, is dat scenario SSP2-4.5 eerst een stijging laat zien,
 maar in de laatste 25 jaar een daling. 
@@ -82,25 +82,25 @@ maar in de laatste 25 jaar een daling.
 *Figuur 4.3: Wflow gesimuleerde afvoer in Maxau voor 2025 en 2050.*
 
 ![figure10](../figures/figure10.PNG)
-*Figuur 4.4: Wflow gesimuleerde afvoer in Maxau voor 2075 en 2100*
+*Figuur 4.4: Wflow gesimuleerde afvoer in Maxau voor 2075 en 2100.*
 
 Figuren 4.3 en 4.4 geven de gesimuleerde resultaten van Maxau in de jaren 2025, 2050, 2075
 en 2100 weer. Wederom geeft de blauwe lijn het SSP1-2.6 scenario weer, oranje SSP2-4.5
-en groen SSP5-8.5. De groene stippellijn geeft de kritische afvoer van 2800 $m^3/s$ weer. Ook
+en groen SSP5-8.5. De groene stippellijn geeft de kritische afvoer van $2800$ $m^3/s$ weer. Ook
 bij Maxau valt uit de grafieken af te lezen dat er langere periodes van droogte gaan ontstaan
 en in de winter hogere afvoerpieken. Daarnaast valt op te merken dat voor Maxau steeds
 minder vaak de kritische waarde wordt overschreden. 
 
-*Tabel 4.2: Aantal keren dat de afvoer boven de kritieke waarde van 2800 $m^3/s$ komt in Maxau.*\
+*Tabel 4.2: Aantal keren dat de afvoer boven de kritieke waarde van $2800$ $m^3/s$ komt in Maxau.*\
 **Gemiddeld aantal dagen per jaar boven het maximum in Maxau**
 
-| SSPs       | 2025 - 2050 | 2050 - 2075 | 2075 - 2100 |
-|------------|-------------|-------------|-------------|
-| *SSP1-2.6* | 50          | 53          | 44          |
-| *SSP2-4.5* | 47          | 50          | 56          |
-| *SSP5-8.5* | 54          | 46          | 47          |
+|        SSPs | 2025 - 2050 | 2050 - 2075 | 2075 - 2100 |
+|------------:|:-----------:|:-----------:|:-----------:|
+|  *SSP1-2.6* |   $ 50 $    |    $53$     |   $ 44 $    |
+|  *SSP2-4.5* |   $ 47  $   |   $50  $    |   $ 56 $    |
+|  *SSP5-8.5* |   $ 54 $    |   $ 46  $   |   $ 47  $   |
 
-Tabel 4.1 toont het aantal dagen per jaar dat de afvoer zich bij Maxau boven 2800 $m^3/s$ valt voor de drie tijdspannen. Scenario SSP1-2.6 laat een duidelijke daling in het aantal dagen per
+Tabel 4.2 toont het aantal dagen per jaar dat de afvoer zich bij Maxau boven $2800$ $m^3/s$ valt voor de drie tijdspannen. Scenario SSP1-2.6 laat een duidelijke daling in het aantal dagen per
 jaar zien, bij SSP5-8.5 is eerst een daling waar te nemen, waarna het stabiliseert. Wat
 wederom opvalt, is dat scenario SSP2-4.5 een stijging laat zien in het aantal dagen dat de
 afvoer hoger is dan de kritische waarde. 
@@ -120,13 +120,49 @@ ook voor de scheepvaart op de Rijn. In tabel 4.3 zijn de gemiddelde 25-jaars waa
 twee locaties samengevoegd om een overzichtelijk beeld te vormen. 
 
 *Tabel 4.3: Aantal keren dat de afvoer de kritieke waarden overschrijdt voor 2025 - 2100.*
-
-|          |      Keren boven maximum Maxau      |      Keren onder minimum Kaub       |
-|---------:|:-----------------------------------:|:-----------------------------------:|
-|     SSPs | 2025-2050 \| 2050-2075 \| 2075-2100 | 2025-2050 \| 2050-2075 \| 2075-2100 |
-| SSP1-2.6 |           50 \| 53 \| 44            |          145 \| 150 \| 153          |
-| SSP2-4.5 |           47 \| 50 \| 56            |          162 \| 174 \| 158          |
-| SSP5-8.5 |           54 \| 46 \| 47            |          161 \| 181 \| 198          |
+<table style='text-align:center; vertical-align:middle'>
+    <tr>
+        <td></td>
+        <td colspan="3">Keren boven maximum Maxau</td>
+        <td colspan="3">Keren onder minimum Kaub </td>
+    </tr>
+    <tr>
+        <td>SSPs</td>
+        <td>2025-2050</td>
+        <td>2050-2075</td>
+        <td>2075-2100</td>
+        <td>2025-2050</td>
+        <td>2050-2075</td>
+        <td>2075-2100</td>
+    </tr>
+    <tr>
+        <td>SSP1-2.6</td>
+        <td>50</td>
+        <td>53</td>
+        <td>44</td>
+        <td>145</td>
+        <td>150</td>
+        <td>153</td>
+    </tr>
+    <tr>
+        <td>SSP2-4.5</td>
+        <td>47</td>
+        <td>50</td>
+        <td>56</td>
+        <td>162</td>
+        <td>174</td>
+        <td>158</td>
+    </tr>
+    <tr>
+        <td>SSP5-8.5</td>
+        <td>54</td>
+        <td>46</td>
+        <td>47</td>
+        <td>161</td>
+        <td>181</td>
+        <td>198</td>
+    </tr>
+</table>
 
 Bij het vergelijken van het aantal dagen dat er geen scheepvaart mogelijk is, valt direct op dat
 de scenario’s een wisselend beeld geven op basis van de gemiddelden. Voor Maxau is er een
