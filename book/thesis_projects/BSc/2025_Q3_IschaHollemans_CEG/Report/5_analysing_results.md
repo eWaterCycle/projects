@@ -29,7 +29,7 @@ the return periods are summarized in the table below:
 *Table 4: Overview of return periods for duration and deficit for each scenario. The increase is calculated
 based on the historical droughts.*
 
-<table style='text-align:center; vertical-align:middle'>
+<table style='text-align:center; vertical-align:middle'; border: 1px solid black>
     <tr>
         <td rowspan="2">Return period duration</td>
         <td>Historical</td>
