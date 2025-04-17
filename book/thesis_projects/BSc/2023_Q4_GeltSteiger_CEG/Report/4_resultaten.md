@@ -119,6 +119,27 @@ De verschillende klimaatscenario’s hebben elk een andere invloed op de waterho
 ook voor de scheepvaart op de Rijn. In tabel 4.3 zijn de gemiddelde 25-jaars waarden van de
 twee locaties samengevoegd om een overzichtelijk beeld te vormen. 
 
+<style>
+    table {
+        width: 100%;
+        text-align: center;
+        vertical-align: middle;
+        border: 1px solid black;
+    }
+
+    th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 8px;
+    }
+
+    tr:nth-child(1),
+    tr:nth-child(2) {
+        background-color: #7D7D7D; 
+        font-weight: bold;
+    }
+</style>
+
 *Tabel 4.3: Aantal keren dat de afvoer de kritieke waarden overschrijdt voor 2025 - 2100.*
 <table style='text-align:center; vertical-align:middle'>
     <tr>

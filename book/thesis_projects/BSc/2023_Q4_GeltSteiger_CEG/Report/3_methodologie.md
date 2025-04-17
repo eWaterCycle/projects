@@ -20,11 +20,11 @@ opslag in de Rijn.
 
 *Tabel 3.1: Gebruikte SSP-pathways voor dit onderzoek.*
 
-| SSPs       | Impact | Temperatuurs stijging |
-|------------|--------|------------------------|
-| *SSP1-2.6* | Laag   | Onder 2°C              |
-| *SSP2-4.5* | Middel | Rond 3°C               |
-| *SSP5-8.5* | Hoog   | Rond 5°C               |
+|        SSPs |  Impact  |  Temperatuurs stijging   |
+|------------:|:--------:|:------------------------:|
+|  *SSP1-2.6* |   Laag   |        Onder 2°C         |
+|  *SSP2-4.5* |  Middel  |         Rond 3°C         |
+|  *SSP5-8.5* |   Hoog   |         Rond 5°C         |
 
 In dit onderzoek zullen alle modellen een simulatie maken voor SSPs (Shared Socioeconomic
 Pathways) binnen een klimaatmodel. SSPs zijn de vernieuwde versies van de RCPscenario’s. Ze zijn gesorteerd van laag naar hoog en geven elk een klimaatscenario weer op

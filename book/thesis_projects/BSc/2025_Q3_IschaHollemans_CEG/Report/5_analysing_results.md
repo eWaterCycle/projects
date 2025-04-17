@@ -40,7 +40,7 @@ based on the historical droughts.*
     th, td {
         border: 1px solid black;
         border-collapse: collapse;
-        /*padding: 8px;*/
+        padding: 8px;
     }
 
     /*tr:nth-child(even) {*/
