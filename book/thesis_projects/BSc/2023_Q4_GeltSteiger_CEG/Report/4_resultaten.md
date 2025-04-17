@@ -132,7 +132,12 @@ twee locaties samengevoegd om een overzichtelijk beeld te vormen.
         border-collapse: collapse;
         padding: 8px;
     }
-
+    
+    td:nth-child(1){
+        font-weight: bold;
+        text-align: right;
+    }
+    
     tr:nth-child(1),
     tr:nth-child(2) {
         background-color: #7D7D7D; 
