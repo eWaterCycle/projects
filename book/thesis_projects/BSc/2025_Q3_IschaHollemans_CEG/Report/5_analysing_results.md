@@ -34,13 +34,13 @@ based on the historical droughts.*
         width: 100%;
         text-align: center;
         vertical-align: middle;
-        border: 2px solid black;
+        border: 1px solid black;
     }
 
     th, td {
         border: 1px solid black;
         border-collapse: collapse;
-        padding: 8px;
+        /*padding: 8px;*/
     }
 
     /*tr:nth-child(even) {*/
