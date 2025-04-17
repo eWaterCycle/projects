@@ -49,13 +49,13 @@ based on the historical droughts.*
 
     tr:nth-child(1),
     tr:nth-child(2) {
-        background-color: #ADD8E6; /* Light Blue for header rows */
+        background-color: #7D7D7D; 
         font-weight: bold;
     }
 
     tr:nth-child(6),
     tr:nth-child(7) {
-        background-color: #ADD8E6;  /* Light Blue for header rows */
+        background-color: #7D7D7D; 
         font-weight: bold;
     }
 </style>
