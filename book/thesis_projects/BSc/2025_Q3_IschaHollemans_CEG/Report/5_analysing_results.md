@@ -43,19 +43,19 @@ based on the historical droughts.*
         padding: 8px;
     }
 
-    tr:nth-child(even) {
-        background-color: #DEE4E7; /* Light blue for alternating rows */
-    }
+    /*tr:nth-child(even) {*/
+    /*    background-color: #DEE4E7; !* Light blue for alternating rows *!*/
+    /*}*/
 
     tr:nth-child(1),
     tr:nth-child(2) {
-        background-color: #37474F; /* Dark Blue for header rows */
+        background-color: #000080; /* Dark Blue for header rows */
         font-weight: bold;
     }
 
     tr:nth-child(6),
     tr:nth-child(7) {
-        background-color: #37474F;  /* Dark Blue for header rows */
+        background-color: #000080;  /* Dark Blue for header rows */
         font-weight: bold;
     }
 </style>
