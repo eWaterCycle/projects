@@ -8,3 +8,5 @@
 - added Bachelor report of Ischa Hollemans
 - added Bachelor report of Thirza van Esch
 - Refined and updated the Tutorials
+- added Bachelor report of Gelt Steiger
+- added Bachelor report of Eline Mol
