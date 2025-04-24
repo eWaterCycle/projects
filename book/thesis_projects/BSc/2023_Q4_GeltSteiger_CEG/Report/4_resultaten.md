@@ -47,10 +47,10 @@ verduidelijking.
 
 ### Laagwater resultaten bij Kaub
 
-![figure7](../figures/figure7.PNG)
+![figure7](../figures/figure7.png)
 *Figuur 4.1: Wflow gesimuleerde afvoer in Kaub voor 2025 en 2050.*
 
-![figure8](../figures/figure8.PNG)
+![figure8](../figures/figure8.png)
 *Figuur 4.2: Wflow gesimuleerde afvoer in Kaub voor 2075 en 2100.*
 
 De simulatie van de afvoerdata geeft een gedetailleerd beeld van het toekomstige gedrag van
@@ -78,10 +78,10 @@ maar in de laatste 25 jaar een daling.
 
 ### Hoogwater resultaten bij Maxau
 
-![figure9](../figures/figure9.PNG)
+![figure9](../figures/figure9.png)
 *Figuur 4.3: Wflow gesimuleerde afvoer in Maxau voor 2025 en 2050.*
 
-![figure10](../figures/figure10.PNG)
+![figure10](../figures/figure10.png)
 *Figuur 4.4: Wflow gesimuleerde afvoer in Maxau voor 2075 en 2100.*
 
 Figuren 4.3 en 4.4 geven de gesimuleerde resultaten van Maxau in de jaren 2025, 2050, 2075
@@ -208,7 +208,7 @@ beeld te geven wat er gebeurt met het aantal dagen per jaar dat de waterhoogte p
 de kritische waarde overschrijdt in de toekomst, zijn er aan de grafieken trendlijnen
 toegevoegd.
 
-![figure11](../figures/figure11.PNG)
+![figure11](../figures/figure11.png)
 *Figuur 4.5: Het aantal dagen dat de waterstanden de kritische waarden overschrijden.*
 
 De trends die weergegeven worden in de grafieken bevestigen de aannames die op basis van
@@ -220,7 +220,7 @@ de Rijn zal stromen in de toekomst, waardoor ook de waterstand hoger zal zijn.
 
 ## De invloed van de veranderde waterhoogte op de scheepvaart
 
-![figure12](../figures/figure12.PNG)
+![figure12](../figures/figure12.png)
 *Figuur 4.6: Het aantal dagen dat scheepvaart niet mogelijk is op de Rijn.*
 
 De veranderde waterhoogte heeft een grote impact op de scheepvaart. Door het aantal

@@ -14,8 +14,8 @@ hydrological system includes many streams and two primary rivers, the Colorado R
 Gila River, Figure 2. A majority of the smaller streams remain dry for most of the year (Kampf et
 al., 2018).
 
-![figure2](../figures/figure2.PNG)
-*Figure 2: Rivers in Arizona (Robbins & Wood, 2021).*
+![figure2](../figures/figure2.png)
+*Figure 2: Rivers in Arizona (Robbins & Wood, 2021). Copyright © 2025 Environmental Defense Fund. Used by permission. The original material is available at http://edf.org.*
 
 The Sonoran Desert receives an average annual precipitation of 76-500 mm. Majority of
 the rainfall occurs during the summer monsoon thunderstorms. However, it also receives
@@ -63,7 +63,7 @@ and are integrated into the simulated hydrology. However, certain factors in the
 irrigation, stay constant over time (Sutanudjaja et al., 2018). This limitation should be considered
 when interpreting the simulated outputs. 
 
-![figure3](../figures/figure3.PNG)
+![figure3](../figures/figure3.png)
 *Figure 3: PCR-GlobWB 2.0 cell (Sutanudjaja et al., 2018).*
 
 In Figure 3 a simplified overview of a PCR-GlobWB cell can be found to give an impression
@@ -88,7 +88,7 @@ in eWaterCycle is enabled. In this research, precipitation and temperature serve
 forcing. Additionally, a parameter set including is required as model input, which includes the
 catchment area and the time period (Hut et al., 2022). Figure 4 presents a flow chart of the PCRGlobWB model, with ERA5 and a parameter set as input.
 
-![figure4](../figures/figure4.PNG)
+![figure4](../figures/figure4.png)
 *Figure 4: PCR-GlobWB flowchart (ERA5).*
 
 # Climate Projections
@@ -102,7 +102,7 @@ the selected SSPs and contains a graph of the increase of CO2 emissions and glob
 temperature. The mentioned SSPs is used as forcing input to simulate the future groundwater
 recharge. Figure 5 provides a flowchart of the PCR-GlobWB model with CMIP6 as forcing input.
 
-![figure5](../figures/figure5.PNG)
+![figure5](../figures/figure5.png)
 *Figure 5: PCR-GlobWB flowchart (CMIP6).*
 
 ## Water Balance
@@ -157,7 +157,7 @@ $$ \text{Approximated groundwater recharge} = Q + P + R - E - \text{Abs} $$
 A flowchart to obtain the approximated groundwater recharge is given in figure 6. This is
 simulated for both ERA5 and CMIP6.
 
-![figure6](../figures/figure6.PNG)
+![figure6](../figures/figure6.png)
 *Figure 6: PCR-GlobWB flowchart (approximated groundwater recharge).*
 
 

@@ -10,3 +10,4 @@
 - Refined and updated the Tutorials
 - added Bachelor report of Gelt Steiger
 - added Bachelor report of Eline Mol
+- added copyright checker

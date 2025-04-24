@@ -21,7 +21,7 @@ en de impact hiervan op mens en natuur. Maar ook belanghebbenden in staat te ste
 effectievere strategieën te ontwikkelen voor het beheer en behoud van deze waardevolle
 rivier.
 
-Tot slot wil ik mijn oprechte dank uitspreken aan mijn twee begeleiders dr.ir. Hut en ir.
+Tot slot wil ik mijn oprechte dank uitspreken aan mijn twee begeleiders dr. ir. Hut en ir.
 Hoogelander, de TU-Delft en Bart van het Netherlands eSciencecenter. Zonder hun steun en
 medewerking zou dit onderzoek niet mogelijk zijn geweest.
 

@@ -86,8 +86,7 @@ Public Policy Institute of California [PPIC] (n.d.). Water Use in California.
 https://www.ppic.org/publication/water-use-in-california/ 
 
 Robbins, J. & Wood, T. (2021, July 8). Once a Rich Desert River, the Gila Struggles to Keep Flowing. 
-https://e360.yale.edu/features/once-a-rich-desert-river-the-gila-struggles-to-keep
-flowing 
+https://e360.yale.edu/features/once-a-rich-desert-river-the-gila-struggles-to-keep-flowing 
 
 Salehabadi, H., Tarboton, D., Kuhn, E., Udall, B., Wheeler, K., Rosenberg, D., Goeking, S. & Schmidt,  
 J.C. (2020). The Future Hydrology of the Colorado River Basin. 
