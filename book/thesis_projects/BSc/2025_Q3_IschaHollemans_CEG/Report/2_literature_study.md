@@ -10,7 +10,7 @@ of the river, the mean discharge in January is around 1,800 m³/s, while in Augu
 difference in mean monthly flow between January and August. The average monthly flow in January is
 approximately 560 m³/s, whereas in August, it drops to around 115 m³/s.
 
-![figure2](figures/figure2.PNG)
+![figure2](figures/figure2.png)
 *Figure 2: Monthly mean discharge for January and August to show the difference in river flow during low
 precipitation month (August), and high precipitation month (January).*
 
@@ -37,7 +37,7 @@ upstream of Blois. Within this distance there are no major tributaries flowing i
 catchment area is significantly different as visible in figure 3. Consequently, the critical discharge from
 Gien needs to be recalculated for Blois.
 
-![figure3](figures/figure3.PNG)
+![figure3](figures/figure3.png)
 *Figure 3: Overview of the measurement stations used in this research and the associated catchment areas.*
 
 In the report of the Préfet d'Indre-et-Loire, there is a distinction made between multiple management

@@ -44,7 +44,7 @@ $$ D_{max} = \text{max} \left( |D_{cum,list(t)}| \right) \text{,   } t \in [1,n]
 The drought period is defined by the amount of time it takes for the system to replenish the amount of
 lost water. In figure 3, a visualisation of the length of a drought $T_{drought}$, and $D_{max}$ is displayed:
 
-![figure4](figures/figure4.PNG)
+![figure4](figures/figure4.png)
 *Figure 4: Visualisation of 'Drought Analyser' algorithm. This figure shows how the algorithm detects the
 beginning of a drought using the $Q_{crit}$, and how the deficit and replenishment periods are defined to calculate
 the $D_{max}$.*
@@ -58,7 +58,7 @@ detected at Montjean, which is 200 km downstream of Blois. The algorithm is used
 slight differences are expected due to inflow of tributaries between Montjean and Blois. The results are
 shown in figure 5.
 
-![figure5](figures/figure5.PNG)
+![figure5](figures/figure5.png)
 *Figure 5: Droughts in the period of 1975-2022*
 
 After rearranging the results, based on severity, the algorithm gives the following output for the five
@@ -104,7 +104,7 @@ catchment. During calibration, 2000 sets of parameters are generated using ‘La
 After running the calibration, the optimal modelled discharge is then validated. The results of modelled
 discharge and the observed discharge in the validation period is displayed in figure 6.
 
-![figure6](figures/figure6.PNG)
+![figure6](figures/figure6.png)
 *Figure 6: Visual validation of the modelled discharge for the period 2015-2019. In this graph, it is visible
 that the modelled discharge is correctly simulated for low water flows.*
 
@@ -114,7 +114,7 @@ not of interest.
 The overview of figure 7 displays the droughts for the calibration and validation period. Also, the relation
 between duration and deficit is plotted using a fitted first-degree polynomial.
 
-![figure7](figures/figure7.PNG)
+![figure7](figures/figure7.png)
 *Figure 7: The relationship between droughts duration and deficit to validate the model using a first-degree
 polynomial. The model slightly overestimates the extreme droughts for both calibration and validation.*
 
@@ -122,7 +122,7 @@ It is visible that model correctly detects the droughts in calibration and valid
 overestimation of drought severity and duration, especially for the validation period. The cause of this overestimation can be linked to the smaller size of data for this period. This is also visible in the
 distribution overview in figure 8.
 
-![figure8](figures/figure8.PNG)
+![figure8](figures/figure8.png)
 *Figure 8: Distribution overview for calibration and validation. The left side of this overview displays the
 distributions for the calibration period, and the right side displays the validation period.*
 
