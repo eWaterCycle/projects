@@ -24,7 +24,7 @@ align with the realistic magnitude of the benchmark established earlier. In cont
 the approximated groundwater recharge are more closely aligned with the magnitude of the 
 benchmark provided in Section 2.5.  
 
-![figure7](../figures/figure7.PNG)
+![figure7](../figures/figure7.png)
 *Figure 7: Groundwater recharge ERA5  and approximated groundwater recharge ERA5 for period 1990 to 2020.*
 
 Figure 8 presents the boxplots for the groundwater recharge and approximated groundwater 
@@ -35,7 +35,7 @@ the Z-value to detect and evaluate outliers, based on their standard deviation a
 appendix also includes revised boxplots that exclude the outlier, offering a clearer representation 
 of the data.
 
-![figure8](../figures/figure8.PNG)
+![figure8](../figures/figure8.png)
 *Figure 8: Boxplots of groundwater recharge ERA5 (left) and approximated groundwater recharge ERA5 (right) over 
 period 1990 to 2020.*
 
@@ -70,10 +70,10 @@ Given that the simulated groundwater recharge values remain significantly smalle
 the realistic benchmark magnitude set in Section 2.5, this variable is unrealistic and is unsuitable 
 for further analysis within this study.
 
-![figure9](../figures/figure9.PNG)
+![figure9](../figures/figure9.png)
 *Figure 9: Groundwater recharge (2025-2065).*
 
-![figure10](../figures/figure10.PNG)
+![figure10](../figures/figure10.png)
 *Figure 10: PCR-GlobWB simulated groundwater recharge for future climate scenarios for 2025 (left) and 2050 (right).*
 
 ## Simulated Approximation Groundwater Recharge 
@@ -89,7 +89,7 @@ Figure 11 illustrates the 21st century divided in two halves, specifically for 2
 E provides a more detailed analysis by dividing graphs into ten-year intervals, offering a more 
 clear visualization of trends within each decade. 
 
-![figure11](../figures/figure11.PNG)
+![figure11](../figures/figure11.png)
 *Figure 11: Approximated groundwater recharge for 2025-2065 and 2065-2100.*
 
 To provide a clearer visual representation of the data depicted in Figure 11, Figure 12 focuses on 
@@ -98,7 +98,7 @@ recharge and its seasonal variations. For instance, in 2075, the influence of wi
 evident, with an observed increase during the winter months. Across all highlighted years, it is 
 apparent that the summer season experiences drought conditions. 
 
-![figure12](../figures/figure12.PNG)
+![figure12](../figures/figure12.png)
 *Figure 12: Approximated groundwater recharge for the year 2025 (top left), 2050 (top right), 2075 (bottom left) and 
 2100 (bottom right).*
 
@@ -109,7 +109,7 @@ between 20 and 50 mm/day. Appendix D includes a Z-value outlier analysis and pro
 boxplot without outliers. From this analysis, it is evident that the upper quartile, median and lower 
 quartile display minor differences across the SSPs.  
 
-![figure13](../figures/figure13.PNG)
+![figure13](../figures/figure13.png)
 *Figure 13: (left) Boxplot approximated groundwater recharge for 
 three SSPs (2025-2100). (right) Relative change in approximated groundwater 
 recharge for three SSPs (2025-2100).*
@@ -132,7 +132,7 @@ significantly.
 | 2065-2085  | $-13.7 \%  $ | $-7.3 \%$  | $-1.3 \%$  |
 | 2085-2100  | $-6.2 \% $   | $2.4 \%$   | $-9.5 \%$  |
 
-![figure14](../figures/figure14.PNG)
+![figure14](../figures/figure14.png)
 *Figure 14: Relative change in approximated groundwater recharge for 2025-2045, 2045-2065, 2065-2085 and 2085-2100, relatively shown.*
 
 

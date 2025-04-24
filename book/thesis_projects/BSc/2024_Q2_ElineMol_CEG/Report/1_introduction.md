@@ -25,7 +25,7 @@ prevent and recover groundwater depleted basins (Mason, 2014). In Mexico, the La
 Nation’s Water (LAN) is adopted in 1992, stating the management and regulation of water
 entitlement. It states the appropriation, allocation and concession of groundwater rights (CruzAyala & Megdal, 2020).
 
-![figure1](../figures/figure1.PNG)
+![figure1](../figures/figure1.png)
 *Figure 1: Desert areas of North America (Shelton, 1972).*
 
 Due to growing concerns of the groundwater availability in the future, this report researches what
