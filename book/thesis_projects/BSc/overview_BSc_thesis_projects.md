@@ -4,7 +4,7 @@ This page provides an overview of the Bachelor of Science (BSc) thesis projects 
 The projects are listed in chronological order.
 
 ## BSc Thesis Projects
-- 2023 Q4 by Gelt Steiger: [Impact van klimaatverandering op de scheepvaart op de Rijn](https://www.ewatercycle.org/projects/main/thesis_projects/BSc/2023_Q4_GeltSteiger_CEG/BSc_GeltSteiger.html)
+- 2023 Q4 by Gelt Steiger: [Impact of climate change on shipping on the Rhine (Dutch report)](https://www.ewatercycle.org/projects/main/thesis_projects/BSc/2023_Q4_GeltSteiger_CEG/BSc_GeltSteiger.html)
   - [pdf version (link to GitHub)](https://github.com/eWaterCycle/projects/blob/main/book/thesis_projects/BSc/2023_Q4_GeltSteiger_CEG/Report/BEP_Gelt_Steiger.pdf)
 - 2024 Q2 by Eline Mol: [The Impact of Climate Change on the Groundwater Recharge in the Sonoran Desert](https://www.ewatercycle.org/projects/main/thesis_projects/BSc/2024_Q2_ElineMol_CEG/BSc_ElineMol.html)
   - [pdf version (link to GitHub)](https://github.com/eWaterCycle/projects/blob/main/book/thesis_projects/BSc/2024_Q2_ElineMol_CEG/Report/BEP_Gelt_Steiger.pdf)
@@ -15,6 +15,7 @@ The projects are listed in chronological order.
   - [pdf version (link to GitHub)](https://github.com/eWaterCycle/projects/blob/main/book/thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/EINDRAPPORT/Eindrapport.pdf)
   - [jupyter notebook](https://github.com/eWaterCycle/projects/blob/main/book/thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/EINDRAPPORT/Eindrapport.ipynb)
 - 2025 Q4 by Elke Schokking: [work in progress]
+- 2025 Q4 by Zoë Lucius: [work in progress]
 
 [Back to overview of projects](https://www.ewatercycle.org/projects/main/intro.html)
 
