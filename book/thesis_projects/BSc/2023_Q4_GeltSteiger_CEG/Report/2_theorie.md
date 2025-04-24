@@ -94,7 +94,7 @@ bijlage B staan een aantal grafieken die rechtstreeks uit de eWaterCycle data zi
 Dit geeft weer wat de verschillende modellen inzichtelijk maken.
 
 ![figure2](../figures/figure2.PNG)
-* Schematische weergave van de werking van een hydrologisch model.*
+*Schematische weergave van de werking van een hydrologisch model.*
 
 De werking van hydrologische modellen is schematisch weergegeven in figuur 2.2, zowel
 Wflow als PCR-GlobWB vereisen als input klimaatdata, zoals: neerslag, interceptie,

@@ -9,6 +9,13 @@ We have projects from different levels of education, including:
 - Master of Science (MSc) projects
 - PhD/PostDoc/Research projects
 
+## EGU Tutorial Users
+
+For the tutorial, first go to the [teachbook](https://www.ewatercycle.org/projects/main/intro.html), then use the GitHub Logo on the top right ![launch](book/figures/jupyterHub_launch.PNG) and click on JupyterHub.
+Go into folder: projects/book/tutorials_examples.
+This will take you to a server on the Surf Research Cloud, where we have eWaterCycle installed and all the required data on hand.
+
+
 ## Table of Contents
 - [Bachelor of Science (BSc) Projects](https://www.ewatercycle.org/projects/main/thesis_projects/BSc/overview_BSc_thesis_projects.html)
 - [Master of Science (MSc) Projects](https://www.ewatercycle.org/projects/main/thesis_projects/MSc/overview_MSc_thesis_projects.html)
