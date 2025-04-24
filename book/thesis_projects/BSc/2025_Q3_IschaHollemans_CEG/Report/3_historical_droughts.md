@@ -23,7 +23,7 @@ selected for this study. The output of the model is examined to assess if the mo
 To analyse past droughts, an algorithm is developed (see Appendix A). This algorithm detects droughts
 and assesses them on duration and severity. For this research, the severity of a drought is defined by
 the maximum water shortage (deficit) during a drought. The algorithm achieves this by detecting the
-date where the discharge falls below the critical water flow of 66.5 m³/s. This is the start of a drought,
+date where the discharge falls below the critical water flow of $66.5$ $m^3/s$. This is the start of a drought,
 and thus the beginning of a deficit. For each day onward, the algorithm calculates the difference
 between current discharge and the critical flow:
 

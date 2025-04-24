@@ -53,6 +53,7 @@ validated using historical data to ensure its reliability before applying it to 
 overview of the hydrological model implementation is displayed in figure 1:
 
 ![figure1](figures/figure1.png)
+*Figure 1: An overview of the hydrological model implementation.*
 
 The results from the future scenarios will offer quantitative insights into projected changes in river
 discharge and drought severity for the Loire basin.
