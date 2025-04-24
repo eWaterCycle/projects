@@ -45,7 +45,7 @@ lokaal voor $1,4ºC$–$3,8ºC$ opwarming zorgt. Dit betekent dat er in het stro
 in de zomer langere periodes van droogte zullen zijn en in de winter extremere afvoeren zullen
 volgen.
 
-![figure1](../figures/figure1.PNG)
+![figure1](../figures/figure1.png)
 *Figuur 2.1: Effect van klimaatverandering op rivierafvoer in Europa
 Overgenomen uit “How will climate change modify river flow regimes in Europe?”, door C.
 Schneider, 2013, Hydrology and Earth System Sciences, Volume 17, p. 332
@@ -93,7 +93,7 @@ bijlage A staan enkele figuren die de werking van de modellen illustratief verdu
 bijlage B staan een aantal grafieken die rechtstreeks uit de eWaterCycle data zijn gehaald.
 Dit geeft weer wat de verschillende modellen inzichtelijk maken.
 
-![figure2](../figures/figure2.PNG)
+![figure2](../figures/figure2.png)
 *Schematische weergave van de werking van een hydrologisch model.*
 
 De werking van hydrologische modellen is schematisch weergegeven in figuur 2.2, zowel
@@ -128,7 +128,7 @@ Deze waterconsumptie komt bovenop de totale verdamping.
 
 ## Randvoorwaarden voor de scheepvaart op de Rijn.
 
-![figure3](../figures/figure3.PNG)
+![figure3](../figures/figure3.png)
 *Figuur 2.3: Maatgevende brug in Maxau: Karlsruhe Rijn Brug Noot. Overgenomen van (https://kontent-structures.com/wp-content/uploads/2021/02/rijnbrug.jpg)*
 
 Het rapport “Regulations And Prescriptions For The Navigation On The Rhine” (1994) van de

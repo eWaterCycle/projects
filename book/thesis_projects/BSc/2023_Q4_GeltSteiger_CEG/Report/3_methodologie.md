@@ -33,7 +33,7 @@ gekozen SSP-Pathways staan weergegeven in tabel 3.1, er is gekozen voor een lage
 middelhoge-, en hoge CO2 impact om een gespreid beeld te krijgen wat dit met de afvoer van
 de Rijn zal gaan doen.
 
-![figure4](../figures/figure4.PNG)
+![figure4](../figures/figure4.png)
 *Figuur 3.1: Schematische weergave van de werking van een hydrologisch model met forcing op basis van de
 ERA5 klimaatdata.*
 
@@ -61,7 +61,7 @@ worden om deze data voor in de toekomst te kunnen verkrijgen. Hiervoor zijn de
 klimaatmodellen nodig waar deze forcing op gebaseerd wordt. Voor dit onderzoek wordt naar
 de klimaatscenario’s uit tabel 3.1 gekeken.
 
-![figure5](../figures/figure5.PNG)
+![figure5](../figures/figure5.png)
 *Figuur 3.2: Relatie tussen de afvoer van de Rijn en waterhoogte bij Kaub.
 Noot. Gedeeltelijk overgenomen uit “Forecasting the impacts of climate change on inland waterways”, door A.
 Christodoulou, 2019, Transportation Research Part D: Transport & Environment, Volume 82, p. 3
@@ -84,7 +84,7 @@ een waterstand van 750 cm, de afvoer in de rivier ongeveer $2800$ $m^3/s$ bedraa
 Deze afvoer zal worden gebruikt als maximale waarde die de afvoer mag bedragen voor de
 plaats Maxau.
 
-![figure6](../figures/figure6.PNG)
+![figure6](../figures/figure6.png)
 *Figuur 3.3: Schematische weergave van de werking van een hydrologisch model met forcing op basis van de
 ERA5 klimaatdata.*
 
