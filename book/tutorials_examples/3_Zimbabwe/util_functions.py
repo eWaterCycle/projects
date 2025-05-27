@@ -4,9 +4,19 @@ from ipywidgets import interact, FloatSlider, IntSlider, fixed, VBox, interactiv
 import pandas as pd
 from pathlib import Path
 import os
+import geopandas as gpd
+import xarray as xr
+import numpy as np
+import folium
+from IPython.display import display
+
+# General eWaterCycle
+import ewatercycle
+import ewatercycle.models
+import ewatercycle.forcing
 
 def get_station_names():
-    directory = Path.home() / "my_data/camel_data"
+    directory =  "/data/datasets/zimbabwe/camel_data"
     station_names = dict()
 
     for root, dirs, files in os.walk(directory):
@@ -35,19 +45,18 @@ def stations_map(stations_dict):
     station_names = stations_dict
     
     # Folder with shapefiles
-    shapefile_dir = Path.home() / "my_data/camel_data/shapefiles"
+    shapefile_dir = "/data/datasets/zimbabwe/camel_data/shapefiles"
     
     # Load all shapefiles into one GeoDataFrame
     gdfs = []
     
     for name, sid in station_names.items():
-        shapefile_path = shapefile_dir / f"AF_{int(sid[3:-2])}" /f"AF_{int(sid[3:-2])}.shp"
+        shapefile_path = shapefile_dir + f"/AF_{int(str(sid[3:-2]))}" + f"/AF_{int(str(sid[3:-2]))}.shp"
         # print(shapefile_path)
-        if shapefile_path.exists():
-            gdf = gpd.read_file(shapefile_path)
-            gdf["Station Name"] = name
-            gdf["Station ID"] = sid
-            gdfs.append(gdf)
+        gdf = gpd.read_file(shapefile_path)
+        gdf["Station Name"] = name
+        gdf["Station ID"] = sid
+        gdfs.append(gdf)
 
     # print(gdfs)
     # Combine all into one GeoDataFrame
@@ -367,11 +376,11 @@ def HBV(Par,forcing,S_in, hydrograph):
     return Qm
 
 def create_forcing_data_HBV_from_nc(start_date, end_date, camel_id):
-    central_path = Path.home() / "projects/book/tutorials_examples/1_HBV_Caravan_ERA5/mijndata/1491830"
+    central_path =  "/data/datasets/zimbabwe/camel_data"
     path_to_save = Path.home() / "my_data/workshop_zimbabwe"
-    # path_to_save.mkdir(exist_ok=True, parents=True)
-    shape_file = central_path / (camel_id[:-2] + ".shp")
-    data_file_nc = central_path / (camel_id + ".nc")
+    path_to_save.mkdir(exist_ok=True, parents=True)
+    shape_file = central_path + "/shapefiles" + f"/{str(camel_id[:-2])}" + f"/{str(camel_id[:-2])}.shp"
+    data_file_nc = central_path + (f"/{camel_id}.nc")
 
     my_data_nc = xr.open_dataset(data_file_nc, engine="netcdf4")
     
@@ -410,8 +419,8 @@ def create_forcing_data_HBV_from_nc(start_date, end_date, camel_id):
 
     forcing = ewatercycle.forcing.sources["LumpedMakkinkForcing"](
         directory=path_to_save,
-        start_time=ERA5_start_date,
-        end_time=ERA5_end_date,
+        start_time=start_date,
+        end_time=end_date,
         shape=shape_file,
         # Additional information about the external forcing data needed for the model configuration
         filenames=forcing_dict,
@@ -421,7 +430,7 @@ def create_forcing_data_HBV_from_nc(start_date, end_date, camel_id):
     return forcing
 
 def load_data_HBV_local(HBV_data):
-    central_path = Path.home() / "projects/book/tutorials_examples/1_HBV_Caravan_ERA5/mijndata/1491830"
+    central_path = Path.home() / "my_data/workshop_zimbabwe"
     # forcing = pd.DataFrame()
     # print( HBV_data['Q'] )
 
@@ -451,5 +460,5 @@ def load_data_HBV_local(HBV_data):
     return calibrate_forcing
 
 
-# if __name__ == "__main__":
-#     print("loaded util functions")
+if __name__ == "__main__":
+    print("loaded util functions")
