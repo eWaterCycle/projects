@@ -1,0 +1,7 @@
+{
+    "precipitation_file": "/home/zoe/forcing/ERA5/work/diagnostic/script/OBS6_ERA5_reanaly_1_day_pr_1986-2019.nc",
+    "potential_evaporation_file": "/home/zoe/forcing/ERA5/work/diagnostic/script/Derived_Makkink_evspsblpot.nc",
+    "mean_temperature_file": "/home/zoe/forcing/ERA5/work/diagnostic/script/OBS6_ERA5_reanaly_1_day_tas_1986-2019.nc",
+    "parameters": "3.899833142044722,0.8166709271520391,65.11042821727929,0.8232571151257934,0.1501073687823339,2.7068930473109987,0.05402917723714185,0.009627096240566426,5.778021875180649",
+    "initial_storage": "0,0,0,0,0"
+}
