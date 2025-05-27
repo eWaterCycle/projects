@@ -11,7 +11,7 @@ We have projects from different levels of education, including:
 
 ## EGU Tutorial Users
 
-For the tutorial use the GitHub Logo on the top right ![launch](figures/jupyterHub_launch.png) and click on JupyterHub.
+For the tutorial use the GitHub Logo on the top right ![launch](figures/jupyterHub_launch.png) (which will pop up in the [tutorial](https://www.ewatercycle.org/projects/main/tutorials_examples/1_HBV_Caravan_ERA5/example_model_run_HBV.html) itself, first go there) and click on JupyterHub.
 Go into folder: projects/book/tutorials_examples.
 This will take you to a server on the Surf Research Cloud, where we have eWaterCycle installed and all the required data on hand.
 
