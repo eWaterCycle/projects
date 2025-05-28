@@ -84,11 +84,10 @@ def stations_map(stations_dict):
         )
         geojson.add_to(m)
 
-        # Add marker at centroid
-        centroid = row.geometry.centroid
         folium.Marker(
-            location=[centroid.y, centroid.x],
-            tooltip=f"{row['Station Name']} ({row['Station ID']})"
+            location=[row.lat_org, row.long_org],
+            tooltip=f"{row['Station Name']} ({row['Station ID']})",
+            popup=folium.Popup(f"<strong>{row['Station Name']}</strong><br>ID: <code>{row['Station ID']}</code>", max_width=300)
         ).add_to(m)
     
     display(m)
