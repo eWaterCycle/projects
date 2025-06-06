@@ -1,5 +1,3 @@
-import pandas as pd
-import nbformat
 def classify_discharge_status(discharge_values):
     statuses = []
     consecutive_low_days = 0
