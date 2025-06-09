@@ -28,7 +28,6 @@ def get_segments_final_color_safe(x, y, threshold=500):
         xi = [x[i], x[i + 1]]
         yi = [y[i], y[i + 1]]
 
-        # tellen in achtergrond
         if y[i] < threshold:
             if not tracking_low_flow:
                 low_flow_counter = 1
