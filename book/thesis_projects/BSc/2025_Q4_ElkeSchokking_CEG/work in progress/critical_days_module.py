@@ -57,64 +57,62 @@ def get_segments_final_color_safe(x, y, threshold=500):
     return segments, colors
 
 def droughts(df, basin_name, q_crit=500):
-    drought_list = []
+    """
+    Identify drought events as contiguous runs of days with status != "normal".
+    Status on each day is assigned by classify_discharge_status().
+    An event's status is the worst status seen during that run.
+    """
+    # 1) get a pandas Series of statuses
+    statuses = classify_discharge_status(df.values)
+    
+    events = []
     drought_id = 1
     idx = 0
-
-    # Handle empty input early
-    if df is None or len(df) == 0:
-        drought_list.append({
+    n = len(df)
+    
+    # helper to rank statuses
+    rank = {"caution": 1, "risk": 2, "critical": 3}
+    
+    while idx < n:
+        if statuses[idx] != "normal":
+            start_date = df.index[idx]
+            worst = rank[statuses[idx]]
+            duration = 0
+            
+            
+            while idx < n and statuses[idx] != "normal":
+                worst = max(worst, rank[statuses[idx]])
+                duration += 1
+                idx += 1
+            
+            # map back from rank to status string
+            for s, r in rank.items():
+                if r == worst:
+                    event_status = s
+                    break
+            
+            events.append({
+                "Drought Number": drought_id,
+                "Start Date": start_date,
+                "Duration (days)": duration,
+                "Status": event_status,
+                "Basin": basin_name
+            })
+            drought_id += 1
+        else:
+            idx += 1
+    
+    # if none found, return a neutral row
+    if not events:
+        events.append({
             "Drought Number": 0,
             "Start Date": None,
             "Duration (days)": 0,
-            "Max Cumulative Deficit (m3/s)": 0,
-            "Cum Deficit List": [],
+            "Status": None,
             "Basin": basin_name
         })
-        return pd.DataFrame(drought_list)
-
-    while idx < len(df):
-        if df.iloc[idx] <= q_crit:
-            start = df.index[idx]
-            cum_def = 0
-            max_deficit = 0
-            cum_deficits = []
-            duration = 0
-
-            # Collect consecutive low-flow days
-            while idx < len(df) and df.iloc[idx] <= q_crit:
-                daily_deficit = df.iloc[idx] - q_crit
-                cum_def += daily_deficit
-                max_deficit = min(max_deficit, cum_def)
-                cum_deficits.append(cum_def)
-                duration += 1
-                idx += 1
-
-            if max_deficit < 0:
-                drought_list.append({
-                    "Drought Number": drought_id,
-                    "Start Date": start,
-                    "Duration (days)": duration,
-                    "Max Cumulative Deficit (m3/s)": max_deficit,
-                    "Cum Deficit List": cum_deficits,
-                    "Basin": basin_name
-                })
-                drought_id += 1
-        else:
-            idx += 1
-
-    # If no droughts found, return a neutral row
-    if len(drought_list) == 0:
-        drought_list.append({
-            "Drought Number": 0,
-            "Start Date": df.index[0] if len(df.index) > 0 else None,
-            "Duration (days)": 0,
-            "Max Cumulative Deficit (m3/s)": 0,
-            "Cum Deficit List": [],
-            "Basin": basin_name
-        })
-
-    return pd.DataFrame(drought_list)
+    
+    return pd.DataFrame(events)
 
 def export_functions_from_notebook(ipynb_path, py_path):
     # Load the notebook
