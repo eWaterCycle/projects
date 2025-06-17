@@ -1,4 +1,3 @@
-## Just the drought analyser function
 import numpy as np
 import pandas as pd
 
@@ -32,4 +31,6 @@ def analyse_annual_deficits_MW(daily_data, flow_col, year_col, Q_crit, demand_za
                 'Zambia_shortage_%': shortage_pct_zambia, 'Zimbabwe_shortage_%': shortage_pct_zimbabwe, 'severity': 'mild'})
 
     return pd.DataFrame(deficityears)
+
+
     
