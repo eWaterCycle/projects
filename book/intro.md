@@ -9,9 +9,9 @@ We have projects from different levels of education, including:
 - Master of Science (MSc) projects
 - PhD/PostDoc/Research projects
 
-## EGU Tutorial Users
+## Colloquium
 
-For the tutorial use the GitHub Logo on the top right ![launch](figures/jupyterHub_launch.png) (which will pop up in the [tutorial](https://www.ewatercycle.org/projects/main/tutorials_examples/1_HBV_Caravan_ERA5/example_model_run_HBV.html) itself, first go there) and click on JupyterHub.
+For the colloquium use the GitHub Logo on the top right ![launch](figures/jupyterHub_launch.png) (which will pop up in the [tutorial](https://www.ewatercycle.org/projects/main/tutorials_examples/1_HBV_Caravan_ERA5/example_model_run_HBV.html) itself, first go there) and click on JupyterHub.
 Go into folder: projects/book/tutorials_examples.
 This will take you to a server on the Surf Research Cloud, where we have eWaterCycle installed and all the required data on hand.
 
