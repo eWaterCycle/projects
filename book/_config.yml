@@ -19,8 +19,8 @@ sphinx:
       use_thebe_lite: true
       exclude_patterns: ["**/_*.yml", "**/*.md", "**/*.ipynb"]
     html_theme_options:
-      repository_url: "https://github.com/eWaterCycle/colloquium" #add your own repo URL here
-      repository_branch: main
+      repository_url: "https://github.com/eWaterCycle/projects" #add your own repo URL here
+      repository_branch: colloquium
       path_to_docs: book
       use_repository_button: true
       use_issues_button : true

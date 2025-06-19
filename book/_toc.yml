@@ -128,6 +128,20 @@ parts:
       sections:
       - file: tutorials_examples/1_HBV_Caravan_ERA5/example_model_run_HBV.ipynb
       - file: tutorials_examples/2_HBV_PCRGlobWB_ERA5/example_model_run_pcrglobwb.ipynb
+
+  - caption: Colloquium
+    chapters:
+      - file: colloquium/README.md
+        sections:
+          - file: colloquium/step_0a_select_caravan_region_time_and_scenarios.ipynb
+          - file: colloquium/step_0b_select_CMIP_forcing.ipynb
+          - file: colloquium/step_1a_generate_historical_forcing.ipynb
+          - file: colloquium/step_1b_generate_future_forcing.ipynb
+          - file: colloquium/step_2a_calibrate_HBV_by_hand.ipynb
+          - file: colloquium/step_2b_calibrate_HBV_montecarlo.ipynb
+          - file: colloquium/step_3a_model_run_historical.ipynb
+          - file: colloquium/step_3b_model_run_future.ipynb
+
   - caption: Credits
     chapters:
     - file: changelog.md
