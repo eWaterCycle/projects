@@ -20,12 +20,12 @@ sphinx:
       exclude_patterns: ["**/_*.yml", "**/*.md", "**/*.ipynb"]
     html_theme_options:
       repository_url: "https://github.com/eWaterCycle/projects" #add your own repo URL here
-      repository_branch: workshop-zimbabwe
+      repository_branch: workshop
       path_to_docs: book
       use_repository_button: true
       use_issues_button : true
       launch_buttons:
-        jupyterhub_url: https://ewatercyclegu25.ewatercycle-tud.src.surf-hosted.nl/jupyter
+        jupyterhub_url: https://colloquium.ewatercycle-tud.src.surf-hosted.nl/jupyter
         notebook_interface: "jupyterlab"
         thebe: true
     html_show_copyright: false

@@ -1,0 +1,37 @@
+{
+    "caravan_id": "camelsgb_28093",
+    "calibration_start_date": "1997-08-01T00:00:00Z",
+    "calibration_end_date": "2007-07-31T00:00:00Z",
+    "validation_start_date": "2007-08-01T00:00:00Z",
+    "validation_end_date": "2010-07-31T00:00:00Z",
+    "future_start_date": "2027-08-01T00:00:00Z",
+    "future_end_date": "2047-08-31T00:00:00Z",
+    "CMIP_info": {
+        "dataset": [
+            "MPI-ESM1-2-HR"
+        ],
+        "ensembles": [
+            "r1i1p1f1"
+        ],
+        "experiments": [
+            "historical",
+            "ssp126",
+            "ssp245",
+            "ssp370",
+            "ssp585"
+        ],
+        "project": "CMIP6",
+        "frequency": "day",
+        "grid": "gn",
+        "variables": [
+            "pr",
+            "tas",
+            "rsds"
+        ]
+    },
+    "base_path": "/home/mmelotto/ewatercycleClimateImpact/HBV",
+    "path_caravan": "/home/mmelotto/ewatercycleClimateImpact/HBV/data/camelsgb_28093/caravan",
+    "path_ERA5": "/home/mmelotto/ewatercycleClimateImpact/HBV/data/camelsgb_28093/ERA5",
+    "path_CMIP6": "/home/mmelotto/ewatercycleClimateImpact/HBV/data/camelsgb_28093/CMIP6",
+    "path_shape": "/home/mmelotto/ewatercycleClimateImpact/HBV/data/camelsgb_28093/caravan/camelsgb_28093.shp"
+}
