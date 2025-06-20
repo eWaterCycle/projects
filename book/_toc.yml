@@ -128,6 +128,14 @@ parts:
       sections:
       - file: tutorials_examples/1_HBV_Caravan_ERA5/example_model_run_HBV.ipynb
       - file: tutorials_examples/2_HBV_PCRGlobWB_ERA5/example_model_run_pcrglobwb.ipynb
+
+  - caption: Workshop Zimbabwe
+    chapters:
+      - file: tutorials_examples/3_Zimbabwe/1_HBV_Zimbabwe.ipynb
+      - file: tutorials_examples/3_Zimbabwe/2a_CMIP_Zimbabwe.ipynb
+      - file: tutorials_examples/3_Zimbabwe/2b_CMIP_Zimbabwe.ipynb
+      - file: tutorials_examples/3_Zimbabwe/2c_CMIP_Zimbabwe.ipynb
+
   - caption: Credits
     chapters:
     - file: changelog.md
