@@ -131,9 +131,8 @@ parts:
 
   - caption: Workshop Zimbabwe
     chapters:
-      - file: tutorials_examples/3_Zimbabwe/Workshop_Zimbabwe.md
+      - file: tutorials_examples/3_Zimbabwe/1_HBV_Zimbabwe.ipynb
         sections:
-        - file: tutorials_examples/3_Zimbabwe/1_HBV_Zimbabwe.ipynb
         - file: tutorials_examples/3_Zimbabwe/2a_CMIP_Zimbabwe.ipynb
         - file: tutorials_examples/3_Zimbabwe/2b_CMIP_Zimbabwe.ipynb
         - file: tutorials_examples/3_Zimbabwe/2c_CMIP_Zimbabwe.ipynb
