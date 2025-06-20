@@ -131,13 +131,13 @@ parts:
 
   - caption: Workshop Zimbabwe
     chapters:
+      - file: tutorials_examples/3_Zimbabwe/Workshop_Zimbabwe.md
+        sections:
         - file: tutorials_examples/3_Zimbabwe/1_HBV_Zimbabwe.ipynb
         - file: tutorials_examples/3_Zimbabwe/2a_CMIP_Zimbabwe.ipynb
         - file: tutorials_examples/3_Zimbabwe/2b_CMIP_Zimbabwe.ipynb
         - file: tutorials_examples/3_Zimbabwe/2c_CMIP_Zimbabwe.ipynb
-  
-  - caption: Colloquium
-    chapters:
+
       - file: colloquium/README.md
         sections:
           - file: colloquium/step_0a_select_caravan_region_time_and_scenarios.ipynb
