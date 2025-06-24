@@ -147,6 +147,7 @@ parts:
           - file: colloquium/step_2b_calibrate_HBV_montecarlo.ipynb
           - file: colloquium/step_3a_model_run_historical.ipynb
           - file: colloquium/step_3b_model_run_future.ipynb
+          - file: colloquium/step_4_analyse.ipynb
 
   - caption: Credits
     chapters:
