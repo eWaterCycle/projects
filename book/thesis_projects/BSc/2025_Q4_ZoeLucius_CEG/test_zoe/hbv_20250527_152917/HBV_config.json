@@ -1,7 +1,0 @@
-{
-    "precipitation_file": "/home/zoe/BEP-Zoe/book/thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/test_zoe/pr.nc",
-    "potential_evaporation_file": "/home/zoe/BEP-Zoe/book/thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/test_zoe/evspsblpot.nc",
-    "mean_temperature_file": "/home/zoe/BEP-Zoe/book/thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/test_zoe/tas.nc",
-    "parameters": "10.0,0.87,592.0,1.4,0.3,1.0,0.09,0.01,0.001",
-    "initial_storage": "0,100,0,5,0"
-}
