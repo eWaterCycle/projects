@@ -11,3 +11,7 @@
 - added Bachelor report of Gelt Steiger
 - added Bachelor report of Eline Mol
 - added copyright checker
+
+### July 2025
+- added Bachelor report of Zoë Lucius
+
