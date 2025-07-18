@@ -100,6 +100,32 @@ parts:
               - file: thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/Report/APPENDIX2.ipynb
                 title: Appendix 2
 
+          - external: https://github.com/zlucius/BEP-Zoe/blob/main/book/thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/BSc_ZoeLucius.md
+            sections:
+              - external: https://github.com/zlucius/BEP-Zoe/blob/main/book/thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/Report/00_Preface.ipynb
+                title: Preface
+              - external: https://github.com/zlucius/BEP-Zoe/blob/main/book/thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/Report/1_Introduction.ipynb
+                title: Introduction
+              - external: https://github.com/zlucius/BEP-Zoe/blob/main/book/thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/Report/2_Literature%20Study.ipynb
+                title: Literature Study
+              - external: https://github.com/zlucius/BEP-Zoe/blob/main/book/thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/Report/3_The%20HBV%20model.ipynb
+                title: The HBV Model
+              - external: https://github.com/zlucius/BEP-Zoe/blob/main/book/thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/Report/4_Drought%20Detection%20Method.ipynb
+                title: Drought Detection Method
+              - external: https://github.com/zlucius/BEP-Zoe/blob/main/book/thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/Report/5_Climate%20Scenarios.ipynb
+                title: Climate Scenarios
+              - external: https://github.com/zlucius/BEP-Zoe/blob/main/book/thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/Report/6_Result%20Analysis.ipynb
+                title: Result Analysis
+              - external: https://github.com/zlucius/BEP-Zoe/blob/main/book/thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/Report/7_Research%20Extension%3B%20Scaling%20Power%20Demand%20to%20Population.ipynb
+                title: Research Extension; Scaling Power Demand to Population
+              - external: https://github.com/zlucius/BEP-Zoe/blob/main/book/thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/Report/8_Discussions.ipynb
+                title: Discussion
+              - external: https://github.com/zlucius/BEP-Zoe/blob/main/book/thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/Report/9_Conclusion%20and%20Recommendations.ipynb
+                title: Conclusion and Recommendations
+              - external: https://github.com/zlucius/BEP-Zoe/blob/main/book/thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/Report/References.ipynb
+                title: References
+
+
       - file: thesis_projects/MSc/overview_MSc_thesis_projects.md
 
   - caption: Research Projects
