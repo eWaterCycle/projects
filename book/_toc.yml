@@ -100,7 +100,7 @@ parts:
               - file: thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/Report/APPENDIX2.ipynb
                 title: Appendix 2
 
-          - external: https://github.com/zlucius/BEP-Zoe/blob/main/book/thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/BSc_ZoeLucius.md
+          - file: thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/BSc_ZoeLucius.md
             sections:
               - external: https://github.com/zlucius/BEP-Zoe/blob/main/book/thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/Report/00_Preface.ipynb
 #                title: Preface
