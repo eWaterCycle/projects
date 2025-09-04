@@ -110,6 +110,12 @@ parts:
                 title: Nomenclature
               - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/INTRODUCTION_CH1_2_0.ipynb
                 title: Introduction
+              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/1_Model_Setup_and_Data_Preparation.ipynb
+                title: Model Setup and Data Preparation
+              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/2_Ensemble_Initialization_and_Sampling.ipynb
+                title: Ensemble Initialization and Sampling
+              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/3_Calibration_Objective_Definition.ipynb
+                title: Calibration Objective Definition
               - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/Critical_Discharge.ipynb
                 title: Critical Discharge
               - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/HBV_Calibration_Code_logNSE_EMD_Combined_Final.ipynb
