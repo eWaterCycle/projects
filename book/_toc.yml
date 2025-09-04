@@ -110,9 +110,9 @@ parts:
                 title: Nomenclature
               - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/INTRODUCTION_CH1_2_0.ipynb
                 title: Introduction
-              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/Critical%20Discharge.ipynb
+              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/Critical_Discharge.ipynb
                 title: Critical Discharge
-              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/HBV_Calibration_Code_logNSE_EMD__Combined_Final.ipynb
+              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/HBV_Calibration_Code_logNSE_EMD_Combined_Final.ipynb
                 title: The HBV Model
               - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/Historic_CMIP_Final.ipynb
                 title: Historical Droughts
