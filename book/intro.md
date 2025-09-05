@@ -36,3 +36,7 @@ Typically, the eWaterCycle platform is deployed on a system that can be accessed
 This makes it possible for researchers to quickly run an experiment without the hassle of installing a model or creating suitable input data. 
 To learn more about the system setup, read our [System setup](https://ewatercycle.readthedocs.io/en/latest/system_setup.html) page.
 
+## Getting started
+
+If you want to use eWaterCycle for your own research, please reach out to the team via our GitHub page.
+Once you have an account look at the [getting-started](https://www.ewatercycle.org/getting-started/main/intro.html) page to get started.
