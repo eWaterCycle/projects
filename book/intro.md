@@ -24,7 +24,7 @@ This will take you to a server on the Surf Research Cloud, where we have eWaterC
 
 Projects counter:
 - BSc projects: 6
-- MSc projects: 0
+- MSc projects: 1
 - PhD/PostDoc/Research projects: 1
 
 ## eWaterCycle
