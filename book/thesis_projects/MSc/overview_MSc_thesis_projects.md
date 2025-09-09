@@ -4,7 +4,8 @@ This page provides an overview of the Master of Science (MSc) thesis projects th
 The projects are listed in chronological order.
 
 ## MSc Thesis Projects
-- [work in progress]
+- 2025/26 by André van der Veen: TBD
+  - [work in progress]
 
 
 

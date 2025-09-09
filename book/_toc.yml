@@ -93,12 +93,65 @@ parts:
                 title: Discussion
               - file: thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/Report/Conclusion.ipynb
                 title: Conclusion
-              - file: thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/Report/REFERENCES.ipynb
+              - file: thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/Report/9_REFERENCES.ipynb
                 title: References
               - file: thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/Report/APPENDIX1.ipynb
                 title: Appendix 1
               - file: thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/Report/APPENDIX2.ipynb
                 title: Appendix 2
+
+          - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/BSc_ElkeSchokking.md
+            sections:
+              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/00_PREFACE.ipynb
+                title: Preface
+              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/00_Acknowledgements.ipynb
+                title: Acknowledgements
+              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/00_NOMENCLATURE.ipynb
+                title: Nomenclature
+              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/1_INTRODUCTION_CH1_2_0.ipynb
+                title: Introduction
+              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/2_Critical_Discharge.ipynb
+                title: Critical Discharge
+              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/3_HBV_Calibration_Code_logNSE_EMD_Combined_Final.ipynb
+                title: The HBV Model
+              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/4_Historic_CMIP_Final.ipynb
+                title: Historical Droughts
+              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/5_Future_CMIP_Final.ipynb
+                title: Future Droughts
+              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/6_Drought_analysis_Final.ipynb
+                title: Drought Analysis
+              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/7_DISCUSSION.ipynb
+                title: Discussion
+              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/8_CONCLUSION.ipynb
+                title: Conclusion
+              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/9_REFERENCES.ipynb
+                title: References
+
+          - file: thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/BSc_ZoeLucius.md
+            sections:
+              - file: thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/Report/00_Preface.ipynb
+                title: Preface
+              - file: thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/Report/1_Introduction.ipynb
+                title: Introduction
+              - file: thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/Report/2_Literature_Study.ipynb
+                title: Literature Study
+              - file: thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/Report/3_The_HBV_model.ipynb
+                title: The HBV Model
+              - file: thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/Report/4_Drought_Detection_Method.ipynb
+                title: Drought Detection Method
+              - file: thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/Report/5_Climate_Scenarios.ipynb
+                title: Climate Scenarios
+              - file: thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/Report/6_Result_Analysis.ipynb
+                title: Result Analysis
+              - file: thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/Report/7_Research_Extension_Scaling_Power_Demand_to_Population.ipynb
+                title: Research Extension; Scaling Power Demand to Population
+              - file: thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/Report/8_Discussions.ipynb
+                title: Discussion
+              - file: thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/Report/9_Conclusion_and_Recommendations.ipynb
+                title: Conclusion and Recommendations
+              - file: thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/Report/References.ipynb
+                title: References
+
 
       - file: thesis_projects/MSc/overview_MSc_thesis_projects.md
 
