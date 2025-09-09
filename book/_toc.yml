@@ -93,7 +93,7 @@ parts:
                 title: Discussion
               - file: thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/Report/Conclusion.ipynb
                 title: Conclusion
-              - file: thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/Report/REFERENCES.ipynb
+              - file: thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/Report/9_REFERENCES.ipynb
                 title: References
               - file: thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/Report/APPENDIX1.ipynb
                 title: Appendix 1
@@ -102,29 +102,29 @@ parts:
 
           - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/BSc_ElkeSchokking.md
             sections:
-              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/PREFACE.ipynb
+              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/00_PREFACE.ipynb
                 title: Preface
-              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/Acknowledgements.ipynb
+              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/00_Acknowledgements.ipynb
                 title: Acknowledgements
-              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/NOMENCLATURE.ipynb
+              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/00_NOMENCLATURE.ipynb
                 title: Nomenclature
-              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/INTRODUCTION_CH1_2_0.ipynb
+              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/1_INTRODUCTION_CH1_2_0.ipynb
                 title: Introduction
-              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/Critical_Discharge.ipynb
+              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/2_Critical_Discharge.ipynb
                 title: Critical Discharge
-              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/HBV_Calibration_Code_logNSE_EMD_Combined_Final.ipynb
+              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/3_HBV_Calibration_Code_logNSE_EMD_Combined_Final.ipynb
                 title: The HBV Model
-              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/Historic_CMIP_Final.ipynb
+              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/4_Historic_CMIP_Final.ipynb
                 title: Historical Droughts
-              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/Future_CMIP_Final.ipynb
+              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/5_Future_CMIP_Final.ipynb
                 title: Future Droughts
-              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/Drought_analysis_Final.ipynb
+              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/6_Drought_analysis_Final.ipynb
                 title: Drought Analysis
-              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/DISCUSSION.ipynb
+              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/7_DISCUSSION.ipynb
                 title: Discussion
-              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/CONCLUSION.ipynb
+              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/8_CONCLUSION.ipynb
                 title: Conclusion
-              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/REFERENCES.ipynb
+              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/9_REFERENCES.ipynb
                 title: References
 
           - file: thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/BSc_ZoeLucius.md
