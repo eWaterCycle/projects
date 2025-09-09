@@ -15,3 +15,5 @@
 ### July 2025
 - added Bachelor report of Zoë Lucius
 
+### September 2025
+- added Bachelor report of Elke Schokking
