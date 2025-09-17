@@ -9,7 +9,7 @@ We have projects from different levels of education, including:
 - Master of Science (MSc) projects
 - PhD/PostDoc/Research projects
 
-## EGU Tutorial Users
+## Tutorial Users
 
 For the tutorial, first go to the [teachbook](https://www.ewatercycle.org/projects/main/intro.html), then use the GitHub Logo on the top right ![launch](book/figures/jupyterHub_launch.png) and click on JupyterHub.
 Go into folder: projects/book/tutorials_examples.
@@ -24,8 +24,8 @@ This will take you to a server on the Surf Research Cloud, where we have eWaterC
 - [References](https://www.ewatercycle.org/projects/main/references.html)
 
 Projects counter:
-- BSc projects: 4
-- MSc projects: 0
+- BSc projects: 6
+- MSc projects: 1
 - PhD/PostDoc/Research projects: 1
 
 ## eWaterCycle
@@ -36,3 +36,8 @@ An overall goal of this project is to make hydrological modelling fully reproduc
 Typically, the eWaterCycle platform is deployed on a system that can be accessed through the browser via JupyterHub, and comes preconfigured with readily available parameter sets, meteorological forcing data, model images, etcetera. 
 This makes it possible for researchers to quickly run an experiment without the hassle of installing a model or creating suitable input data. 
 To learn more about the system setup, read our [System setup](https://ewatercycle.readthedocs.io/en/latest/system_setup.html) page.
+
+## Getting started
+
+If you want to use eWaterCycle for your own research, please reach out to the team via our GitHub page.
+Once you have an account look at the [getting-started](https://www.ewatercycle.org/getting-started/main/intro.html) page to get started.

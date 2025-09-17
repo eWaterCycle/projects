@@ -1,5 +1,12 @@
-# Title - Zoe Lucius
+# The Future of the Kariba Dam - Zoë Lucius
 
 
 ## Abstract
 
+This report investigates the possible impacts of climate change on streamflow of the Zambezi river, drought frequency and the reliability of the Kariba dam as a source of energy. The Kariba dam is an integral component of the power supply for both Zambia and Zimbabwe, accounting for over 30% of the energy generating capacity in both countries. Recent droughts have raised concerns regarding the impact of climate change on the dam's ability to provide sufficient power reliably.
+
+The report investigates this question by determining the annual power demand of both countries and equating this to an annual average inflow needed of the Zambezi river into lake Kariba. The report relies on the eWaterCycle platform which is an open source that provides easy accessibility to complex hydrological and climate-models used in this report. Using this platform, the HBV mode is calibrated until it is deemed to fit the observed data adequately. Using the calibrated model, historic streamflow is simulated as well as streamflow predictions up until the year 2100 for five different climate scenarios. These five scenarios are the Shared Socio-economic Pathways SSP1-1.9, SSP1-2.6, SSP2-4.5, SSP3-7.0 and SSP 5-8.5 specified by the IPCC.
+
+In the result analysis, the historical data and future data predictions are compared to determine the impact of different climate scenarios on the Zambezi river discharge and thus on the reliability of the Kariba dam’s power output. This comparison is done with drought probability density distributions, cumulative probability distribution functions and return periods for each scenario.
+
+Although the results of this research are indicative of an increase in the frequency of extreme drought events for future climate scenarios, it cannot be said that the decreasing ability of the Kariba dam to meet its desired power output is solely due to the impacts of climate change. Rather there must be a wider consideration of social-economic factors to fully encompass the struggles the Kariba dam power station is facing. Zambia and Zimbabwe are both highly dependent on power from the dam to meet a large part of their power demand. The Kariba dam, as a hydropower source, has strict limitations in upscaling capacity. The lake Kariba is fed by the Zambezi river and with a specified volume inflow, power output is restricted. To tackle the issues of power shortage, not just the infrastructural resilience to climate change needs to be considered, but also wider infrastructural policy regarding hydropower dependence in the region and an overall low power generation capacity.
