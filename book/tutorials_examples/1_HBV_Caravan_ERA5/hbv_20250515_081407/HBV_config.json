@@ -1,7 +1,0 @@
-{
-    "precipitation_file": "/home/zoe/BEP-Zoe/book/tutorials_examples/1_HBV_Caravan_ERA5/esmvaltool_output/ewcrephp7f52xl_20250515_081058/work/diagnostic/script/OBS6_ERA5_reanaly_1_day_pr_1997-2000.nc",
-    "potential_evaporation_file": "/home/zoe/BEP-Zoe/book/tutorials_examples/1_HBV_Caravan_ERA5/esmvaltool_output/ewcrephp7f52xl_20250515_081058/work/diagnostic/script/Derived_Makkink_evspsblpot.nc",
-    "mean_temperature_file": "/home/zoe/BEP-Zoe/book/tutorials_examples/1_HBV_Caravan_ERA5/esmvaltool_output/ewcrephp7f52xl_20250515_081058/work/diagnostic/script/OBS6_ERA5_reanaly_1_day_tas_1997-2000.nc",
-    "parameters": "7.085,0.837,76.373,1.112,0.245,7.801,0.096,0.003,0.226",
-    "initial_storage": "0,100,0,5,0"
-}

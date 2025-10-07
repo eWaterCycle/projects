@@ -1,8 +1,0 @@
-start_time: '1997-08-01T00:00:00Z'
-end_time: '2000-08-31T00:00:00Z'
-shape: camelsgb_73010.shp
-filenames:
-  pr: OBS6_ERA5_reanaly_1_day_pr_1997-2000.nc
-  tas: OBS6_ERA5_reanaly_1_day_tas_1997-2000.nc
-  rsds: OBS6_ERA5_reanaly_1_day_rsds_1997-2000.nc
-  evspsblpot: Derived_Makkink_evspsblpot.nc
