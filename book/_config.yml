@@ -10,7 +10,8 @@ only_build_toc_files: true
 html:
   favicon : "figures/TUD_favicon.ico"
   baseurl :  "https://teachbooks.io/" #Replace this with your own URL
-
+  extra_js:
+    - _static/custom_launch_button.js
 sphinx:
   config:
     html_js_files:
