@@ -136,6 +136,11 @@ parts:
         - file: tutorials_examples/3_Zimbabwe/2a_CMIP_Zimbabwe.ipynb
         - file: tutorials_examples/3_Zimbabwe/2b_CMIP_Zimbabwe.ipynb
         - file: tutorials_examples/3_Zimbabwe/2c_CMIP_Zimbabwe.ipynb
+      - file: tutorials_examples/5_Kenya/1_HBV_Kenya.ipynb
+        sections:
+        - file: tutorials_examples/5_Kenya/2a_CMIP_Kenya.ipynb
+        - file: tutorials_examples/5_Kenya/2b_CMIP_Kenya.ipynb
+        - file: tutorials_examples/5_Kenya/2c_CMIP_Kenya.ipynb
 
       - file: colloquium/README.md
         sections:
