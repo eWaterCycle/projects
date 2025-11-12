@@ -26,7 +26,7 @@ sphinx:
       use_repository_button: true
       use_issues_button : true
       launch_buttons:
-        jupyterhub_url: https://ewatercyclegu25.ewatercycle-tud.src.surf-hosted.nl/jupyter
+        jupyterhub_url: https://ewatercycle2526.ewatercycle-tud.src.surf-hosted.nl/jupyter
         notebook_interface: "jupyterlab"
         thebe: true
     html_show_copyright: false
