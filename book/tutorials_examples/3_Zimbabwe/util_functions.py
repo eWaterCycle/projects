@@ -16,7 +16,7 @@ import ewatercycle.models
 import ewatercycle.forcing
 
 def get_station_names():
-    directory =  "/data/datasets/zimbabwe/camel_data"
+    directory =  "/data/shared/climate-data/camels_africa/zimbabwe/camel_data"
     station_names = dict()
 
     for root, dirs, files in os.walk(directory):
@@ -45,7 +45,7 @@ def stations_map(stations_dict):
     station_names = stations_dict
     
     # Folder with shapefiles
-    shapefile_dir = "/data/datasets/zimbabwe/camel_data/shapefiles"
+    shapefile_dir = "/data/shared/climate-data/camels_africa/zimbabwe/camel_data/shapefiles"
     
     # Load all shapefiles into one GeoDataFrame
     gdfs = []
@@ -375,7 +375,7 @@ def HBV(Par,forcing,S_in, hydrograph):
     return Qm
 
 def create_forcing_data_HBV_from_nc(start_date, end_date, camel_id):
-    central_path =  "/data/datasets/zimbabwe/camel_data"
+    central_path =  "/data/shared/climate-data/camels_africa/zimbabwe/camel_data"
     path_to_save = Path.home() / "my_data/workshop_zimbabwe"
     path_to_save.mkdir(exist_ok=True, parents=True)
     shape_file = central_path + "/shapefiles" + f"/{str(camel_id[:-2])}" + f"/{str(camel_id[:-2])}.shp"
