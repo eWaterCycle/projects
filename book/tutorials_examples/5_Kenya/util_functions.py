@@ -45,7 +45,7 @@ def stations_map(stations_dict):
     station_names = stations_dict
     
     # Folder with shapefiles
-    shapefile_dir = "/data/shared/climate-data/camels_africa/camel_data/shapefiles"
+    shapefile_dir = "/data/shared/climate-data/camels_africa/kenya/camel_data/shapefiles"
     
     # Load all shapefiles into one GeoDataFrame
     gdfs = []
