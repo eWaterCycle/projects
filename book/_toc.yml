@@ -130,34 +130,45 @@ parts:
       - file: tutorials_examples/2_HBV_PCRGlobWB_ERA5/example_model_run_pcrglobwb.ipynb
 
   - caption: Workshops
-    chapters:
-      - file: tutorials_examples/3_Zimbabwe/1_HBV_Zimbabwe.ipynb
-        sections:
-        - file: tutorials_examples/3_Zimbabwe/2a_CMIP_Zimbabwe.ipynb
-        - file: tutorials_examples/3_Zimbabwe/2b_CMIP_Zimbabwe.ipynb
-        - file: tutorials_examples/3_Zimbabwe/2c_CMIP_Zimbabwe.ipynb
-      - file: tutorials_examples/4_Ghana/1_HBV_Ghana.ipynb
-        sections:
-          - file: tutorials_examples/4_Ghana/2a_CMIP_Ghana.ipynb
-          - file: tutorials_examples/4_Ghana/2b_CMIP_Ghana.ipynb
-          - file: tutorials_examples/4_Ghana/2c_CMIP_Ghana.ipynb
-      - file: tutorials_examples/5_Kenya/1_HBV_Kenya.ipynb
-        sections:
-        - file: tutorials_examples/5_Kenya/2a_CMIP_Kenya.ipynb
-        - file: tutorials_examples/5_Kenya/2b_CMIP_Kenya.ipynb
-        - file: tutorials_examples/5_Kenya/2c_CMIP_Kenya.ipynb
-
-      - file: colloquium/README.md
-        sections:
-          - file: colloquium/step_0a_select_caravan_region_time_and_scenarios.ipynb
-          - file: colloquium/step_0b_select_CMIP_forcing.ipynb
-          - file: colloquium/step_1a_generate_historical_forcing.ipynb
-          - file: colloquium/step_1b_generate_future_forcing.ipynb
-          - file: colloquium/step_2a_calibrate_HBV_by_hand.ipynb
-          - file: colloquium/step_2b_calibrate_HBV_montecarlo.ipynb
-          - file: colloquium/step_3a_model_run_historical.ipynb
-          - file: colloquium/step_3b_model_run_future.ipynb
-          - file: colloquium/step_4_analyse.ipynb
+    - caption: Workshops SAFE4ALL
+        chapters:
+          - file: tutorials_examples/3_Zimbabwe/1_HBV_Zimbabwe.ipynb
+            sections:
+            - file: tutorials_examples/3_Zimbabwe/2a_CMIP_Zimbabwe.ipynb
+            - file: tutorials_examples/3_Zimbabwe/2b_CMIP_Zimbabwe.ipynb
+            - file: tutorials_examples/3_Zimbabwe/2c_CMIP_Zimbabwe.ipynb
+          - file: tutorials_examples/4_Ghana/1_HBV_Ghana.ipynb
+            sections:
+              - file: tutorials_examples/4_Ghana/2a_CMIP_Ghana.ipynb
+              - file: tutorials_examples/4_Ghana/2b_CMIP_Ghana.ipynb
+              - file: tutorials_examples/4_Ghana/2c_CMIP_Ghana.ipynb
+          - file: tutorials_examples/5_Kenya/1_HBV_Kenya.ipynb
+            sections:
+            - file: tutorials_examples/5_Kenya/2a_CMIP_Kenya.ipynb
+            - file: tutorials_examples/5_Kenya/2b_CMIP_Kenya.ipynb
+            - file: tutorials_examples/5_Kenya/2c_CMIP_Kenya.ipynb
+          - file: tutorials_examples/6_Africa/Workshop_Africa.md
+            sections:
+              - file: tutorials_examples/6_Africa/1a_HBV_Africa.ipynb
+              - file: tutorials_examples/6_Africa/1b_ERA5_Africa.ipynb
+              - file: tutorials_examples/6_Africa/2a_calibrate_HBV_montecarlo.ipynb
+              - file: tutorials_examples/6_Africa/2b_calibrate_HBV_SCE.ipynb
+              - file: tutorials_examples/6_Africa/3a_CMIP_Africa.ipynb
+              - file: tutorials_examples/6_Africa/3b_CMIP_Africa.ipynb
+              - file: tutorials_examples/6_Africa/3c_CMIP_Africa.ipynb
+            
+    - caption: Climate Impact Analysis (first draft)
+          - file: colloquium/README.md
+            sections:
+              - file: colloquium/step_0a_select_caravan_region_time_and_scenarios.ipynb
+              - file: colloquium/step_0b_select_CMIP_forcing.ipynb
+              - file: colloquium/step_1a_generate_historical_forcing.ipynb
+              - file: colloquium/step_1b_generate_future_forcing.ipynb
+              - file: colloquium/step_2a_calibrate_HBV_by_hand.ipynb
+              - file: colloquium/step_2b_calibrate_HBV_montecarlo.ipynb
+              - file: colloquium/step_3a_model_run_historical.ipynb
+              - file: colloquium/step_3b_model_run_future.ipynb
+              - file: colloquium/step_4_analyse.ipynb
 
   - caption: Credits
     chapters:

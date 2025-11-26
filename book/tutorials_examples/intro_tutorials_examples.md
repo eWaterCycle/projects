@@ -17,7 +17,10 @@ The examples are:
 We also had a bachelor student who did research into the Wien river!
 This can be found at ../thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG
 
+## SAFE4ALL
 
+If you attended an eWaterCycle workshop before, please go to folder 6_Africa.
+Otherwise, go to the folder of your country.
 
 
 

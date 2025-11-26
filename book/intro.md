@@ -9,7 +9,7 @@ We have projects from different levels of education, including:
 - Master of Science (MSc) projects
 - PhD/PostDoc/Research projects
 
-## Zimbabwe Workshop
+## SAFE4ALL Workshop
 
 For the workshop use the GitHub Logo on the top right ![launch](figures/jupyterHub_launch.png) (which will pop up in the [tutorial](https://www.ewatercycle.org/projects/main/tutorials_examples/1_HBV_Caravan_ERA5/example_model_run_HBV.html) itself, first go there) and click on JupyterHub.
 Go into folder: projects/book/tutorials_examples.
@@ -23,7 +23,7 @@ This will take you to a server on the Surf Research Cloud, where we have eWaterC
 - [References](https://www.ewatercycle.org/projects/main/references.html)
 
 Projects counter:
-- BSc projects: 4
+- BSc projects: 6
 - MSc projects: 0
 - PhD/PostDoc/Research projects: 1
 
