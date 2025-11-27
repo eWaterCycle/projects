@@ -158,6 +158,7 @@ parts:
       - file: tutorials_examples/6_Africa/3a_CMIP_Africa.ipynb
       - file: tutorials_examples/6_Africa/3b_CMIP_Africa.ipynb
       - file: tutorials_examples/6_Africa/3c_CMIP_Africa.ipynb
+      - file: tutorials_examples/6_Africa/4_analysis_Africa.ipynb
             
   - caption: Climate Impact Analysis (first draft)
     chapters:
