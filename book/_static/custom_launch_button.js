@@ -6,7 +6,7 @@ window.addEventListener("DOMContentLoaded", () => {
     <div id="customModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background-color:rgba(0,0,0,0.5); z-index:1000;">
       <div style="background:white; padding:20px; max-width:400px; margin:100px auto; border-radius:8px; box-shadow:0 2px 10px rgba(0,0,0,0.3);">
         <h3 style="margin-top:0;">Enter your JupyterHub URL</h3>
-        <input type="text" id="jupyterUrlInput" value="https://ewatercycle2526.ewatercycle-tud.src.surf-hosted.nl/jupyter" style="width:100%; padding:8px; margin-top:10px;"/>
+        <input type="text" id="jupyterUrlInput" value="https://extendingdcache.ewatercycle-tud.src.surf-hosted.nl/jupyter" style="width:100%; padding:8px; margin-top:10px;"/>
         <div style="margin-top:15px; text-align:right;">
           <button id="launchBtn" style="padding:8px 12px; margin-right:10px;">Launch</button>
           <button id="cancelBtn" style="padding:8px 12px;">Cancel</button>
@@ -51,7 +51,7 @@ window.addEventListener("DOMContentLoaded", () => {
       const repo = encodeURIComponent("https://github.com/eWaterCycle/projects");
       const branch = "workshops";
       // const notebookPath = "getting-started/book/content/first_model_run/first_run.ipynb"; // Change to your desired notebook
-      const notebookPath = "projects/book/colloquium/step_0a_select_caravan_region_time_and_scenarios.ipynb"; // Change to your desired notebook
+      const notebookPath = "projects/book/tutorials_examples/6_Africa/1a_HBV_Africa.ipynb"; // Change to your desired notebook
 
       const nbgitpullerUrl = `${baseUrl}/hub/user-redirect/git-pull?repo=${repo}&branch=${branch}&urlpath=lab/tree/${notebookPath}`;
       window.open(nbgitpullerUrl, "_blank");
