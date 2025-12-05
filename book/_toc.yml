@@ -277,12 +277,7 @@ parts:
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_77003/step_3b_model_run_future_executed.ipynb
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_77003/step_4_analyse_executed.ipynb
 
-  - caption: Tutorials
-    chapters:
-    - file: tutorials_examples/intro_tutorials_examples.md
-      sections:
-      - file: tutorials_examples/1_HBV_Caravan_ERA5/example_model_run_HBV.ipynb
-      - file: tutorials_examples/2_HBV_PCRGlobWB_ERA5/example_model_run_pcrglobwb.ipynb
+
   - caption: Credits
     chapters:
     - file: changelog.md
