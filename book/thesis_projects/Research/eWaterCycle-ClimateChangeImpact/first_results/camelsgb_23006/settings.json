@@ -1,0 +1,39 @@
+{
+    "caravan_id": "camelsgb_23006",
+    "calibration_start_date": "1994-08-01T00:00:00Z",
+    "calibration_end_date": "2004-07-31T00:00:00Z",
+    "validation_start_date": "2004-08-01T00:00:00Z",
+    "validation_end_date": "2014-07-31T00:00:00Z",
+    "future_start_date": "2029-08-01T00:00:00Z",
+    "future_end_date": "2049-08-31T00:00:00Z",
+    "CMIP_info": {
+        "dataset": [
+            "MPI-ESM1-2-HR"
+        ],
+        "ensembles": [
+            "r1i1p1f1"
+        ],
+        "experiments": [
+            "historical",
+            "ssp126",
+            "ssp245",
+            "ssp370",
+            "ssp585"
+        ],
+        "project": "CMIP6",
+        "frequency": "day",
+        "grid": "gn",
+        "variables": [
+            "pr",
+            "tas",
+            "rsds"
+        ]
+    },
+    "base_path": "/gpfs/scratch1/shared/mmelotto/ewatercycleClimateImpact/HBV",
+    "path_caravan": "/gpfs/scratch1/shared/mmelotto/ewatercycleClimateImpact/HBV/forcing_data/camelsgb_23006/caravan",
+    "path_ERA5": "/gpfs/scratch1/shared/mmelotto/ewatercycleClimateImpact/HBV/forcing_data/camelsgb_23006/ERA5",
+    "path_CMIP6": "/gpfs/scratch1/shared/mmelotto/ewatercycleClimateImpact/HBV/forcing_data/camelsgb_23006/CMIP6",
+    "path_output": "/gpfs/scratch1/shared/mmelotto/ewatercycleClimateImpact/HBV/output_data/camelsgb_23006",
+    "path_shape": "/gpfs/scratch1/shared/mmelotto/ewatercycleClimateImpact/HBV/forcing_data/camelsgb_23006/caravan/camelsgb_23006.shp",
+    "downloads": "/gpfs/scratch1/shared/mmelotto/ewatercycleClimateImpact/HBV/downloads/camelsgb_23006"
+}
