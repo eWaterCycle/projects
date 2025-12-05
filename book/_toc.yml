@@ -177,7 +177,7 @@ parts:
 
       - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/seamless.md
         sections:
-          - caption: camelsgb_22001
+          - caption: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22001/region.md
             sections:
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22001/step_0a_select_caravan_region_time_and_scenarios_executed.ipynb
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22001/step_0b_select_CMIP_forcing_executed.ipynb
@@ -188,7 +188,7 @@ parts:
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22001/step_3a_model_run_historical_executed.ipynb
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22001/step_3b_model_run_future_executed.ipynb
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22001/step_4_analyse_executed.ipynb
-          - caption: camelsgb_22006
+          - caption: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22006/region.md
             sections:
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22006/step_0a_select_caravan_region_time_and_scenarios_executed.ipynb
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22006/step_0b_select_CMIP_forcing_executed.ipynb
@@ -199,7 +199,7 @@ parts:
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22006/step_3a_model_run_historical_executed.ipynb
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22006/step_3b_model_run_future_executed.ipynb
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22006/step_4_analyse_executed.ipynb
-          - caption: camelsgb_22007
+          - caption: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22007/region.md
             sections:
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22007/step_0a_select_caravan_region_time_and_scenarios_executed.ipynb
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22007/step_0b_select_CMIP_forcing_executed.ipynb
@@ -210,7 +210,7 @@ parts:
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22007/step_3a_model_run_historical_executed.ipynb
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22007/step_3b_model_run_future_executed.ipynb
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22007/step_4_analyse_executed.ipynb
-          - caption: camelsgb_22009
+          - caption: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22009/region.md
             sections:
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22009/step_0a_select_caravan_region_time_and_scenarios_executed.ipynb
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22009/step_0b_select_CMIP_forcing_executed.ipynb
@@ -221,7 +221,7 @@ parts:
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22009/step_3a_model_run_historical_executed.ipynb
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22009/step_3b_model_run_future_executed.ipynb
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22009/step_4_analyse_executed.ipynb
-          - caption: camelsgb_23004
+          - caption: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23004/region.md
             sections:
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23004/step_0a_select_caravan_region_time_and_scenarios_executed.ipynb
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23004/step_0b_select_CMIP_forcing_executed.ipynb
@@ -232,7 +232,7 @@ parts:
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23004/step_3a_model_run_historical_executed.ipynb
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23004/step_3b_model_run_future_executed.ipynb
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23004/step_4_analyse_executed.ipynb
-          - caption: camelsgb_23006
+          - caption: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23006/region.md
             sections:
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23006/step_0a_select_caravan_region_time_and_scenarios_executed.ipynb
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23006/step_0b_select_CMIP_forcing_executed.ipynb
@@ -243,7 +243,7 @@ parts:
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23006/step_3a_model_run_historical_executed.ipynb
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23006/step_3b_model_run_future_executed.ipynb
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23006/step_4_analyse_executed.ipynb
-          - caption: camelsgb_23008
+          - caption: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23008/region.md
             sections:
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23008/step_0a_select_caravan_region_time_and_scenarios_executed.ipynb
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23008/step_0b_select_CMIP_forcing_executed.ipynb
@@ -254,7 +254,7 @@ parts:
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23008/step_3a_model_run_historical_executed.ipynb
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23008/step_3b_model_run_future_executed.ipynb
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23008/step_4_analyse_executed.ipynb
-          - caption: camelsgb_76008
+          - caption: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_76008/region.md
             sections:
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_76008/step_0a_select_caravan_region_time_and_scenarios_executed.ipynb
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_76008/step_0b_select_CMIP_forcing_executed.ipynb
@@ -265,7 +265,7 @@ parts:
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_76008/step_3a_model_run_historical_executed.ipynb
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_76008/step_3b_model_run_future_executed.ipynb
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_76008/step_4_analyse_executed.ipynb
-          - caption: camelsgb_77003
+          - caption: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_77003/region.md
             sections:
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_77003/step_0a_select_caravan_region_time_and_scenarios_executed.ipynb
               - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_77003/step_0b_select_CMIP_forcing_executed.ipynb
