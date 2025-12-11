@@ -1,0 +1,24 @@
+{
+    "caravan_id": "camelsgb_73010",
+    "calibration_start_date": "1980-08-01T00:00:00Z",
+    "calibration_end_date": "1985-07-31T00:00:00Z",
+    "future_start_date": "2029-08-01T00:00:00Z",
+    "future_end_date": "2049-07-31T00:00:00Z",
+    "base_path": "/home/mmelotto/my_data/workshop_canada",
+    "path_caravan": "/home/mmelotto/my_data/workshop_canada/forcing_data/camelsgb_73010/caravan",
+    "path_shape": "/home/mmelotto/my_data/workshop_canada/forcing_data/camelsgb_73010/caravan/camelsgb_73010.shp",
+    "path_ERA5": "/home/mmelotto/my_data/workshop_canada/forcing_data/camelsgb_73010/ERA5",
+    "path_CMIP6": "/home/mmelotto/my_data/workshop_canada/forcing_data/camelsgb_73010/CMIP6",
+    "path_output": "/home/mmelotto/my_data/workshop_canada/output_data/camelsgb_73010",
+    "hbv_parameters_manual": [
+        7.377,
+        1.0,
+        40.0,
+        0.5,
+        0.169,
+        1.0,
+        0.1,
+        0.01,
+        7.393
+    ]
+}

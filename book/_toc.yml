@@ -129,6 +129,19 @@ parts:
       - file: tutorials_examples/1_HBV_Caravan_ERA5/example_model_run_HBV.ipynb
       - file: tutorials_examples/2_HBV_PCRGlobWB_ERA5/example_model_run_pcrglobwb.ipynb
 
+  - caption: Workshops Canada
+    chapters:
+    - file: tutorials_examples/7_Canada/Workshop_Canada.md
+      sections:
+      - file: tutorials_examples/7_Canada/1a_HBV.ipynb
+      - file: tutorials_examples/7_Canada/1b_ERA5.ipynb
+      - file: tutorials_examples/7_Canada/2a_calibrate_HBV_montecarlo.ipynb
+      - file: tutorials_examples/7_Canada/2b_calibrate_HBV_SCE.ipynb
+      - file: tutorials_examples/7_Canada/3a_CMIP.ipynb
+      - file: tutorials_examples/7_Canada/3b_CMIP.ipynb
+      - file: tutorials_examples/7_Canada/4_analysis.ipynb
+
+    
   - caption: Workshops SAFE4ALL part 1
     chapters:
     - file: tutorials_examples/3_Zimbabwe/1_HBV_Zimbabwe.ipynb

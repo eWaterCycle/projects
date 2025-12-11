@@ -1,0 +1,48 @@
+{
+    "country": "Zimbabwe",
+    "caravan_id": "AF_1491830.0",
+    "calibration_start_date": "1961-10-01T00:00:00Z",
+    "calibration_end_date": "1978-11-21T00:00:00Z",
+    "future_start_date": "2029-08-01T00:00:00Z",
+    "future_end_date": "2049-08-31T00:00:00Z",
+    "base_path": "/home/mmelotto/my_data/workshop_africa",
+    "central_data_path": "/data/shared/climate-data/camels_africa/zimbabwe/camel_data",
+    "path_shape": "/data/shared/climate-data/camels_africa/zimbabwe/camel_data/shapefiles/AF_1491830/AF_1491830.shp",
+    "path_caravan": "/home/mmelotto/my_data/workshop_africa/forcing_data/AF_1491830.0/caravan",
+    "path_ERA5": "/home/mmelotto/my_data/workshop_africa/forcing_data/AF_1491830.0/ERA5",
+    "path_CMIP6": "/home/mmelotto/my_data/workshop_africa/forcing_data/AF_1491830.0/CMIP6",
+    "path_output": "/home/mmelotto/my_data/workshop_africa/output_data/AF_1491830.0",
+    "hbv_parameters": [
+        10.0,
+        0.87,
+        592.0,
+        1.4,
+        0.3,
+        1.0,
+        0.09,
+        0.01,
+        0.001
+    ],
+    "SCE_calibration_parameters": [
+        6.586012553845907,
+        1.0,
+        557.8536779504233,
+        2.939688843608312,
+        0.001,
+        1.0,
+        0.1,
+        0.00024827990873074545,
+        3.2087728977063117
+    ],
+    "monte_carlo_calibration_parameters": [
+        2.2809924457194377,
+        0.8237298558744328,
+        464.7470066408867,
+        1.5984658697300798,
+        0.29785129445020814,
+        1.1825488171931156,
+        0.07487754017358864,
+        0.008908532718571173,
+        5.605800944680686
+    ]
+}
