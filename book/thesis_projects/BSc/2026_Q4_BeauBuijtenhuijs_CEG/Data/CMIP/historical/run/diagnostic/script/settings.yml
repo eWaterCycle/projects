@@ -1,0 +1,13 @@
+auxiliary_data_dir: /data/shared/climate-data/aux
+input_files:
+- /home/beau/BEP-beau/BEP/code/CatchmentArea/CMIP6_/historical/preproc/diagnostic/pr/metadata.yml
+- /home/beau/BEP-beau/BEP/code/CatchmentArea/CMIP6_/historical/preproc/diagnostic/tas/metadata.yml
+- /home/beau/BEP-beau/BEP/code/CatchmentArea/CMIP6_/historical/preproc/diagnostic/rsds/metadata.yml
+log_level: info
+output_file_type: png
+plot_dir: /home/beau/BEP-beau/BEP/code/CatchmentArea/CMIP6_/historical/plots/diagnostic/script
+recipe: ewcrepj66j40k5.yml
+run_dir: /home/beau/BEP-beau/BEP/code/CatchmentArea/CMIP6_/historical/run/diagnostic/script
+script: script
+version: 2.11.1
+work_dir: /home/beau/BEP-beau/BEP/code/CatchmentArea/CMIP6_/historical/work/diagnostic/script
