@@ -152,6 +152,31 @@ parts:
               - file: thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/Report/References.ipynb
                 title: References
 
+      - file: thesis_projects/BSc/2026_Q4_BeauBuijtenhuijs_CEG/BSc_BeauBuijtenhuijs.md 
+        sections:
+              - file: thesis_projects/BSc/2026_Q4_BeauBuijtenhuijs_CEG/Report/0_Preface.ipynb 
+                title: Preface
+              - file: thesis_projects/BSc/2026_Q4_BeauBuijtenhuijs_CEG/Report/1_Introduction.ipynb 
+                title: Introduction
+              - file: thesis_projects/BSc/2026_Q4_BeauBuijtenhuijs_CEG/Report/2_Threshold_values.ipynb 
+                title: Threshold values
+              - file: thesis_projects/BSc/2026_Q4_BeauBuijtenhuijs_CEG/Report/3_HBV_model.ipynb 
+                title: HBV model
+              - file: thesis_projects/BSc/2026_Q4_BeauBuijtenhuijs_CEG/Report/4_Climate_scenarios.ipynb 
+                title: Climate scenarios
+              - file: thesis_projects/BSc/2026_Q4_BeauBuijtenhuijs_CEG/Report/5_Future_projections.ipynb 
+                title: Future projections
+              - file: thesis_projects/BSc/2026_Q4_BeauBuijtenhuijs_CEG/Report/6_Discussion.ipynb 
+                title: Discussion
+              - file: thesis_projects/BSc/2026_Q4_BeauBuijtenhuijs_CEG/Report/7_Conclusion.ipynb 
+                title: Conclusion
+              - file: thesis_projects/BSc/2026_Q4_BeauBuijtenhuijs_CEG/Report/z_Appendix_A.ipynb 
+                title: Appendix A
+              - file: thesis_projects/BSc/2026_Q4_BeauBuijtenhuijs_CEG/Report/z_Appendix_B.ipynb 
+                title: Appendix B
+              
+              
+
 
       - file: thesis_projects/MSc/overview_MSc_thesis_projects.md
 
