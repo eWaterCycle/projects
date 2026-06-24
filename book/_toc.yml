@@ -152,6 +152,29 @@ parts:
               - file: thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/Report/References.ipynb
                 title: References
 
+          - file: thesis_projects/BSc/2026_Q4_NielsEijer_CEG/BSc_NielsEijer.md
+            sections:
+              - file: thesis_projects/BSc/2026_Q4_NielsEijer_CEG/Report/00_Samenvatting.ipynb
+                title: Samenvatting
+              - file: thesis_projects/BSc/2026_Q4_NielsEijer_CEG/Report/00_Voorwoord.ipynb
+                title: Voorwoord
+              - file: thesis_projects/BSc/2026_Q4_NielsEijer_CEG/Report/01_Introductie.ipynb
+                title: Introductie
+              - file: thesis_projects/BSc/2026_Q4_NielsEijer_CEG/Report/02_Systeem_en_Literatuurachtergrond.ipynb
+                title: Systeem- en literatuurachtergrond
+              - file: thesis_projects/BSc/2026_Q4_NielsEijer_CEG/Report/03_Methode.ipynb
+                title: Methode
+              - file: thesis_projects/BSc/2026_Q4_NielsEijer_CEG/Report/04_Resultaten.ipynb
+                title: Resultaten
+              - file: thesis_projects/BSc/2026_Q4_NielsEijer_CEG/Report/05_Discussie.ipynb
+                title: Discussie
+              - file: thesis_projects/BSc/2026_Q4_NielsEijer_CEG/Report/06_Conclusies_en_aanbevelingen.ipynb
+                title: Conclusies en aanbevelingen
+              - file: thesis_projects/BSc/2026_Q4_NielsEijer_CEG/Report/07_Referenties.ipynb
+                title: Referenties
+              - file: thesis_projects/BSc/2026_Q4_NielsEijer_CEG/Report/Belangrijkstecodes.ipynb
+                title: Belangrijkste codes
+
 
       - file: thesis_projects/MSc/overview_MSc_thesis_projects.md
 
