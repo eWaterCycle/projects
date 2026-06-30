@@ -17,3 +17,8 @@
 
 ### September 2025
 - added Bachelor report of Elke Schokking
+
+### June 2026
+- added Bachelor report of Beau Buijtenhuijs
+- added Bachelor report of Maxime de Bekker
+- added Bachelor report of Niels Eijer
