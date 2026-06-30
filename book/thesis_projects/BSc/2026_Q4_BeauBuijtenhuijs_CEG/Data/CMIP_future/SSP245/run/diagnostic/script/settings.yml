@@ -1,0 +1,13 @@
+auxiliary_data_dir: /data/shared/climate-data/aux
+input_files:
+- /home/beau/BEP-beau/BEP/code/CMIP/CMIP6_future/SSP245/preproc/diagnostic/pr/metadata.yml
+- /home/beau/BEP-beau/BEP/code/CMIP/CMIP6_future/SSP245/preproc/diagnostic/tas/metadata.yml
+- /home/beau/BEP-beau/BEP/code/CMIP/CMIP6_future/SSP245/preproc/diagnostic/rsds/metadata.yml
+log_level: info
+output_file_type: png
+plot_dir: /home/beau/BEP-beau/BEP/code/CMIP/CMIP6_future/SSP245/plots/diagnostic/script
+recipe: ewcreps7oz5gze.yml
+run_dir: /home/beau/BEP-beau/BEP/code/CMIP/CMIP6_future/SSP245/run/diagnostic/script
+script: script
+version: 2.11.1
+work_dir: /home/beau/BEP-beau/BEP/code/CMIP/CMIP6_future/SSP245/work/diagnostic/script

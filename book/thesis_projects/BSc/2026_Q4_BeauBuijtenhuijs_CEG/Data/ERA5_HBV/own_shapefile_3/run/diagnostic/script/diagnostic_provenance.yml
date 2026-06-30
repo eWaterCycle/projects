@@ -1,0 +1,36 @@
+? /home/beau/BEP-beau/BEP/code/CatchmentArea/ERA5_3/own_shapefile_3/work/diagnostic/script/OBS6_ERA5_reanaly_1_day_pr_1970-2020.nc
+: ancestors:
+  - /home/beau/BEP-beau/BEP/code/CatchmentArea/ERA5_3/own_shapefile_3/preproc/diagnostic/pr/OBS6_ERA5_reanaly_1_day_pr_1970-2020.nc
+  authors:
+  - unmaintained
+  caption: Forcings for generic hydrological model
+  domains:
+  - global
+  projects:
+  - ewatercycle
+  references:
+  - acknow_project
+? /home/beau/BEP-beau/BEP/code/CatchmentArea/ERA5_3/own_shapefile_3/work/diagnostic/script/OBS6_ERA5_reanaly_1_day_rsds_1970-2020.nc
+: ancestors:
+  - /home/beau/BEP-beau/BEP/code/CatchmentArea/ERA5_3/own_shapefile_3/preproc/diagnostic/rsds/OBS6_ERA5_reanaly_1_day_rsds_1970-2020.nc
+  authors:
+  - unmaintained
+  caption: Forcings for generic hydrological model
+  domains:
+  - global
+  projects:
+  - ewatercycle
+  references:
+  - acknow_project
+? /home/beau/BEP-beau/BEP/code/CatchmentArea/ERA5_3/own_shapefile_3/work/diagnostic/script/OBS6_ERA5_reanaly_1_day_tas_1970-2020.nc
+: ancestors:
+  - /home/beau/BEP-beau/BEP/code/CatchmentArea/ERA5_3/own_shapefile_3/preproc/diagnostic/tas/OBS6_ERA5_reanaly_1_day_tas_1970-2020.nc
+  authors:
+  - unmaintained
+  caption: Forcings for generic hydrological model
+  domains:
+  - global
+  projects:
+  - ewatercycle
+  references:
+  - acknow_project

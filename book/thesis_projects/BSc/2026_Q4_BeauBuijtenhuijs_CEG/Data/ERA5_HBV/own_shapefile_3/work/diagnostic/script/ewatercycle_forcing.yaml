@@ -1,0 +1,8 @@
+start_time: '1970-01-01T00:00:00Z'
+end_time: '2020-12-31T00:00:00Z'
+shape: CatchmentArea_4326.shp
+filenames:
+  pr: OBS6_ERA5_reanaly_1_day_pr_1970-2020.nc
+  tas: OBS6_ERA5_reanaly_1_day_tas_1970-2020.nc
+  rsds: OBS6_ERA5_reanaly_1_day_rsds_1970-2020.nc
+  evspsblpot: Derived_Makkink_evspsblpot.nc

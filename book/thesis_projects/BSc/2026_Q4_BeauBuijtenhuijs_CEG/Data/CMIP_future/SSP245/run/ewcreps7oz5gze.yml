@@ -1,0 +1,67 @@
+documentation:
+  title: Generic lumped forcing recipe
+  description: Generic lumped forcing recipe
+  authors:
+  - unmaintained
+  projects:
+  - ewatercycle
+datasets:
+- dataset: MPI-ESM1-2-HR
+  project: CMIP6
+  ensemble: r1i1p1f1
+  exp: ssp245
+  mip: day
+  grid: gn
+  activity: ScenarioMIP
+  institute: DKRZ
+preprocessors:
+  spatial:
+    extract_shape:
+      shapefile: /home/beau/BEP-beau/BEP/code/CatchmentArea/CatchmentArea_4326.shp
+      crop: true
+      decomposed: false
+    area_statistics:
+      operator: mean
+  pr:
+    extract_shape:
+      shapefile: /home/beau/BEP-beau/BEP/code/CatchmentArea/CatchmentArea_4326.shp
+      crop: true
+      decomposed: false
+    area_statistics:
+      operator: mean
+  tas:
+    extract_shape:
+      shapefile: /home/beau/BEP-beau/BEP/code/CatchmentArea/CatchmentArea_4326.shp
+      crop: true
+      decomposed: false
+    area_statistics:
+      operator: mean
+  rsds:
+    extract_shape:
+      shapefile: /home/beau/BEP-beau/BEP/code/CatchmentArea/CatchmentArea_4326.shp
+      crop: true
+      decomposed: false
+    area_statistics:
+      operator: mean
+diagnostics:
+  diagnostic:
+    scripts:
+      script:
+        script: 
+          /opt/conda/envs/ewatercycle2/lib/python3.12/site-packages/ewatercycle/esmvaltool/diagnostic/copier.py
+    variables:
+      pr:
+        start_year: 2027
+        end_year: 2099
+        mip: day
+        preprocessor: pr
+      tas:
+        start_year: 2027
+        end_year: 2099
+        mip: day
+        preprocessor: tas
+      rsds:
+        start_year: 2027
+        end_year: 2099
+        mip: day
+        preprocessor: rsds

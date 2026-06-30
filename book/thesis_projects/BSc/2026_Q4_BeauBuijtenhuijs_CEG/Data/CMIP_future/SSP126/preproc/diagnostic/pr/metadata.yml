@@ -1,0 +1,26 @@
+? /home/beau/BEP-beau/BEP/code/CMIP/CMIP6_future/SSP126/preproc/diagnostic/pr/CMIP6_MPI-ESM1-2-HR_day_ssp126_r1i1p1f1_pr_gn_2027-2099.nc
+: activity: ScenarioMIP
+  alias: MPI-ESM1-2-HR
+  dataset: MPI-ESM1-2-HR
+  diagnostic: diagnostic
+  end_year: 2099
+  ensemble: r1i1p1f1
+  exp: ssp126
+  filename: /home/beau/BEP-beau/BEP/code/CMIP/CMIP6_future/SSP126/preproc/diagnostic/pr/CMIP6_MPI-ESM1-2-HR_day_ssp126_r1i1p1f1_pr_gn_2027-2099.nc
+  frequency: day
+  grid: gn
+  institute: DKRZ
+  long_name: Precipitation
+  mip: day
+  modeling_realm:
+  - atmos
+  preprocessor: pr
+  project: CMIP6
+  recipe_dataset_index: 0
+  short_name: pr
+  standard_name: precipitation_flux
+  start_year: 2027
+  timerange: 2027/2099
+  units: kg m-2 s-1
+  variable_group: pr
+  version: v20190710

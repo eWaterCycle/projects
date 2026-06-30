@@ -1,0 +1,36 @@
+? /home/beau/BEP-beau/BEP/code/CatchmentArea/CMIP6_/historical/work/diagnostic/script/CMIP6_MPI-ESM1-2-HR_day_historical_r1i1p1f1_pr_gn_1970-2014.nc
+: ancestors:
+  - /home/beau/BEP-beau/BEP/code/CatchmentArea/CMIP6_/historical/preproc/diagnostic/pr/CMIP6_MPI-ESM1-2-HR_day_historical_r1i1p1f1_pr_gn_1970-2014.nc
+  authors:
+  - unmaintained
+  caption: Forcings for generic hydrological model
+  domains:
+  - global
+  projects:
+  - ewatercycle
+  references:
+  - acknow_project
+? /home/beau/BEP-beau/BEP/code/CatchmentArea/CMIP6_/historical/work/diagnostic/script/CMIP6_MPI-ESM1-2-HR_day_historical_r1i1p1f1_rsds_gn_1970-2014.nc
+: ancestors:
+  - /home/beau/BEP-beau/BEP/code/CatchmentArea/CMIP6_/historical/preproc/diagnostic/rsds/CMIP6_MPI-ESM1-2-HR_day_historical_r1i1p1f1_rsds_gn_1970-2014.nc
+  authors:
+  - unmaintained
+  caption: Forcings for generic hydrological model
+  domains:
+  - global
+  projects:
+  - ewatercycle
+  references:
+  - acknow_project
+? /home/beau/BEP-beau/BEP/code/CatchmentArea/CMIP6_/historical/work/diagnostic/script/CMIP6_MPI-ESM1-2-HR_day_historical_r1i1p1f1_tas_gn_1970-2014.nc
+: ancestors:
+  - /home/beau/BEP-beau/BEP/code/CatchmentArea/CMIP6_/historical/preproc/diagnostic/tas/CMIP6_MPI-ESM1-2-HR_day_historical_r1i1p1f1_tas_gn_1970-2014.nc
+  authors:
+  - unmaintained
+  caption: Forcings for generic hydrological model
+  domains:
+  - global
+  projects:
+  - ewatercycle
+  references:
+  - acknow_project
