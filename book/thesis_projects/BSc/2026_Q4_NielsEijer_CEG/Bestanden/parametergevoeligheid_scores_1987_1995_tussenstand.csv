@@ -1,0 +1,11 @@
+run_name,file,bias,rmse,log_nse,bias_low_1600,mae_low_1600,grdc_days_below_1600,model_days_below_1600,diff_days_below_1600,grdc_days_below_1020,model_days_below_1020,diff_days_below_1020,grdc_p10,model_p10,diff_p10,grdc_p17,model_p17,diff_p17
+sens_FirstZoneCapacity_x1p25,sens_FirstZoneCapacity_x1p25_lobith_daily.csv,710.1,1998.63,-0.94,-116.22,575.02,1150,1291,141,125,812,687,1187.2,572.26,-614.94,1310.62,779.24,-531.38
+sens_FirstZoneKsatVer_x0p75,sens_FirstZoneKsatVer_x0p75_lobith_daily.csv,710.1,1998.63,-0.94,-116.22,575.02,1150,1291,141,125,812,687,1187.2,572.26,-614.94,1310.62,779.24,-531.38
+sens_InfiltCapSoil_x1p25,sens_InfiltCapSoil_x1p25_lobith_daily.csv,710.1,1998.63,-0.94,-116.22,575.02,1150,1291,141,125,812,687,1187.2,572.26,-614.94,1310.62,779.24,-531.38
+sens_MaxCanopyStorage_x0p75,sens_MaxCanopyStorage_x0p75_lobith_daily.csv,721.4,2005.52,-0.93,-108.78,575.95,1150,1284,134,125,804,679,1187.2,576.41,-610.79,1310.62,783.59,-527.03
+sens_N_Floodplain_x1p25,sens_N_Floodplain_x1p25_lobith_daily.csv,710.1,1998.63,-0.94,-116.22,575.02,1150,1291,141,125,812,687,1187.2,572.26,-614.94,1310.62,779.24,-531.38
+sens_N_River_x1p25,sens_N_River_x1p25_lobith_daily.csv,709.76,1912.76,-0.79,-90.25,551.86,1150,1265,115,125,780,655,1187.2,609.42,-577.78,1310.62,811.16,-499.46
+sens_N_x1p25,sens_N_x1p25_lobith_daily.csv,709.75,1949.19,-0.81,-104.22,558.28,1150,1272,122,125,795,670,1187.2,600.21,-586.99,1310.62,807.94,-502.68
+sens_PET_x0p90,sens_PET_x0p90_lobith_daily.csv,987.99,2256.18,-0.95,55.32,635.29,1150,1121,-29,125,692,567,1187.2,648.4,-538.8,1310.62,879.59,-431.03
+sens_PET_x0p95,sens_PET_x0p95_lobith_daily.csv,847.86,2126.1,-0.93,-33.91,598.95,1150,1211,61,125,757,632,1187.2,603.01,-584.19,1310.62,830.79,-479.83
+sens_RootingDepth_x0p75,sens_RootingDepth_x0p75_lobith_daily.csv,731.0,2024.48,-0.95,-103.1,581.15,1150,1281,131,125,804,679,1187.2,577.05,-610.15,1310.62,784.62,-526.0
