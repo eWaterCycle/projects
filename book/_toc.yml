@@ -203,19 +203,19 @@ parts:
               - file: thesis_projects/BSc/2026_Q4_MaximedeBekker_CEG/Report/AI_Statement.ipynb
                 title: AI Statement
               - file: thesis_projects/BSc/2026_Q4_MaximedeBekker_CEG/Report/Appendix_A_Snow_depletion_curve.ipynb
-                title: Appendix A: Snow depletion curve
+                title: "Appendix A: Snow depletion curve"
               - file: thesis_projects/BSc/2026_Q4_MaximedeBekker_CEG/Report/Appendix_B_Calibration_output_parameters.ipynb
-                title: Appendix B: Calibration output parameters
+                title: "Appendix B: Calibration output parameters"
               - file: thesis_projects/BSc/2026_Q4_MaximedeBekker_CEG/Report/Appendix_C_Calibration_code.ipynb
-                title: Appendix C: Calibration output parameters
+                title: "Appendix C: Calibration output parameters"
               - file: thesis_projects/BSc/2026_Q4_MaximedeBekker_CEG/Report/Appendix_D_Validation_results_per_year.ipynb
-                title: Appendix D: Validation results per year
+                title: "Appendix D: Validation results per year"
               - file: thesis_projects/BSc/2026_Q4_MaximedeBekker_CEG/Report/Appendix_E_Forcing_data_analysis.ipynb
-                title: Appendix E: Forcing data analysis
+                title: "Appendix E: Forcing data analysis"
               - file: thesis_projects/BSc/2026_Q4_MaximedeBekker_CEG/Report/Appendix_F_ERA5_Forcings_Generation.ipynb
-                title: Appendix F: ERA5 Forcings generation
+                title: "Appendix F: ERA5 Forcings generation"
               - file: thesis_projects/BSc/2026_Q4_MaximedeBekker_CEG/Report/Appendix_G_CMIP6_Forcings_Generation.ipynb
-                title: Appendix G: CMIP6 Forcings generation
+                title: "Appendix G: CMIP6 Forcings generation"
 
 
           - file: thesis_projects/BSc/2026_Q4_NielsEijer_CEG/BSc_NielsEijer.md
