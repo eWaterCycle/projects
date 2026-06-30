@@ -21,6 +21,19 @@ The projects are listed in chronological order.
   - [pdf version (ask us)]
   - taken from [Zoë's GitHub page](https://github.com/zlucius/BEP-Zoe)
 
+- 2026 Q4 by Beau Buijtenhuijs: [Impact of Climate Change on the Okavango River: The impact of the future discharge on the water supply of Okavango Basin](https://www.ewatercycle.org/projects/main/thesis_projects/BSc/2026_Q4_BeauBuijtenhuijs_CEG/Report/00_Abstract.html)
+  - [pdf version (ask us)]
+  - taken from [Beau's GitHub page](https://github.com/BeauBuijtenhuijs/BEP-beau)
+- 2026 Q4 by Julian Steenhuisen: [Droogte in het Brokopondomeer: De effecten van klimaatverandering op de Surinamerivier (Dutch report)](https://www.ewatercycle.org/projects/main/thesis_projects/BSc/)
+  - [pdf version (ask us)]
+  - taken from [Julian's GitHub page](https://github.com/jlsteenhuisen/BEP-Julian/tree/BEP-Julian)
+- 2026 Q4 by Maxime de Bekker: [The influence of climate change on the river discharge of the Lower Athabasca River and its implications for navigation](https://www.ewatercycle.org/projects/main/thesis_projects/BSc/2026_Q4_MaximedeBekker_CEG/BSc_MaximedeBekker.html)
+  - [pdf version (ask us)]
+  - taken from [Maxime's GitHub page](https://github.com/M4x9733/BEP-maxime)
+- 2026 Q4 by Niels Eijer: [Bevaarbaarheid van de IJssel: Een kwantitatieve analyse van de invloed van klimaatverandering onder low-flow conditions (Dutch report)](https://www.ewatercycle.org/projects/main/thesis_projects/BSc/2026_Q4_NielsEijer_CEG/BSc_NielsEijer.html)
+  - [pdf version (ask us)]
+  - taken from [Niels' GitHub page](https://github.com/nielseijer/BEP-Niels/tree/BEP-Niels)
+
 [Back to overview of projects](https://www.ewatercycle.org/projects/main/intro.html)
 
 

@@ -153,28 +153,28 @@ parts:
                 title: References
 
 
-      - file: thesis_projects/BSc/2026_Q4_BeauBuijtenhuijs_CEG/Report/00_Abstract.ipynb
-        sections:
-              - file: thesis_projects/BSc/2026_Q4_BeauBuijtenhuijs_CEG/Report/0_Preface.ipynb 
-                title: Preface
-              - file: thesis_projects/BSc/2026_Q4_BeauBuijtenhuijs_CEG/Report/1_Introduction.ipynb 
-                title: Introduction
-              - file: thesis_projects/BSc/2026_Q4_BeauBuijtenhuijs_CEG/Report/2_Threshold_values.ipynb 
-                title: Threshold values
-              - file: thesis_projects/BSc/2026_Q4_BeauBuijtenhuijs_CEG/Report/3_HBV_model.ipynb 
-                title: HBV model
-              - file: thesis_projects/BSc/2026_Q4_BeauBuijtenhuijs_CEG/Report/4_Climate_scenarios.ipynb 
-                title: Climate scenarios
-              - file: thesis_projects/BSc/2026_Q4_BeauBuijtenhuijs_CEG/Report/5_Future_projections.ipynb 
-                title: Future projections
-              - file: thesis_projects/BSc/2026_Q4_BeauBuijtenhuijs_CEG/Report/6_Discussion.ipynb 
-                title: Discussion
-              - file: thesis_projects/BSc/2026_Q4_BeauBuijtenhuijs_CEG/Report/7_Conclusion.ipynb 
-                title: Conclusion
-              - file: thesis_projects/BSc/2026_Q4_BeauBuijtenhuijs_CEG/Report/z_Appendix_A.ipynb 
-                title: Appendix A
-              - file: thesis_projects/BSc/2026_Q4_BeauBuijtenhuijs_CEG/Report/z_Appendix_B.ipynb 
-                title: Appendix B
+          - file: thesis_projects/BSc/2026_Q4_BeauBuijtenhuijs_CEG/Report/00_Abstract.ipynb
+            sections:
+                  - file: thesis_projects/BSc/2026_Q4_BeauBuijtenhuijs_CEG/Report/0_Preface.ipynb
+                    title: Preface
+                  - file: thesis_projects/BSc/2026_Q4_BeauBuijtenhuijs_CEG/Report/1_Introduction.ipynb
+                    title: Introduction
+                  - file: thesis_projects/BSc/2026_Q4_BeauBuijtenhuijs_CEG/Report/2_Threshold_values.ipynb
+                    title: Threshold values
+                  - file: thesis_projects/BSc/2026_Q4_BeauBuijtenhuijs_CEG/Report/3_HBV_model.ipynb
+                    title: HBV model
+                  - file: thesis_projects/BSc/2026_Q4_BeauBuijtenhuijs_CEG/Report/4_Climate_scenarios.ipynb
+                    title: Climate scenarios
+                  - file: thesis_projects/BSc/2026_Q4_BeauBuijtenhuijs_CEG/Report/5_Future_projections.ipynb
+                    title: Future projections
+                  - file: thesis_projects/BSc/2026_Q4_BeauBuijtenhuijs_CEG/Report/6_Discussion.ipynb
+                    title: Discussion
+                  - file: thesis_projects/BSc/2026_Q4_BeauBuijtenhuijs_CEG/Report/7_Conclusion.ipynb
+                    title: Conclusion
+                  - file: thesis_projects/BSc/2026_Q4_BeauBuijtenhuijs_CEG/Report/z_Appendix_A.ipynb
+                    title: Appendix A
+                  - file: thesis_projects/BSc/2026_Q4_BeauBuijtenhuijs_CEG/Report/z_Appendix_B.ipynb
+                    title: Appendix B
               
               
 
@@ -211,7 +211,7 @@ parts:
               - file: thesis_projects/BSc/2026_Q4_MaximedeBekker_CEG/Report/Appendix_D_Validation_results_per_year.ipynb
                 title: Appendix D: Validation results per year
               - file: thesis_projects/BSc/2026_Q4_MaximedeBekker_CEG/Report/Appendix_E_Forcing_data_analysis.ipynb
-                title: Appendix E: Forcing data analysis             
+                title: Appendix E: Forcing data analysis
               - file: thesis_projects/BSc/2026_Q4_MaximedeBekker_CEG/Report/Appendix_F_ERA5_Forcings_Generation.ipynb
                 title: Appendix F: ERA5 Forcings generation
               - file: thesis_projects/BSc/2026_Q4_MaximedeBekker_CEG/Report/Appendix_G_CMIP6_Forcings_Generation.ipynb
@@ -239,7 +239,7 @@ parts:
               - file: thesis_projects/BSc/2026_Q4_NielsEijer_CEG/Report/07_Referenties.ipynb
                 title: Referenties
               - file: thesis_projects/BSc/2026_Q4_NielsEijer_CEG/Report/Belangrijkstecodes.ipynb
-                title: Belangrijkste codes                
+                title: Belangrijkste codes
                 
       - file: thesis_projects/MSc/overview_MSc_thesis_projects.md
 
