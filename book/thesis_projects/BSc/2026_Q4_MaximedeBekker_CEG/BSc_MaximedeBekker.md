@@ -14,3 +14,5 @@ To assess navigation constraints, a critical discharge threshold of 500 m3/s at 
 The results show that annual low flow days are generally higher in the future compared to the historical period. The observed period contains an average of 27 annual low flow days, while future periods range between 31 and 49 annual low flow days depending on the climate scenario. SSP370 shows a weak increasing trend over time. Extreme low flow years become more frequent in all future scenarios. The open water season is also projected to expand, with earlier river ice break up and later freeze up.
 
 These results indicate that climate change is expected to increase navigation constraints in the Lower Athabasca River, especially under SSP370.
+
+[Original GitHub](https://github.com/M4x9733/BEP-maxime)
