@@ -220,8 +220,8 @@ parts:
 
           - file: thesis_projects/BSc/2026_Q4_NielsEijer_CEG/BSc_NielsEijer.md
             sections:
-              - file: thesis_projects/BSc/2026_Q4_NielsEijer_CEG/Report/00_Samenvatting.ipynb
-                title: Samenvatting
+#              - file: thesis_projects/BSc/2026_Q4_NielsEijer_CEG/Report/00_Samenvatting.ipynb
+#                title: Samenvatting
               - file: thesis_projects/BSc/2026_Q4_NielsEijer_CEG/Report/00_Voorwoord.ipynb
                 title: Voorwoord
               - file: thesis_projects/BSc/2026_Q4_NielsEijer_CEG/Report/01_Introductie.ipynb
