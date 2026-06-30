@@ -1,3 +1,0 @@
-Date and time (UTC)	Real time (s)	CPU time (s)	CPU (%)	Memory (GB)	Memory (%)	Disk read (GB)	Disk write (GB)
-2025-05-09 14:49:16.754262	1.0	1.0	0	0.2	1	0.013	0.0
-2025-05-09 14:49:17.757445	2.0	1.9	97	0.3	2	0.013	0.0
