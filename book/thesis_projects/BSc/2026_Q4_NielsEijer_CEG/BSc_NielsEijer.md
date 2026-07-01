@@ -38,4 +38,3 @@ lokale vaargeulafmetingen niet zijn doorgerekend. Voor een vervolgonderzoek word
 afvoerverdeling expliciet hydraulisch te modelleren en een directe koppeling te maken met een lokaal
 hydraulisch model van de IJssel.
 
-[Original GitHub](https://github.com/nielseijer/BEP-Niels/tree/BEP-Niels)

@@ -15,4 +15,3 @@ The results show that annual low flow days are generally higher in the future co
 
 These results indicate that climate change is expected to increase navigation constraints in the Lower Athabasca River, especially under SSP370.
 
-[Original GitHub](https://github.com/M4x9733/BEP-maxime)
