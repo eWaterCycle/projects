@@ -151,7 +151,35 @@ parts:
                 title: Conclusion and Recommendations
               - file: thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/Report/References.ipynb
                 title: References
+                - file: thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/BSc_ZoeLucius.md
 
+          - file: thesis_projects/BSc/2026_Q4_JulianSteenhuisen_CEG/BSc_JulianSteenhuisen.md
+            sections:
+              - file: thesis_projects/BSc/2026_Q4_JulianSteenhuisen_CEG/Report/0_Voorwoord.ipynb
+                title: Voorwoord
+              - file: thesis_projects/BSc/2026_Q4_JulianSteenhuisen_CEG/Report/1_Inleiding.ipynb
+                title: Inleiding
+              - file: thesis_projects/BSc/2026_Q4_JulianSteenhuisen_CEG/Report/2_Literatuur_onderzoek.ipynb
+                title: Literatuur onderzoek
+              - file: thesis_projects/BSc/2026_Q4_JulianSteenhuisen_CEG/Report/3_Opzet_van_het_onderzoek.ipynb
+                title: Opzet van het onderzoek
+              - file: thesis_projects/BSc/2026_Q4_JulianSteenhuisen_CEG/Report/4_Het_model.ipynb
+                title: Het model
+              - file: thesis_projects/BSc/2026_Q4_JulianSteenhuisen_CEG/Report/5_Droogte_analyse.ipynb
+                title: Droogte analyse
+              - file: thesis_projects/BSc/2026_Q4_JulianSteenhuisen_CEG/Report/6_Toekomstige_klimaatscenarios.ipynb
+                title: Toekomstige klimaatscenarios
+              - file: thesis_projects/BSc/2026_Q4_JulianSteenhuisen_CEG/Report/7_Resultaten.ipynb
+                title: Resultaten
+              - file: thesis_projects/BSc/2026_Q4_JulianSteenhuisen_CEG/Report/8_Conclusie_en_aanbevelingen.ipynb
+                title: Conclusie en aanbevelingen
+              - file: thesis_projects/BSc/2026_Q4_JulianSteenhuisen_CEG/Report/9_Discussie.ipynb
+                title: Discussie
+              - file: thesis_projects/BSc/2026_Q4_JulianSteenhuisen_CEG/Report/Bronnenlijst.ipynb
+                title: Bronnenlijst
+                file: thesis_projects/BSc/2026_Q4_JulianSteenhuisen_CEG/Report/Appendix_A.ipynb
+                title: Appendix
+                - file: thesis_projects/BSc/2026_Q4_JulianSteenhuisen_CEG/BSc_JulianSteenhuisen.md            
 
           - file: thesis_projects/BSc/2026_Q4_BeauBuijtenhuijs_CEG/Report/00_Abstract.ipynb
             sections:

@@ -1,0 +1,9 @@
+# Droogte in het Brokopondomeer - Julian Steenhuisen
+
+
+## Abstract
+Klimaatverandering wordt verwacht de hydrologische systemen wereldwijd aan te tasten. Dit onderzoek zal kijken naar de impact van klimaatverandering op de instroom van het Blommenstein stuwmeer voor de stroomgeneratie van de Afobakadam. De belangrijkste toevoer van het Blommensteinmeer, in de volksmond het Brokopondomeer genoemd, is de Surinamerivier met een stroomgebied dat zich volledig in de Amazone jungle bevindt. 
+
+De Afobakadam in Suriname is verantwoordelijk voor de helft van de stroomvoorziening in het land, het verlagen of stilvallen van de stroomgeneratie zal het hele land verstoren. Dit onderzoek is uitgevoerd worden op het eWatercycle platform met een zelfgemaakt model en ERA5 forcing data om de instroom in het Brokopondomeer te relateren aan neerslag en verdamping van het stroomgebied. Deze instroom is in een eerste model berekend aan de hand van diepte, oppervlakte en verdampingsdata van het stuwmeer. De instroom is gemodelleerd om historische data te genereren waar het tweede model op gekalibreerd is om voorspellingen te kunnen doen voor de toekomst aan de hand van CMIP-data. Deze voorspellingen bestaan uit 3 klimaatscenario’s met ieder neerslag en verdamping verwachtingen gebaseerd op broeikaseffect simulaties. Deze CMIP-data is in model 2 gebruikt om afvoerhoeveelheden te verkrijgen tussen 2027 en 2100, welke vervolgens teruggerekend zijn naar waterhoogtes in het Brokopondomeer. 
+
+In 2 klimaatscenario’s blijft het meer boven de kritische hoogte tot 2030 en de ander tot 2035. Dit is de waterhoogte waarop er niet genoeg vermogen geleverd kan worden. De zeer kritische hoogte wordt in 1 scenario in 2035 bereikt en door de andere 2 pas definitief bereikt in 2050. Hierna is het meer onbruikbaar in alle simulaties. Het is te concluderen dat het meer grote negatieve gevolgen zal ondervinden aan klimaatverandering als het watergebruik onveranderd blijft. 
