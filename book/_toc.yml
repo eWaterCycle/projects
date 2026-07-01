@@ -195,7 +195,7 @@ parts:
               - file: thesis_projects/BSc/2026_Q4_JulianSteenhuisen_CEG/Rapport/7_Resultaten.ipynb
                 title: Resultaten
               - file: thesis_projects/BSc/2026_Q4_JulianSteenhuisen_CEG/Rapport/8_Conclusie_en_aanbevelingen.ipynb
-                title: Conclusie en aanbevelingen
+                title: "Conclusie en aanbevelingen"
               - file: thesis_projects/BSc/2026_Q4_JulianSteenhuisen_CEG/Rapport/9_Discussie.ipynb
                 title: Discussie
               - file: thesis_projects/BSc/2026_Q4_JulianSteenhuisen_CEG/Rapport/Bronnenlijst.ipynb
