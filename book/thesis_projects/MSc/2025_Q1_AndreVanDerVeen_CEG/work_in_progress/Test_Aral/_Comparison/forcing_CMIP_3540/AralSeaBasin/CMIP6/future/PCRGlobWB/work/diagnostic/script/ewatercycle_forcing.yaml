@@ -1,0 +1,8 @@
+start_time: '1935-01-01T00:00:00Z'
+end_time: '1940-12-31T00:00:00Z'
+shape: AralSeaBasin.shp
+filenames: {}
+precipitationNC: 
+  pcrglobwb_CMIP6_MPI-ESM1-2-HR_day_historical_r1i1p1f1_pr_gn_1935-1940_AralSeaBasin.nc
+temperatureNC: 
+  pcrglobwb_CMIP6_MPI-ESM1-2-HR_day_historical_r1i1p1f1_tas_gn_1935-1940_AralSeaBasin.nc

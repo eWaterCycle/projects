@@ -1,0 +1,26 @@
+name: aral_env
+channels:
+  - bioconda
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.10
+  - snakemake
+  - pulp
+  - numpy
+  - pandas
+  - scipy
+  - xarray
+  - matplotlib
+  - tqdm
+  - cartopy
+  - rasterio
+  - fiona
+  - pyproj
+  - shapely
+  - pydantic
+  - requests
+  - pytest
+  - pip
+  - pip:
+      - python_cmethods==2.3.2

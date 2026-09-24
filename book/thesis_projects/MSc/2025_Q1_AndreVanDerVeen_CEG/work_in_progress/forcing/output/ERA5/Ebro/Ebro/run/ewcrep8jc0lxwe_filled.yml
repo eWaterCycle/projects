@@ -1,0 +1,92 @@
+documentation:
+  title: PCR-GLOBWB forcing recipe
+  description: PCR-GLOBWB forcing recipe
+  authors:
+  - unmaintained
+  projects:
+  - ewatercycle
+preprocessors:
+  spatial:
+    extract_region:
+      start_longitude: -11
+      end_longitude: 11
+      start_latitude: 34
+      end_latitude: 50
+  pr:
+    extract_region:
+      start_longitude: -11
+      end_longitude: 11
+      start_latitude: 34
+      end_latitude: 50
+    convert_units:
+      units: kg m-2 d-1
+  tas:
+    extract_region:
+      start_longitude: -11
+      end_longitude: 11
+      start_latitude: 34
+      end_latitude: 50
+  pr_climatology:
+    extract_region:
+      start_longitude: -11
+      end_longitude: 11
+      start_latitude: 34
+      end_latitude: 50
+    convert_units:
+      units: kg m-2 d-1
+    climate_statistics:
+      operator: mean
+      period: day
+  tas_climatology:
+    extract_region:
+      start_longitude: -11
+      end_longitude: 11
+      start_latitude: 34
+      end_latitude: 50
+    climate_statistics:
+      operator: mean
+      period: day
+  default: {}
+diagnostics:
+  diagnostic:
+    scripts:
+      script:
+        script: hydrology/pcrglobwb.py
+        basin: Ebro
+    variables:
+      pr:
+        mip: day
+        preprocessor: pr
+        project: OBS6
+        tier: 3
+        type: reanaly
+        version: 1
+        timerange: 2015/2016
+      tas:
+        mip: day
+        preprocessor: tas
+        project: OBS6
+        tier: 3
+        type: reanaly
+        version: 1
+        timerange: 2015/2016
+      pr_climatology:
+        mip: day
+        preprocessor: pr_climatology
+        short_name: pr
+        project: OBS6
+        tier: 3
+        type: reanaly
+        version: 1
+        timerange: 2015/2016
+      tas_climatology:
+        mip: day
+        preprocessor: tas_climatology
+        short_name: tas
+        project: OBS6
+        tier: 3
+        type: reanaly
+        version: 1
+        timerange: 2015/2016
+datasets:
+- dataset: ERA5

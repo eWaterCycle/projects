@@ -1,0 +1,8 @@
+start_time: '1955-01-01T00:00:00Z'
+end_time: '1970-12-31T00:00:00Z'
+shape: AralSeaBasin.shp
+filenames:
+  pr: CMIP6_MPI-ESM1-2-HR_day_historical_r1i1p1f1_pr_gn_1955-1970.nc
+  tas: CMIP6_MPI-ESM1-2-HR_day_historical_r1i1p1f1_tas_gn_1955-1970.nc
+  rsds: CMIP6_MPI-ESM1-2-HR_day_historical_r1i1p1f1_rsds_gn_1955-1970.nc
+  evspsblpot: Derived_Makkink_evspsblpot.nc

@@ -1,0 +1,6 @@
+start_time: '1995-01-01T00:00:00Z'
+end_time: '2000-12-31T00:00:00Z'
+shape: data_example/kemijoki/shapefiles/kemijoki.shp
+filenames: {}
+precipitationNC: pcrglobwb_OBS6_ERA5_reanaly_1_day_pr_1995-2000_kemijoki.nc
+temperatureNC: pcrglobwb_OBS6_ERA5_reanaly_1_day_tas_1995-2000_kemijoki.nc

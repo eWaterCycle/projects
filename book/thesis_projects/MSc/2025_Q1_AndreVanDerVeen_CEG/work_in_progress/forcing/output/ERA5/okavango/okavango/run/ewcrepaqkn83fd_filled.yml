@@ -1,0 +1,92 @@
+documentation:
+  title: PCR-GLOBWB forcing recipe
+  description: PCR-GLOBWB forcing recipe
+  authors:
+  - unmaintained
+  projects:
+  - ewatercycle
+preprocessors:
+  spatial:
+    extract_region:
+      start_longitude: 11
+      end_longitude: 23
+      start_latitude: -20
+      end_latitude: -11
+  pr:
+    extract_region:
+      start_longitude: 11
+      end_longitude: 23
+      start_latitude: -20
+      end_latitude: -11
+    convert_units:
+      units: kg m-2 d-1
+  tas:
+    extract_region:
+      start_longitude: 11
+      end_longitude: 23
+      start_latitude: -20
+      end_latitude: -11
+  pr_climatology:
+    extract_region:
+      start_longitude: 11
+      end_longitude: 23
+      start_latitude: -20
+      end_latitude: -11
+    convert_units:
+      units: kg m-2 d-1
+    climate_statistics:
+      operator: mean
+      period: day
+  tas_climatology:
+    extract_region:
+      start_longitude: 11
+      end_longitude: 23
+      start_latitude: -20
+      end_latitude: -11
+    climate_statistics:
+      operator: mean
+      period: day
+  default: {}
+diagnostics:
+  diagnostic:
+    scripts:
+      script:
+        script: hydrology/pcrglobwb.py
+        basin: Okavango
+    variables:
+      pr:
+        mip: day
+        preprocessor: pr
+        project: OBS6
+        tier: 3
+        type: reanaly
+        version: 1
+        timerange: 1999/2000
+      tas:
+        mip: day
+        preprocessor: tas
+        project: OBS6
+        tier: 3
+        type: reanaly
+        version: 1
+        timerange: 1999/2000
+      pr_climatology:
+        mip: day
+        preprocessor: pr_climatology
+        short_name: pr
+        project: OBS6
+        tier: 3
+        type: reanaly
+        version: 1
+        timerange: 1999/2000
+      tas_climatology:
+        mip: day
+        preprocessor: tas_climatology
+        short_name: tas
+        project: OBS6
+        tier: 3
+        type: reanaly
+        version: 1
+        timerange: 1999/2000
+datasets:
+- dataset: ERA5

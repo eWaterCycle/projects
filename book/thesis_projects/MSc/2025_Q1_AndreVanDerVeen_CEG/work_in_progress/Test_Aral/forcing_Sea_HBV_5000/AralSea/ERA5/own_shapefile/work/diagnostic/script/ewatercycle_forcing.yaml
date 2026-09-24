@@ -1,0 +1,8 @@
+start_time: '1950-01-01T00:00:00Z'
+end_time: '2000-12-31T00:00:00Z'
+shape: AralSea.shp
+filenames:
+  pr: OBS6_ERA5_reanaly_1_day_pr_1950-2000.nc
+  tas: OBS6_ERA5_reanaly_1_day_tas_1950-2000.nc
+  rsds: OBS6_ERA5_reanaly_1_day_rsds_1950-2000.nc
+  evspsblpot: Derived_Makkink_evspsblpot.nc

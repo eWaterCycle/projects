@@ -1,0 +1,6 @@
+start_time: '1940-01-01T00:00:00Z'
+end_time: '2020-12-31T00:00:00Z'
+shape: AralSea_basin.shp
+filenames: {}
+precipitationNC: pcrglobwb_OBS6_ERA5_reanaly_1_day_pr_1940-2020_AralSea_basin.nc
+temperatureNC: pcrglobwb_OBS6_ERA5_reanaly_1_day_tas_1940-2020_AralSea_basin.nc

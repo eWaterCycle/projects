@@ -1,0 +1,699 @@
+# ── Project Metadata ──────────────────────────────────
+project:
+  title: Aral Sea Level Modelling
+  type: MSc Thesis
+  institution: TU Delft
+  Author: A.B. van der Veen
+  version: "0.1"
+  date: 2024-06-01
+  description: all the configuration parameters for the Aral Sea level modelling project, including paths, model parameters, experiments, plotting settings, and station information.
+
+
+# ── Paths ─────────────────────────────────────────────
+paths:
+  project_root:  "/home/avandervee3/MSc_AralSea/book/thesis_projects/MSc/2025_Q1_AndreVanDerVeen_CEG/Report"
+
+
+  #code and notebook directories
+  src_dir:       ./src
+  scripts_dir:   ./scripts
+  notebooks_dir: ./notebooks
+
+  #data directories
+  data_dir:      ./data
+  clonemaps_dir: ./data/clonemaps
+  grdc_dir:      ./data/grdc
+  shapefiles_dir: ./data/shapefiles
+  forcing_dir:   ./data/forcing
+
+  #configuration directories
+  config_dir:    ./config
+
+  #output directories
+  output_dir:    ./outputs
+  results_dir:   ./results
+  aral_sea_results_dir: ./results/aral_sea
+  figures_dir:   ./results/figures
+
+
+
+
+# -- Meteorological Forcing Data --
+forcing:
+  basin: "AralSea_basin"
+
+  models: ["MIROC6", "CanESM5", "FGOALS-g3", "MPI-ESM1-2-HR", "MRI-ESM2-0", "NorESM2-LM"] #EC-Earth3 is not working
+  ensemble: ["r1i1p1f1"]
+  scenarios: ["ssp126", "ssp245", "ssp370", "ssp585"]
+  ewatercycle_tail: "work/diagnostic/script"
+
+
+runtime:
+  pcrglobwb_container_image: "/home/avandervee3/ewatercycle_pcr_25mar.sif"
+
+
+
+
+simulation_period:
+  historical_cmip_start_date: "1940-01-01T00:00:00Z"
+  historical_cmip_end_date: "2014-12-31T00:00:00Z"
+  future_start_date: "2015-01-01T00:00:00Z"
+  future_end_date: "2100-12-31T00:00:00Z"
+  era5_start_date: "1940-01-01T00:00:00Z"
+  era5_end_date: "2020-12-31T00:00:00Z"
+
+
+
+
+# =========================
+# TIME DEFINITIONS (source of truth)
+# =========================
+time_blocks:
+
+  era5_1940_1970:
+    start_date: "1940-01-01T00:00:00Z"
+    end_date: "1970-12-31T00:00:00Z"
+
+  era5_1965_1995:
+    start_date: "1965-01-01T00:00:00Z"
+    end_date: "1995-12-31T00:00:00Z"
+
+  era5_1990_2020:
+    start_date: "1990-01-01T00:00:00Z"
+    end_date: "2020-12-31T00:00:00Z"
+
+  cmip_hist_1940_1970:
+    start_date: "1940-01-01T00:00:00Z"
+    end_date: "1970-12-31T00:00:00Z"
+
+  cmip_hist_1965_1995:
+    start_date: "1965-01-01T00:00:00Z"
+    end_date: "1995-12-31T00:00:00Z"
+
+  cmip_hist_1990_2014:
+    start_date: "1990-01-01T00:00:00Z"
+    end_date: "2014-12-31T00:00:00Z"
+
+  cmip_fut_2015_2047:
+    start_date: "2015-01-01T00:00:00Z"
+    end_date: "2047-12-31T00:00:00Z"
+
+  cmip_fut_2042_2074:
+    start_date: "2042-01-01T00:00:00Z"
+    end_date: "2074-12-31T00:00:00Z"
+
+  cmip_fut_2069_2100:
+    start_date: "2069-01-01T00:00:00Z"
+    end_date: "2100-12-30T00:00:00Z"
+
+  test_1990_short:
+    start_date: "1990-01-01T00:00:00Z"
+    end_date: "1990-03-31T00:00:00Z"
+
+
+# =========================
+# ACTIVE EXPERIMENT GROUPS
+# =========================
+active_time_blocks:
+
+  era5:
+    - era5_1940_1970
+    - era5_1965_1995
+    - era5_1990_2020
+
+  cmip_hist:
+    - cmip_hist_1940_1970
+    - cmip_hist_1965_1995
+    - cmip_hist_1990_2014
+
+  cmip_fut:
+    - cmip_fut_2015_2047
+    - cmip_fut_2042_2074
+    - cmip_fut_2069_2100
+
+  test:
+    - test_1990_short
+
+
+# =========================
+# PARAMETER SETS
+# =========================
+parameter_sets:
+
+  uncalibrated:
+    path: "data/ini_file/uncalibrated.ini"
+    description: "Raw baseline model without calibration"
+
+  overall_calibrated:
+    path: "data/ini_file/calibration_overall.ini"
+    description: "General calibration against all discharge observations"
+
+  amu_calibrated:
+    path: "data/ini_file/calibrated_amu_inflow.ini"
+    description: "Calibration focused on Amu Darya inflow"
+
+  syr_calibrated:
+    path: "data/ini_file/calibrated_syr_inflow.ini"
+    description: "Calibration focused on Syr Darya inflow"
+
+
+
+
+
+
+# =========================
+# station information - used in building discharge observation dataset and in plotting
+# =========================
+
+discharge_stations:
+  - name: 'Tyumen-aryk'
+    station_key: 'Tyumen-aryk'
+    grdc_id: '2316200'
+    lat: 43.95
+    lon: 67.05
+    weight: 467.974358
+  - name: 'Kazalinsk'
+    station_key: 'Kazalinsk'
+    grdc_id: '2316201'
+    lat: 45.7
+    lon: 62.12
+    weight: 230
+  - name: 'Karaozek'
+    station_key: 'Karaozek'
+    grdc_id: '2316204'
+    lat: 44.96
+    lon: 65.29
+    weight: 230
+  - name: 'Kal'
+    station_key: 'Kal'
+    grdc_id: '2416202'
+    lat: 40.875
+    lon: 71.45
+    weight: 300.000000
+  - name: 'Dazgon'
+    station_key: 'Dazgon'
+    grdc_id: '2416660'
+    lat: 39.792
+    lon: 69.29
+    weight: 26.683328
+  - name: 'Andarhan'
+    station_key: 'Andarhan'
+    grdc_id: '2416665'
+    lat: 39.96
+    lon: 69.875
+    weight: 41.713307
+  - name: 'Paulgan'
+    station_key: 'Paulgan'
+    grdc_id: '2416670'
+    lat: 40.125
+    lon: 71.71
+    weight: 36.055513
+  - name: 'Uch-korgon'
+    station_key: 'Uch-korgon'
+    grdc_id: '2416680'
+    lat: 40.29
+    lon: 72.04
+    weight: 47.116876
+  - name: 'Mikhailovskoe'
+    station_key: 'Mikhailovskoe'
+    grdc_id: '2416690'
+    lat: 41.125
+    lon: 73.21
+    weight: 31.780497
+  - name: 'Aktash'
+    station_key: 'Aktash'
+    grdc_id: '2416710'
+    lat: 40.542
+    lon: 73.875
+    weight: 30.116441
+  - name: 'Salamalik'
+    station_key: 'Salamalik'
+    grdc_id: '2416720'
+    lat: 40.79
+    lon: 73.625
+    weight: 34.351128
+  - name: 'Gulcha'
+    station_key: 'Gulcha'
+    grdc_id: '2416730'
+    lat: 40.29
+    lon: 73.46
+    weight: 52.345009
+  - name: 'Ust. Djumgol'
+    station_key: 'Ust. Djumgol'
+    grdc_id: '2416750'
+    lat: 41.79
+    lon: 74.29
+    weight: 72.732386
+  - name: 'Chalma'
+    station_key: 'Chalma'
+    grdc_id: '2416760'
+    lat: 40.625
+    lon: 73.625
+    weight: 61.967734
+  - name: 'Charvak'
+    station_key: 'Charvak'
+    grdc_id: '2416770'
+    lat: 41.21
+    lon: 72.96
+    weight: 36.055513
+  - name: 'Changet'
+    station_key: 'Changet'
+    grdc_id: '2416780'
+    lat: 40.875
+    lon: 73.125
+    weight: 19.519221
+  - name: 'Tuleken'
+    station_key: 'Tuleken'
+    grdc_id: '2416800'
+    lat: 40.375
+    lon: 72.875
+    weight: 49.295030
+  - name: 'Ust. Karakol'
+    station_key: 'Ust. Karakol'
+    grdc_id: '2416810'
+    lat: 40.375
+    lon: 72.625
+    weight: 40.987803
+  - name: 'Ust. Kairagach'
+    station_key: 'Ust. Kairagach'
+    grdc_id: '2416840'
+    lat: 41.125
+    lon: 74.71
+    weight: 23.021729
+  - name: 'Uch-kurgan'
+    station_key: 'Uch-kurgan'
+    grdc_id: '2416850'
+    lat: 41.125
+    lon: 72.125
+    weight: 241.660919
+  - name: 'Ust. Kekirim'
+    station_key: 'Ust. Kekirim'
+    grdc_id: '2416860'
+    lat: 41.45
+    lon: 73.96
+    weight: 186.010752
+  - name: 'Donguztay'
+    station_key: 'Donguztay'
+    grdc_id: '2416880'
+    lat: 40.875
+    lon: 73.54
+    weight: 12.884099
+  - name: 'Naryn'
+    station_key: 'Naryn'
+    grdc_id: '2416890'
+    lat: 41.45
+    lon: 75.95
+    weight: 102.469508
+  - name: 'Ust. Tostu'
+    station_key: 'Ust. Tostu'
+    grdc_id: '2416900'
+    lat: 41.625
+    lon: 71.71
+    weight: 19.131126
+  - name: 'Tash-kurgan'
+    station_key: 'Tash-kurgan'
+    grdc_id: '2516590'
+    lat: 40.21
+    lon: 70.54
+    weight: 39.496835
+  - name: 'Dupuli'
+    station_key: 'Dupuli'
+    grdc_id: '2517450'
+    lat: 39.54
+    lon: 67.79
+    weight: 100.995049
+  - name: 'Alibegi'
+    station_key: 'Alibegi'
+    grdc_id: '2517470'
+    lat: 38.625
+    lon: 68.54
+    weight: 19.026298
+  - name: 'Karatag'
+    station_key: 'Karatag'
+    grdc_id: '2517475'
+    lat: 38.625
+    lon: 68.29
+    weight: 26.153394
+  - name: 'Sudgina'
+    station_key: 'Sudgina'
+    grdc_id: '2517480'
+    lat: 39.46
+    lon: 67.71
+    weight: 33.166248
+  - name: 'Dagana-ata'
+    station_key: 'Dagana-ata'
+    grdc_id: '2517550'
+    lat: 38.792
+    lon: 68.792
+    weight: 35.637059
+  - name: 'Chinor'
+    station_key: 'Chinor'
+    grdc_id: '2517600'
+    lat: 38.54
+    lon: 69.04
+    weight: 55.136195
+  - name: 'Tartki'
+    station_key: 'Tartki'
+    grdc_id: '2517610'
+    lat: 37.625
+    lon: 68.125
+    weight: 98.893883
+  - name: 'Khorog'
+    station_key: 'Khorog'
+    grdc_id: '2517700'
+    lat: 37.54
+    lon: 71.54
+    weight: 117.046999
+  - name: 'Khabost'
+    station_key: 'Khabost'
+    grdc_id: '2517710'
+    lat: 37.46
+    lon: 71.625
+    weight: 64.652920
+  - name: 'Barchadiv'
+    station_key: 'Barchadiv'
+    grdc_id: '2517820'
+    lat: 38.29
+    lon: 72.46
+    weight: 129.228480
+  - name: 'Ustie'
+    station_key: 'Ustie'
+    grdc_id: '2517840'
+    lat: 38.33
+    lon: 72.47
+    weight: 67.082039
+  - name: 'Motravn'
+    station_key: 'Motravn'
+    grdc_id: '2517850'
+    lat: 38.21
+    lon: 71.45
+    weight: 44.045431
+  - name: 'Tutkaul'
+    station_key: 'Tutkaul'
+    grdc_id: '2517900'
+    lat: 38.35
+    lon: 69.3
+    weight: 176.635217
+  - name: 'Garm'
+    station_key: 'Garm'
+    grdc_id: '2517920'
+    lat: 39.04
+    lon: 70.29
+    weight: 141.421356
+  - name: 'Kerki'
+    station_key: 'Kerki'
+    grdc_id: '2617110'
+    lat: 37.80
+    lon: 65.28
+    weight: 555.877684
+  - name: 'Bekabad'
+    station_key: 'Bekabad'
+    grdc_id: '2816203'
+    lat: 40.21
+    lon: 69.29
+    weight: 376.828874
+  - name: 'Hodjikent'
+    station_key: 'Hodjikent'
+    grdc_id: '2816550'
+    lat: 41.625
+    lon: 69.96
+    weight: 104.403065
+  - name: 'Sarykanda'
+    station_key: 'Sarykanda'
+    grdc_id: '2816650'
+    lat: 40.125
+    lon: 71.125
+    weight: 49.799598
+  - name: 'Chatly'
+    station_key: 'Chatly'
+    grdc_id: '2817100'
+    lat: 42.2
+    lon: 60.21
+    weight: 670.820393
+  - name: 'Chirakchi'
+    station_key: 'Chirakchi'
+    grdc_id: '2817300'
+    lat: 39.04
+    lon: 66.46
+    weight: 67.453688
+  - name: 'Varganza'
+    station_key: 'Varganza'
+    grdc_id: '2817310'
+    lat: 38.875
+    lon: 67.125
+    weight: 22.605309
+  - name: 'Manguzar'
+    station_key: 'Manguzar'
+    grdc_id: '2817400'
+    lat: 37.29
+    lon: 67.45
+    weight: 116.189500
+  - name: 'King Guzar'
+    station_key: 'King Guzar'
+    grdc_id: '2817410'
+    lat: 38.45
+    lon: 67.875
+    weight: 30.016662
+  - name: 'Khazarnova'
+    station_key: 'Khazarnova'
+    grdc_id: '2817460'
+    lat: 39.04
+    lon: 67.21
+    weight: 29.068884
+  - name: 'Obizarang'
+    station_key: 'Obizarang'
+    grdc_id: '2817630'
+    lat: 38.292
+    lon: 67.96
+    weight: 51.283526
+
+
+# =========================
+# Karakum Canal Experiment
+# =========================
+karakum_experiment:
+  removal_scaling_factor: 0.6
+  karakum_canal_csv: "data/karakum/KarakumCanal.csv"
+  karalkum_ini: "./data/ini_file/calibrated_amu_inflow_karakum_experiment.ini" #parameter_set_ini
+  era5_forcing_dir: "/data/volume/forcing/pcrglobwb_input_aral_sea/ERA5/"
+  pcrglobwb_container: "/home/avandervee3/ewatercycle_pcr_25mar.sif"
+  PCR_GLOBAL_PARAMS: "/data/shared/parameter-sets/pcrglobwb_global"
+  single_point_coords: [61, 127]
+  multi_point_coords:
+    - [61, 127]
+    - [61, 128]
+    - [60, 128]
+    - [59, 129]
+    - [59, 130]
+    - [58, 131]
+    - [62, 126]
+    - [62, 125]
+    - [63, 124]
+    - [63, 123]
+    - [63, 122]
+    - [63, 121]
+  stations:
+    Chatly: {lat: 42.2, lon: 60.21}
+    Kerki: {lat: 37.80, lon: 65.28}
+
+
+# =========================
+# Aral_Sea Experiment
+# =========================
+
+aral_sea_experiment:
+  final_station_historical: ./results/runs/pcrglobwb/stations/final/historical.nc
+  final_station_future: ./results/runs/pcrglobwb/stations/final/future.nc
+  shapefile_path: ./data/shapefiles/AralSea/AralSea.shp
+  bathymetry_path: ./data/bathymetry/ahv_curve.csv
+  MAKKINK_FACTOR: 1.15  # Makkink correction factor (dimensionless) for open water evaporation estimation
+  GROUNDWATER_INFLOW: 0.0027397260273972603  # fallback groundwater inflow (km3/day)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# # PCRGLOB Parameters
+# pcrglob:
+#   # -- General Parameters --
+
+
+#   # -- Simulation Parameters --
+#   # Note: split all the experiments for computational reasons. Otherwise model runs would take 3 days instead of 1 day, which is impractical for testing and using the model.
+#   # Also stability, if one crashes, you don't lose the whole run, just a part of it and you can easily restart that part.
+#   # as we are only looking at discharges and not long term processes as groundwater storage 
+#   # parts will be merged in post-processing. Explained in the thesis.
+#   era5_experiments:
+#     era5_1940_1970:
+#       start_date: "1940-01-01T00:00:00Z"
+#       end_date: "1970-12-31T00:00:00Z"
+
+#     era5_1965_1995:
+#       start_date: "1965-01-01T00:00:00Z"
+#       end_date: "1995-12-31T00:00:00Z"
+
+#     era5_1990_2020:
+#       start_date: "1990-01-01T00:00:00Z"
+#       end_date: "2020-12-31T00:00:00Z"
+
+#   cmip_historical_experiments: 
+#     cmip_historical_run1:
+#       start_date: "1940-01-01T00:00:00Z"
+#       end_date: "1970-12-31T00:00:00Z"
+
+#     cmip_historical_run2:
+#       start_date: "1965-01-01T00:00:00Z"
+#       end_date: "1995-12-31T00:00:00Z"
+
+#     cmip_historical_run3:
+#       start_date: "1990-01-01T00:00:00Z"
+#     end_date: "2014-12-31T00:00:00Z"
+
+#   cmip_future_experiments:
+#     cmip_future_run1:
+#       start_date: "2015-01-01T00:00:00Z"
+#       end_date: "2047-12-31T00:00:00Z"
+
+#     cmip_future_run2:
+#       start_date: "2042-01-01T00:00:00Z"
+#       end_date: "2074-12-31T00:00:00Z"
+
+#     cmip_future_run3:
+#       start_date: "2069-01-01T00:00:00Z"
+#       end_date: "2100-12-30T00:00:00Z"
+
+#   test_experiment:
+#     start_date: "1990-01-01T00:00:00Z" #this is just for testing the model on a shorter period, not to be used in the final runs
+#     end_date: "1990-03-31T00:00:00Z" #this is just for testing the model on a shorter period, not to be used in the final runs
+
+
+# # -- Model Parameters --
+# parameter_sets:
+#   uncalibrated:
+#     path: "data/clonemaps/uncalibrated.ini"
+#     description: "Raw baseline model without calibration"
+
+#   overall_calibrated:
+#     path: "data/clonemaps/calibration_overall.ini"
+#     description: "General calibration against all discharge observations"
+
+#   amu_calibrated:
+#     path: "data/clonemaps/calibrated_amu_inflow.ini"
+#     description: "Calibration focused on Amu Darya inflow"
+
+#   syr_calibrated:
+#     path: "data/clonemaps/calibrated_syr_inflow.ini"
+#     description: "Calibration focused on Syr Darya inflow"
+
+# time_blocks:
+
+#   era5_1940_1970:
+#     start_date: "1940-01-01T00:00:00Z"
+#     end_date: "1970-12-31T00:00:00Z"
+
+#   era5_1965_1995:
+#     start_date: "1965-01-01T00:00:00Z"
+#     end_date: "1995-12-31T00:00:00Z"
+
+#   era5_1990_2020:
+#     start_date: "1990-01-01T00:00:00Z"
+#     end_date: "2020-12-31T00:00:00Z"
+
+#   cmip_hist_1940_1970:
+#     start_date: "1940-01-01T00:00:00Z"
+#     end_date: "1970-12-31T00:00:00Z"
+
+#   cmip_hist_1965_1995:
+#     start_date: "1965-01-01T00:00:00Z"
+#     end_date: "1995-12-31T00:00:00Z"
+
+#   cmip_hist_1990_2014:
+#     start_date: "1990-01-01T00:00:00Z"
+#     end_date: "2014-12-31T00:00:00Z"
+
+#   cmip_fut_2015_2047:
+#     start_date: "2015-01-01T00:00:00Z"
+#     end_date: "2047-12-31T00:00:00Z"
+
+#   cmip_fut_2042_2074:
+#     start_date: "2042-01-01T00:00:00Z"
+#     end_date: "2074-12-31T00:00:00Z"
+
+#   cmip_fut_2069_2100:
+#     start_date: "2069-01-01T00:00:00Z"
+#     end_date: "2100-12-30T00:00:00Z"
+
+#   test_1990_short:
+#     start_date: "1990-01-01T00:00:00Z"
+#     end_date: "1990-03-31T00:00:00Z"
+
+# active_time_blocks:
+
+#   era5:
+#     blocks:
+#       - era5_1940_1970
+#       - era5_1965_1995
+#       - era5_1990_2020
+
+#   cmip_hist:
+#     blocks:
+#       - cmip_hist_1940_1970
+#       - cmip_hist_1965_1995
+#       - cmip_hist_1990_2014
+
+#   cmip_fut:
+#     blocks:
+#       - cmip_fut_2015_2047
+#       - cmip_fut_2042_2074
+#       - cmip_fut_2069_2100
+
+#   test:
+#     blocks:
+#       - test_1990_short
+  
+# parameter_set_rules:
+
+#   era5:
+#     - uncalibrated
+#     - overall_calibrated
+#     - amu_calibrated
+#     - syr_calibrated
+
+#   cmip:
+#     - overall_calibrated
+
+# cmip_models:
+
+#   cmip_hist:
+#     miroc6:
+#       scenarios: [1]
+#     canesm5:
+#       scenarios: [1]
+#     ipsl_cm6a_lr:
+#       scenarios: [1]
+
+#   cmip_fut:
+#     miroc6:
+#       scenarios: [1,2,3,4,5,6]
+#     canesm5:
+#       scenarios: [1,2,3]
+#     ipsl_cm6a_lr:
+#       scenarios: [1,2,3,4,5,6]
