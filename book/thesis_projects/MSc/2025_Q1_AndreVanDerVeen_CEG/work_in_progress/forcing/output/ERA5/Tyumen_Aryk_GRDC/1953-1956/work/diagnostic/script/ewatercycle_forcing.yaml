@@ -1,0 +1,8 @@
+start_time: 1953-01-02T00:00Z
+end_time: 1956-12-31T00:00Z
+shape: Tyumen_Aryk_GRDC.shp
+filenames:
+  pr: OBS6_ERA5_reanaly_1_day_pr_1953-1956.nc
+  tas: OBS6_ERA5_reanaly_1_day_tas_1953-1956.nc
+  rsds: OBS6_ERA5_reanaly_1_day_rsds_1953-1956.nc
+  evspsblpot: Derived_Makkink_evspsblpot.nc

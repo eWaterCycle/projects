@@ -1,0 +1,8 @@
+start_time: 1980-01-01T00:00Z
+end_time: 1989-12-31T00:00Z
+shape: Garm_GRDC.shp
+filenames:
+  pr: OBS6_ERA5_reanaly_1_day_pr_1980-1989.nc
+  tas: OBS6_ERA5_reanaly_1_day_tas_1980-1989.nc
+  rsds: OBS6_ERA5_reanaly_1_day_rsds_1980-1989.nc
+  evspsblpot: Derived_Makkink_evspsblpot.nc

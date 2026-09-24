@@ -1,0 +1,87 @@
+documentation:
+  title: Generic lumped forcing recipe
+  description: Generic lumped forcing recipe
+  authors:
+  - unmaintained
+  projects:
+  - ewatercycle
+preprocessors:
+  spatial:
+    extract_shape:
+      shapefile: /home/avandervee3/MSc_AralSea/book/thesis_projects/MSc/2025_Q1_AndreVanDerVeen_CEG/work_in_progress/Test_Aral/AralSea_Basin/AralSeaBasin.shp
+      crop: true
+      decomposed: false
+    area_statistics:
+      operator: mean
+  pr:
+    extract_shape:
+      shapefile: /home/avandervee3/MSc_AralSea/book/thesis_projects/MSc/2025_Q1_AndreVanDerVeen_CEG/work_in_progress/Test_Aral/AralSea_Basin/AralSeaBasin.shp
+      crop: true
+      decomposed: false
+    area_statistics:
+      operator: mean
+  tas:
+    extract_shape:
+      shapefile: /home/avandervee3/MSc_AralSea/book/thesis_projects/MSc/2025_Q1_AndreVanDerVeen_CEG/work_in_progress/Test_Aral/AralSea_Basin/AralSeaBasin.shp
+      crop: true
+      decomposed: false
+    area_statistics:
+      operator: mean
+  rsds:
+    extract_shape:
+      shapefile: /home/avandervee3/MSc_AralSea/book/thesis_projects/MSc/2025_Q1_AndreVanDerVeen_CEG/work_in_progress/Test_Aral/AralSea_Basin/AralSeaBasin.shp
+      crop: true
+      decomposed: false
+    area_statistics:
+      operator: mean
+  default: {}
+diagnostics:
+  diagnostic:
+    scripts:
+      script:
+        script: /opt/conda/envs/ewatercycle2/lib/python3.12/site-packages/ewatercycle/esmvaltool/diagnostic/copier.py
+    variables:
+      pr:
+        mip: day
+        preprocessor: pr
+        project: CMIP6
+        ensemble: r1i1p1f1
+        exp: historical
+        grid: gn
+        timerange: 1955/1970
+        version: v20190710
+        supplementary_variables:
+        - mip: fx
+          short_name: areacella
+          activity: CMIP
+          institute: MPI-M
+      tas:
+        mip: day
+        preprocessor: tas
+        project: CMIP6
+        ensemble: r1i1p1f1
+        exp: historical
+        grid: gn
+        timerange: 1955/1970
+        version: v20190710
+        supplementary_variables:
+        - mip: fx
+          short_name: areacella
+          activity: CMIP
+          institute: MPI-M
+      rsds:
+        mip: day
+        preprocessor: rsds
+        project: CMIP6
+        ensemble: r1i1p1f1
+        exp: historical
+        grid: gn
+        timerange: 1955/1970
+        version: v20190710
+        supplementary_variables:
+        - mip: fx
+          short_name: areacella
+          activity: CMIP
+          institute: MPI-M
+datasets:
+- dataset: MPI-ESM1-2-HR

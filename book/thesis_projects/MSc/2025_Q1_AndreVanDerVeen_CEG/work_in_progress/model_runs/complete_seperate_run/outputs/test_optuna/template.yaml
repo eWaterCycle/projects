@@ -1,0 +1,129 @@
+version: 1
+
+experiment:
+  name: test_optuna
+  run_id: 3
+  output_root: ../../outputs
+  output_naming: "{name}/run_{run_id}_{timestamp}"
+  timestamp_format: "%Y%m%d_%H%M%S"
+
+model:
+  version: "25mar"
+  bmi_image: /home/avandervee3/ewatercycle_pcr_25mar.sif
+  calibration_period:
+    start: "1949-07-01T00:00:00Z"
+    end: "1950-12-31T00:00:00Z"
+  spinup_days: 184
+
+paths:
+  # Paths below are relative to this config file directory: data/configs/
+  template_ini: ../ini_file/test_container_prefactor_2.ini
+  forcing_dir: ../forcing/output/PCRGLOBWB/ERA5_1948-1952/AralSea_basin/work/diagnostic/script
+  params_dir: /data/shared/parameter-sets/pcrglobwb_global
+  clone_map: ../clonemaps/aral_basin_05min.map
+  landmask: ../clonemaps/aral_basin_05min.map
+  grdc_daily_dir: ../grdc/Daily
+  shapefiles_dir: ../shapefiles
+
+stations:
+  - name: Chatly
+    station_key: Chatly
+    grdc_id: "2817100"
+    lat: 42.2
+    lon: 60.2
+    weight: 2.0
+  - name: Garm
+    station_key: Garm
+    grdc_id: "2517920"
+    lat: 39.05
+    lon: 70.33
+    weight: 1.0
+  - name: Uch-Kurgan
+    station_key: Uch-Kurgan
+    grdc_id: "2416850"
+    lat: 41.12
+    lon: 72.10
+    weight: 1.0
+
+optimizer:
+  algorithm: cmaes
+  sigma0: 0.2
+  maxiter: 10
+  popsize: 9
+  n_workers: 3
+  tolfun: 1.0e-6
+  bounds_normalized: [0.0, 1.0]
+  workers:
+    mode: auto
+    reserve_cores: 1
+    explicit_n_workers: null
+  population:
+    mode: auto
+    multiplier: 2
+    explicit_pop_size: null
+  initial_perturbation:
+    enabled: true
+    min: -0.05
+    max: 0.05
+    seed_formula: "run_id * 42"
+  cma_seed_formula: "run_id * 1000"
+
+runtime:
+  force_gc_after_run: true
+  remove_run_dir_after_eval: false
+  fail_objective_penalty: 999.0
+  write_run_manifest: true
+  write_candidate_rows: true
+
+objective:
+  station_metric_weights:
+    nse: 0.3
+    kge: 0.7
+
+calibration_parameters:
+  referenceEPotFactor:
+    section: meteoOptions
+    key: referenceEPotFactor
+    bounds: [0.5, 2.0]
+    initial: 1.0
+  precipitationFactor:
+    section: meteoOptions
+    key: precipitationFactor
+    bounds: [0.4, 1.5]
+    initial: 1.0
+  temperatureFactor:
+    section: meteoOptions
+    key: temperatureFactor
+    bounds: [0.96, 1.04]
+    initial: 1.0
+  manningsN:
+    section: routingOptions
+    key: manningsN
+    bounds: [0.005, 0.1]
+    initial: 0.04
+  multiplier_for_storCap:
+    section: prefactorOptions
+    key: linear_multiplier_for_storCap
+    bounds: [0.5, 5.0]
+    initial: 3.0
+  multiplier_for_recessionCoeff:
+    section: prefactorOptions
+    key: log_10_multiplier_for_recessionCoeff
+    bounds: [0.5, 5.0]
+    initial: 1.0
+  multiplier_for_kSat:
+    section: prefactorOptions
+    key: log_10_multiplier_for_kSat
+    bounds: [0.5, 5.0]
+    initial: 3.0
+  multiplier_for_cropCoefficient:
+    section: prefactorOptions
+    key: linear_multiplier_for_cropCoefficient
+    bounds: [0.5, 5.0]
+    initial: 1.0
+  multiplier_for_minSoilDepthFrac:
+    section: prefactorOptions
+    key: linear_multiplier_for_minSoilDepthFrac
+    bounds: [0.5, 5.0]
+    initial: 1.0
+

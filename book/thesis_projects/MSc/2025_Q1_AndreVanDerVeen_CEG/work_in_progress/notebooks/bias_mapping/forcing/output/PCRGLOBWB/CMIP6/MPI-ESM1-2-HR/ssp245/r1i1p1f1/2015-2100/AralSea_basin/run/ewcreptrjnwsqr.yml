@@ -1,0 +1,85 @@
+documentation:
+  title: PCR-GLOBWB forcing recipe
+  description: PCR-GLOBWB forcing recipe
+  authors:
+  - unmaintained
+  projects:
+  - ewatercycle
+datasets:
+- dataset: MPI-ESM1-2-HR
+  project: CMIP6
+  ensemble: r1i1p1f1
+  exp: ssp245
+  mip: day
+  grid: '*'
+  activity: ScenarioMIP
+preprocessors:
+  spatial:
+    extract_region:
+      start_longitude: 55
+      end_longitude: 83
+      start_latitude: 32
+      end_latitude: 54
+  pr:
+    extract_region:
+      start_longitude: 55
+      end_longitude: 83
+      start_latitude: 32
+      end_latitude: 54
+    convert_units:
+      units: kg m-2 d-1
+  tas:
+    extract_region:
+      start_longitude: 55
+      end_longitude: 83
+      start_latitude: 32
+      end_latitude: 54
+  pr_climatology:
+    extract_region:
+      start_longitude: 55
+      end_longitude: 83
+      start_latitude: 32
+      end_latitude: 54
+    convert_units:
+      units: kg m-2 d-1
+    climate_statistics:
+      operator: mean
+      period: day
+  tas_climatology:
+    extract_region:
+      start_longitude: 55
+      end_longitude: 83
+      start_latitude: 32
+      end_latitude: 54
+    climate_statistics:
+      operator: mean
+      period: day
+diagnostics:
+  diagnostic:
+    scripts:
+      script:
+        script: hydrology/pcrglobwb.py
+        basin: AralSea_basin
+    variables:
+      pr:
+        start_year: 2015
+        end_year: 2100
+        mip: day
+        preprocessor: pr
+      tas:
+        start_year: 2015
+        end_year: 2100
+        mip: day
+        preprocessor: tas
+      pr_climatology:
+        start_year: 2015
+        end_year: 2100
+        mip: day
+        preprocessor: pr_climatology
+        short_name: pr
+      tas_climatology:
+        start_year: 2015
+        end_year: 2100
+        mip: day
+        preprocessor: tas_climatology
+        short_name: tas

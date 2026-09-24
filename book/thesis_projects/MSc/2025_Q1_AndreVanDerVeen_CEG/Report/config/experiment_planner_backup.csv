@@ -1,0 +1,5 @@
+﻿run_id;forcing;model;scenario;type;time_group;parameter_set
+r001;era5;era5;era5;raw;test;uncalibrated
+r002;era5;era5;era5;raw;test;overall_calibrated
+r003;era5;era5;era5;raw;test;amu_calibrated
+r004;cmip;MIROC6;historical;bias_corrected;test;syr_calibrated

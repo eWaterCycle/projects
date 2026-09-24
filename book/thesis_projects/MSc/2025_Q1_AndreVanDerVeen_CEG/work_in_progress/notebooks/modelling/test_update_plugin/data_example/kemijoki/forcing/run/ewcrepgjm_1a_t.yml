@@ -1,0 +1,83 @@
+documentation:
+  title: PCR-GLOBWB forcing recipe
+  description: PCR-GLOBWB forcing recipe
+  authors:
+  - unmaintained
+  projects:
+  - ewatercycle
+datasets:
+- dataset: ERA5
+  project: OBS6
+  tier: 3
+  type: reanaly
+  version: 1
+preprocessors:
+  spatial:
+    extract_region:
+      start_longitude: 20
+      end_longitude: 32
+      start_latitude: 64
+      end_latitude: 70
+  pr:
+    extract_region:
+      start_longitude: 20
+      end_longitude: 32
+      start_latitude: 64
+      end_latitude: 70
+    convert_units:
+      units: kg m-2 d-1
+  tas:
+    extract_region:
+      start_longitude: 20
+      end_longitude: 32
+      start_latitude: 64
+      end_latitude: 70
+  pr_climatology:
+    extract_region:
+      start_longitude: 20
+      end_longitude: 32
+      start_latitude: 64
+      end_latitude: 70
+    convert_units:
+      units: kg m-2 d-1
+    climate_statistics:
+      operator: mean
+      period: day
+  tas_climatology:
+    extract_region:
+      start_longitude: 20
+      end_longitude: 32
+      start_latitude: 64
+      end_latitude: 70
+    climate_statistics:
+      operator: mean
+      period: day
+diagnostics:
+  diagnostic:
+    scripts:
+      script:
+        script: hydrology/pcrglobwb.py
+        basin: kemijoki
+    variables:
+      pr:
+        start_year: 1995
+        end_year: 2000
+        mip: day
+        preprocessor: pr
+      tas:
+        start_year: 1995
+        end_year: 2000
+        mip: day
+        preprocessor: tas
+      pr_climatology:
+        start_year: 1995
+        end_year: 2000
+        mip: day
+        preprocessor: pr_climatology
+        short_name: pr
+      tas_climatology:
+        start_year: 1995
+        end_year: 2000
+        mip: day
+        preprocessor: tas_climatology
+        short_name: tas

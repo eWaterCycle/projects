@@ -1,0 +1,8 @@
+start_time: '2060-01-01T00:00:00Z'
+end_time: '2065-12-31T00:00:00Z'
+shape: Kerki_GRDC.shp
+filenames:
+  pr: CMIP6_EC-Earth3_day_ssp245_r1i1p1f1_pr_gr_2060-2065.nc
+  tas: CMIP6_EC-Earth3_day_ssp245_r1i1p1f1_tas_gr_2060-2065.nc
+  rsds: CMIP6_EC-Earth3_day_ssp245_r1i1p1f1_rsds_gr_2060-2065.nc
+  evspsblpot: Derived_Makkink_evspsblpot.nc

@@ -1,0 +1,6 @@
+start_time: '2030-01-01T00:00:00Z'
+end_time: '2030-12-31T00:00:00Z'
+shape: AralSeaBasin.shp
+filenames: {}
+precipitationNC: pcrglobwb_CMIP6_EC-Earth3_day_ssp585_r1i1p1f1_pr_gr_2030-2030_AralSeaBasin.nc
+temperatureNC: pcrglobwb_CMIP6_EC-Earth3_day_ssp585_r1i1p1f1_tas_gr_2030-2030_AralSeaBasin.nc
