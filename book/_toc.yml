@@ -277,7 +277,6 @@ parts:
               - file: thesis_projects/MSc/2025_Q1_AndreVanDerVeen_CEG/Report/README.md
               - file: thesis_projects/MSc/2025_Q1_AndreVanDerVeen_CEG/Report/notebooks/03a_aral_sea_model_forcing_generation.ipynb
               - file: thesis_projects/MSc/2025_Q1_AndreVanDerVeen_CEG/Report/notebooks/03b_aral_sea_model_simulation.ipynb
-              - file: thesis_projects/MSc/2025_Q1_AndreVanDerVeen_CEG/Report/notebooks/03a_aral_sea_model_forcing_generation.ipynb
 
 
   - caption: Research Projects
