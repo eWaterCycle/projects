@@ -73,6 +73,9 @@ parts:
                 title: Conclusion
               - file: thesis_projects/BSc/2025_Q3_IschaHollemans_CEG/Report/8_bibliography.md
                 title: Bibliography
+              - file: thesis_projects/BSc/2025_Q3_IschaHollemans_CEG/ischa/updated.md
+                title: Addition
+              - file: thesis_projects/BSc/2025_Q3_IschaHollemans_CEG/ischa/1_CMIP_Future_prediction_new.ipynb
 
 
           - file: thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/BSc_ThirzaVanEsch.md
