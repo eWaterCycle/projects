@@ -1,4 +1,4 @@
-# Aral Sea Level Modelling
+# Aral Sea Modelling — Reproducable Automated Modelling Workflow for PCR-GLOBWB2 
 
 This repository contains the workflow developed for an MSc thesis at Delft
 University of Technology to model historical and future changes in Aral Sea
